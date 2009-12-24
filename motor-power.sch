@@ -270,7 +270,7 @@ device=RESISTOR
 T 45700 44300 5 10 1 1 0 0 1
 refdes=R?
 T 45700 44100 5 10 1 1 0 0 1
-value=1k
+value=10k
 }
 C 46100 44700 1 270 0 resistor-2.sym
 {
@@ -279,7 +279,7 @@ device=RESISTOR
 T 46400 44300 5 10 1 1 0 0 1
 refdes=R?
 T 46400 44100 5 10 1 1 0 0 1
-value=1k
+value=10k
 }
 N 46200 44700 44800 44700 4
 {
