@@ -568,7 +568,7 @@ refdes=D3
 T 54700 46600 5 10 0 0 0 0 1
 device=TVS
 T 54800 45500 5 10 1 1 0 0 1
-value=sr-d-smaj12ca
+value=sr-d-smaj16ca
 T 54700 44900 5 10 0 1 0 0 1
 footprint=DO214AC
 }
