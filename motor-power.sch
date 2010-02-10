@@ -75,7 +75,6 @@ refdes=Q7
 T 58100 38800 5 10 1 1 0 6 1
 value=sr-fet-n-irf8721
 }
-C 58200 38300 1 0 0 gnd-1.sym
 N 58800 39200 59500 39200 4
 {
 T 59000 39200 5 10 1 1 0 0 1
@@ -90,7 +89,6 @@ refdes=J1
 T 36100 57300 5 10 1 1 0 0 1
 value=sr-cn-camcon2w
 }
-C 37700 56400 1 0 0 gnd-1.sym
 N 37800 57000 38300 57000 4
 {
 T 37900 57000 5 10 1 1 0 0 1
@@ -1094,3 +1092,24 @@ T 62100 49800 9 10 1 0 0 0 3
 C13 and C14
 ESR must be less than 300m ohm each
 Max ripple current must be greater than 0.5A each
+N 37800 56700 38500 56700 4
+{
+T 37900 56700 5 10 1 1 0 0 1
+netname=PGND
+}
+N 58300 38600 58300 38200 4
+N 58300 38200 59500 38200 4
+{
+T 58800 38200 5 10 1 1 0 0 1
+netname=PGND
+}
+C 37700 56700 1 270 0 resistor-2.sym
+{
+T 38050 56300 5 10 0 0 270 0 1
+device=RESISTOR
+T 38000 56300 5 10 1 1 0 0 1
+refdes=R31
+T 38000 56100 5 10 1 1 0 0 1
+value=sr-r-1k
+}
+C 37700 55500 1 0 0 gnd-1.sym
