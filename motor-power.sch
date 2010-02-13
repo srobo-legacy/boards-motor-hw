@@ -965,7 +965,7 @@ refdes=U9
 T 44600 50500 5 10 1 1 0 0 1
 value=sr-ic-mcp4018-103
 T 44300 50800 5 10 0 0 0 0 1
-footprint=SC70_6
+footprint=SC70_6_2
 }
 N 48000 51100 46800 51100 4
 C 46100 54200 1 270 0 resistor-2.sym
