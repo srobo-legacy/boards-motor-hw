@@ -1252,9 +1252,9 @@ device=TVS
 T 52800 56800 5 10 1 1 0 0 1
 refdes=D3
 T 52800 56600 5 10 1 1 0 0 1
-value=sr-d-tvs-16v-smcj16a
+value=sr-d-smaj16a
 T 52800 56300 5 10 0 1 0 0 1
-footprint=DO214AB
+footprint=DO214AC
 }
 N 58500 38000 58500 37700 4
 N 58300 38000 58300 37700 4
