@@ -28,6 +28,8 @@ T 39300 49595 5 10 0 1 0 0 1
 device=none
 T 40000 47900 5 10 1 1 0 0 1
 value=sr-nothing
+T 39200 48000 5 10 0 0 0 0 1
+source=interconnect.sch
 }
 C 39700 47700 1 0 0 gnd-1.sym
 C 41000 50900 1 0 0 gnd-1.sym
