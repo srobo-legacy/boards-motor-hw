@@ -1,0 +1,4 @@
+schematics motor-logic.sch motor-power.sch
+output-name motor
+elements-dir ./components/pkg
+
