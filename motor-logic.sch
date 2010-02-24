@@ -142,11 +142,11 @@ N 42700 52200 42700 52300 4
 C 58600 47800 1 0 0 output-2.sym
 {
 T 59500 48000 5 10 0 0 0 0 1
-net=VCC:1
+net=Vcc:1
 T 58800 48500 5 10 0 0 0 0 1
 device=none
 T 59500 47900 5 10 1 1 0 1 1
-value=VCC
+value=Vcc
 }
 C 58600 46700 1 0 0 output-2.sym
 {
