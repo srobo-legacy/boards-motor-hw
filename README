@@ -1,2 +1,4 @@
+Run 'make pcb' to update PCB layout.
+
 motor-power.sch - Single high current motor control channel
 motor-logic.sch - The logic and feedback side of the motor controller

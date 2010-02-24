@@ -1,5 +1,7 @@
 GSCH2PCB=gsch2pcb
+GEDA_HIERPCB=./geda_hierpcb.py
 PROJECTRC=projectrc
 
 pcb:
 	${GSCH2PCB} ${PROJECTRC}
+	${GEDA_HIERPCB} ${PROJECTRC}
