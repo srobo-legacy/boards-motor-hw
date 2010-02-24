@@ -23,7 +23,7 @@ Motor Controller 2 - Logic
 C 39200 48000 1 0 0 interconnect.sym
 {
 T 40000 48120 5 10 1 1 0 0 1
-refdes=S100
+refdes=S
 T 39300 49595 5 10 0 1 0 0 1
 device=none
 T 40000 47900 5 10 1 1 0 0 1
