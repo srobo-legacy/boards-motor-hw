@@ -623,7 +623,7 @@ device=RESISTOR
 T 53900 51500 5 10 1 1 0 0 1
 refdes=R2
 T 53900 51300 5 10 1 1 0 0 1
-value=sr-r-330-1206
+value=sr-r-680-1206
 T 53600 51900 5 10 0 0 0 0 1
 footprint=1206
 }
@@ -634,7 +634,7 @@ device=RESISTOR
 T 54300 53800 5 10 1 1 0 0 1
 refdes=R3
 T 54300 53600 5 10 1 1 0 0 1
-value=sr-r-330-1206
+value=sr-r-680-1206
 T 54000 54200 5 10 0 0 0 0 1
 footprint=1206
 }
@@ -1233,9 +1233,9 @@ refdes=LED1
 T 57200 56400 5 10 0 0 270 0 1
 symversion=0.1
 T 57200 56600 5 10 1 1 0 0 1
-value=sr-led-red
+value=sr-led-green-plcc2
 T 56400 57200 5 10 0 0 0 0 1
-footprint=0603
+footprint=PLCC2
 }
 C 55300 57100 1 0 0 resistor-2.sym
 {
@@ -1459,9 +1459,9 @@ C 55400 54300 1 0 0 resistor-2.sym
 {
 T 55800 54650 5 10 0 0 0 0 1
 device=RESISTOR
-T 55400 54600 5 10 1 1 0 0 1
+T 55700 54600 5 10 1 1 0 6 1
 refdes=R36
-T 55700 54600 5 10 1 1 0 0 1
+T 55800 54600 5 10 1 1 0 0 1
 value=sr-r-4r7
 T 55400 54300 5 10 0 0 0 0 1
 footprint=0603
