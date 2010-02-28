@@ -10,7 +10,7 @@ class ParseState:
     STARTTEXT = 4
 
 if len(sys.argv) != 2:
-    print("Usage: " + sys.argv[0] + " project\nWhere project is a gEDA project file.")
+    print("Usage: %s project\n'project' is a gEDA project file." % sys.argv[0])
     sys.exit(1)
 
 
@@ -27,7 +27,7 @@ try:
     project_file.close()
 
 except:
-    print "File not found: " + project_filename
+    print "File not found: %s" % project_filename
     sys.exit(1)
 
 if schematic_filenames is None:
@@ -97,13 +97,13 @@ for schematic_filename in schematic_filenames:
                     
         schematic.close()
     except:
-        print "Unable to open schematic '" + schematic_filename + "'"
+        print "Unable to open schematic '%s'" % schematic_filename
 
 if len(sub_schematic_components) == 0:
     print "Did not find any sub-schematic components."
     sys.exit(0)
 else:
-    print "Found " + str(len(sub_schematic_components)) + " sub-schematic components."
+    print "Found %s sub-schematic components." % len(sub_schematic_components)
 
 for sub_sche in sub_schematic_components:
     # Find out if a PCB layout already exists for the sub-schematic
@@ -114,7 +114,7 @@ for sub_sche in sub_schematic_components:
     for path in search_path:
         if os.path.exists(os.path.join(path, block_filename + ".pcb")):
             pcb_filename = os.path.join(path, block_filename + ".pcb")
-            print "Found pre-existing PCB layout for " + refdes + " in " + pcb_filename
+            print "Found pre-existing PCB layout for %s in %s" % (refdes, pcb_filename)
     
     if pcb_filename is None:
         # Did not find pre-existing PCB layout
@@ -136,8 +136,8 @@ for sub_sche in sub_schematic_components:
         dst_pcb.close()
         src_pcb.close()
         
-        print "Created " + dst_filename + " for " + refdes
+        print "Created %s for %s" % (dst_filename, refdes)
 
     except:
-        print "Failed to copy " + pcb_filename + " to " + dest
+        print "Failed to copy %s to %s" % (pcb_filename, dest)
         continue
