@@ -1,1 +1,7 @@
 *~
+*-
+*.bak
+*.new.pcb
+motor.net
+motor.cmd
+interconnect_S.pcb
