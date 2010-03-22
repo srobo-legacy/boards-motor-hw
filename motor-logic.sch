@@ -8,7 +8,7 @@ refdes=U101
 T 55300 50300 5 10 1 1 0 6 1
 value=sr-ic-msp430f2254
 T 51000 42300 5 10 0 0 0 0 1
-footprint=TSSOP38N
+footprint=TSSOP38
 }
 T 54700 37900 9 10 1 0 0 0 1
 motor-logic.sch
