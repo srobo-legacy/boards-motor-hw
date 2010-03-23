@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Tue Mar 23 12:42:02 2010
+# date:    Tue Mar 23 12:48:13 2010
 # user:    richard (Richard Barlow)
 # host:    thinkpad.richardbarlow.co.uk
 
@@ -1124,20 +1124,6 @@ Element["onsolder" "0805" "C107" "sr-c-2u2-0805" 68500 58914 -3434 13124 3 100 "
 
 	)
 
-Element["" "0603" "R31" "sr-r-1k" 21559 283000 1968 -3150 0 100 ""]
-(
-	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "square"]
-	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "square"]
-
-	)
-
-Element["" "0603" "C8" "sr-c-100n" 20441 275000 -6650 -9150 0 100 ""]
-(
-	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "square"]
-	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "square"]
-
-	)
-
 Element["" "RCY28" "X100" "sr-xtal-32k" 75600 209000 -594 23621 2 100 ""]
 (
 	Pin[1400 0 2000 2000 7000 1100 "1" "1" "square,edge2"]
@@ -1422,19 +1408,12 @@ Element["onsolder" "SOT262" "S/U4" "sr-ic-pic10f200" 36500 126900 100 -3100 0 67
 
 	)
 
-Element["" "0603" "C7" "sr-c-100n" 7941 280000 -6650 -9150 0 100 ""]
-(
-	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "square"]
-	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "square"]
-
-	)
-
 Element["hidename,onsolder" "SOT223" "S/U1" "sr-ic-ld1117s50" 29100 77000 20900 10300 0 78 "auto"]
 (
 	Pad[-3300 0 3300 0 5600 3000 6200 "GND" "1" "onsolder,square"]
 	Pad[-3300 -9000 3300 -9000 5600 3000 6200 "OUT" "2" "onsolder,square"]
 	Pad[-3300 -18100 3300 -18100 5600 3000 6200 "IN" "3" "onsolder,square"]
-	Pad[24400 -13500 24400 -4500 12200 3000 12800 "4" "4" "onsolder,square,edge2"]
+	Pad[24400 -13500 24400 -4500 12200 3000 12800 "4" "4" "onsolder,square,warn,edge2"]
 	ElementLine [-8500 5200 32900 5200 1000]
 	ElementLine [-8500 -23300 -8500 5200 1000]
 	ElementLine [-8500 -23300 32900 -23300 1000]
@@ -2493,12 +2472,6 @@ Element["onsolder" "SOT25" "U100" "sr-ic-ts5205cx533" 75500 62500 5126 4806 2 10
 	ElementLine [11000 -9800 11000 2000 1000]
 
 	)
-Rat[107000 224000 1 17882 274508 0  ""]
-Rat[17882 274508 0 5382 279508 0  ""]
-Rat[28000 239000 1 24118 282508 0  ""]
-Rat[107500 203500 0 23000 274508 0  ""]
-Rat[23000 274508 0 10500 279508 0  ""]
-Rat[132058 235737 1 19000 282508 0  ""]
 Layer(1 "component")
 (
 	Line[5500 123000 5500 142500 1000 2000 "clearline"]
@@ -3905,8 +3878,6 @@ NetList()
 		Connect("C4-1")
 		Connect("C5-1")
 		Connect("C6-1")
-		Connect("C7-1")
-		Connect("C8-1")
 		Connect("C19-1")
 		Connect("C20-1")
 		Connect("C23-1")
@@ -3962,7 +3933,6 @@ NetList()
 		Connect("LED103-2")
 		Connect("LED104-2")
 		Connect("LED105-2")
-		Connect("R31-2")
 		Connect("R104-2")
 		Connect("R108-2")
 		Connect("S/C1-1")
@@ -4059,8 +4029,6 @@ NetList()
 		Connect("C4-2")
 		Connect("C5-2")
 		Connect("C6-2")
-		Connect("C7-2")
-		Connect("C8-2")
 		Connect("C9-2")
 		Connect("C12-2")
 		Connect("C13-2")
@@ -4139,7 +4107,6 @@ NetList()
 		Connect("Q7-6")
 		Connect("Q7-7")
 		Connect("Q7-8")
-		Connect("R31-1")
 	)
 	Net("RXD" "(unknown)")
 	(
