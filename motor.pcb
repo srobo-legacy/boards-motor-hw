@@ -1,14 +1,14 @@
 # release: pcb 1.99z
-# date:    Tue Mar 23 12:48:13 2010
+# date:    Tue Mar 23 12:53:54 2010
 # user:    richard (Richard Barlow)
 # host:    thinkpad.richardbarlow.co.uk
 
 # To read pcb files, the pcb version (or the cvs source date) must be >= the file version
 FileVersion[20070407]
 
-PCB["" 354331 314961]
+PCB["" 216535 244094]
 
-Grid[500.000000 0 0 1]
+Grid[393.700775 0 0 1]
 Cursor[0 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
@@ -1413,7 +1413,7 @@ Element["hidename,onsolder" "SOT223" "S/U1" "sr-ic-ld1117s50" 29100 77000 20900 
 	Pad[-3300 0 3300 0 5600 3000 6200 "GND" "1" "onsolder,square"]
 	Pad[-3300 -9000 3300 -9000 5600 3000 6200 "OUT" "2" "onsolder,square"]
 	Pad[-3300 -18100 3300 -18100 5600 3000 6200 "IN" "3" "onsolder,square"]
-	Pad[24400 -13500 24400 -4500 12200 3000 12800 "4" "4" "onsolder,square,warn,edge2"]
+	Pad[24400 -13500 24400 -4500 12200 3000 12800 "4" "4" "onsolder,square,edge2"]
 	ElementLine [-8500 5200 32900 5200 1000]
 	ElementLine [-8500 -23300 -8500 5200 1000]
 	ElementLine [-8500 -23300 32900 -23300 1000]
@@ -3840,10 +3840,7 @@ Layer(3 "silk")
 )
 Layer(4 "silk")
 (
-	Line[3150 244094 787 246457 1000 2000 "clearline"]
-	Line[244094 244094 3150 244094 1000 2000 "clearline,lock"]
 	Line[46500 148000 25000 148000 1000 2000 ""]
-	Line[216535 1575 216535 290551 1000 2000 "clearline,lock"]
 	Line[25000 148000 22500 147500 1000 2000 ""]
 )
 NetList()
