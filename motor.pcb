@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Tue Mar 23 23:19:55 2010
+# date:    Wed Mar 24 00:36:06 2010
 # user:    richard (Richard Barlow)
 # host:    thinkpad.richardbarlow.co.uk
 
@@ -8,8 +8,8 @@ FileVersion[20070407]
 
 PCB["" 216535 244094]
 
-Grid[393.700775 0 0 0]
-Cursor[0 0 0.000000]
+Grid[393.700775 0 0 1]
+Cursor[0 244094 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[700 700 700 700 800 700]
@@ -3877,6 +3877,19 @@ Layer(5 "silk")
 	Line[32677 239371 33858 237008 1000 2000 "clearline"]
 	Line[122835 190157 131101 190157 1000 2000 "clearline"]
 	Line[131101 190157 132283 191339 1000 2000 "clearline"]
+	Line[82284 12992 80709 11811 1100 1200 "clearline"]
+	Line[90945 12992 92520 11811 1100 1200 "clearline"]
+	Line[86615 18898 92520 16929 1100 1200 "clearline,rubberend"]
+	Line[87796 14567 90945 12992 1100 1200 "clearline"]
+	Line[92520 16929 87796 14567 1100 1200 "clearline"]
+	Line[80709 16929 86615 18898 1100 1200 "clearline"]
+	Line[80709 16929 85434 14567 1100 1200 "clearline"]
+	Line[85434 14567 82284 12992 1100 1200 "clearline"]
+	Arc[86615 15354 7874 7874 700 1200 -270 90 "clearline"]
+	Arc[86615 15354 7874 7874 700 1200 -180 90 "clearline"]
+	Arc[86615 15354 7874 7874 700 1200 -90 90 "clearline"]
+	Arc[86615 15354 7874 7874 700 1200 0 90 "clearline"]
+	Text[62206 7087 0 100 "Motor Board 2010" "auto"]
 )
 Layer(6 "silk")
 (
