@@ -783,7 +783,7 @@ device=RESISTOR
 T 58200 41500 5 10 1 1 0 6 1
 refdes=R37
 T 58200 41300 5 10 1 1 0 6 1
-value=sr-r-1k
+value=sr-r-10k
 T 58300 41900 5 10 0 0 0 0 1
 footprint=0603
 }
