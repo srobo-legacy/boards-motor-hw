@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Wed Mar 24 00:36:06 2010
+# date:    Sun Mar 28 14:00:17 2010
 # user:    richard (Richard Barlow)
 # host:    thinkpad.richardbarlow.co.uk
 
@@ -8,12 +8,12 @@ FileVersion[20070407]
 
 PCB["" 216535 244094]
 
-Grid[393.700775 0 0 1]
-Cursor[0 244094 0.000000]
+Grid[500.000000 0 0 1]
+Cursor[0 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[700 700 700 700 800 700]
-Flags("showdrc,rubberband,nameonpcb,clearnew,snappin")
+Flags("showdrc,nameonpcb,clearnew,snappin")
 Groups("1,3,c:2,4,s")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,700,2600,1180,700"]
 
@@ -981,14 +981,6 @@ Element["" "0603" "R105" "sr-r-1k" 89000 152500 -6946 4534 1 78 ""]
 
 	)
 
-Element["" "RCY100" "X100" "sr-xtal-32k" 78187 207151 1445 -11480 0 100 ""]
-(
-	Pin[0 0 6000 3000 6600 3000 "1" "1" "square"]
-	Pin[0 10000 6000 3000 6600 3000 "2" "2" ""]
-	ElementArc [0 5000 10000 10000 270 360 1000]
-
-	)
-
 Element["" "PLCC2" "LED102" "sr-led-yellow-plcc2" 63000 224000 7527 2243 0 78 ""]
 (
 	Pad[-2118 5860 2118 5860 6000 2000 6600 "A" "1" "square"]
@@ -1364,7 +1356,7 @@ Element["hidename,onsolder" "SOT223" "S/U1" "sr-ic-ld1117s50" 29100 77000 20900 
 	Pad[-3300 0 3300 0 5600 3000 6200 "GND" "1" "onsolder,square"]
 	Pad[-3300 -9000 3300 -9000 5600 3000 6200 "OUT" "2" "onsolder,square"]
 	Pad[-3300 -18100 3300 -18100 5600 3000 6200 "IN" "3" "onsolder,square"]
-	Pad[24400 -13500 24400 -4500 12200 3000 12800 "4" "4" "onsolder,square,edge2"]
+	Pad[24400 -13500 24400 -4500 12200 3000 12800 "OUT(Tab)" "4" "onsolder,square,edge2"]
 	ElementLine [-8500 5200 32900 5200 1000]
 	ElementLine [-8500 -23300 -8500 5200 1000]
 	ElementLine [-8500 -23300 32900 -23300 1000]
@@ -2426,49 +2418,57 @@ Element["onsolder" "SOT25" "U100" "sr-ic-ts5205cx533" 79437 62500 -1796 7595 0 8
 
 Element["onsolder" "TSSOP38" "U101" "sr-ic-msp430f2254" 79134 178346 -12205 -25196 0 78 "auto"]
 (
-	Pad[-16437 23031 -13091 23031 1181 1000 2181 "1" "1" "onsolder,square"]
-	Pad[-16437 20472 -13091 20472 1181 1000 2181 "2" "2" "onsolder,square"]
-	Pad[-16437 17913 -13091 17913 1181 1000 2181 "3" "3" "onsolder,square"]
-	Pad[-16437 15354 -13091 15354 1181 1000 2181 "4" "4" "onsolder,square"]
-	Pad[-16437 12795 -13091 12795 1181 1000 2181 "5" "5" "onsolder,square"]
-	Pad[-16437 10236 -13091 10236 1181 1000 2181 "6" "6" "onsolder,square"]
-	Pad[-16437 7677 -13091 7677 1181 1000 2181 "7" "7" "onsolder,square"]
-	Pad[-16437 5118 -13091 5118 1181 1000 2181 "8" "8" "onsolder,square"]
-	Pad[-16437 2559 -13091 2559 1181 1000 2181 "9" "9" "onsolder,square"]
-	Pad[-16437 0 -13091 0 1181 1000 2181 "10" "10" "onsolder,square"]
-	Pad[-16437 -2559 -13091 -2559 1181 1000 2181 "11" "11" "onsolder,square"]
-	Pad[-16437 -5118 -13091 -5118 1181 1000 2181 "12" "12" "onsolder,square"]
-	Pad[-16437 -7677 -13091 -7677 1181 1000 2181 "13" "13" "onsolder,square"]
-	Pad[-16437 -10236 -13091 -10236 1181 1000 2181 "14" "14" "onsolder,square"]
-	Pad[-16437 -12795 -13091 -12795 1181 1000 2181 "15" "15" "onsolder,square"]
-	Pad[-16437 -15354 -13091 -15354 1181 1000 2181 "16" "16" "onsolder,square"]
-	Pad[-16437 -17913 -13091 -17913 1181 1000 2181 "17" "17" "onsolder,square"]
-	Pad[-16437 -20472 -13091 -20472 1181 1000 2181 "18" "18" "onsolder,square"]
-	Pad[-16437 -23031 -13091 -23031 1181 1000 2181 "19" "19" "onsolder,square"]
-	Pad[13091 -23031 16437 -23031 1181 1000 2181 "20" "20" "onsolder,square,edge2"]
-	Pad[13091 -20472 16437 -20472 1181 1000 2181 "21" "21" "onsolder,square,edge2"]
-	Pad[13091 -17913 16437 -17913 1181 1000 2181 "22" "22" "onsolder,square,edge2"]
-	Pad[13091 -15354 16437 -15354 1181 1000 2181 "23" "23" "onsolder,square,edge2"]
-	Pad[13091 -12795 16437 -12795 1181 1000 2181 "24" "24" "onsolder,square,edge2"]
-	Pad[13091 -10236 16437 -10236 1181 1000 2181 "25" "25" "onsolder,square,edge2"]
-	Pad[13091 -7677 16437 -7677 1181 1000 2181 "26" "26" "onsolder,square,edge2"]
-	Pad[13091 -5118 16437 -5118 1181 1000 2181 "27" "27" "onsolder,square,edge2"]
-	Pad[13091 -2559 16437 -2559 1181 1000 2181 "28" "28" "onsolder,square,edge2"]
-	Pad[13091 0 16437 0 1181 1000 2181 "29" "29" "onsolder,square,edge2"]
-	Pad[13091 2559 16437 2559 1181 1000 2181 "30" "30" "onsolder,square,edge2"]
-	Pad[13091 5118 16437 5118 1181 1000 2181 "31" "31" "onsolder,square,edge2"]
-	Pad[13091 7677 16437 7677 1181 1000 2181 "32" "32" "onsolder,square,edge2"]
-	Pad[13091 10236 16437 10236 1181 1000 2181 "33" "33" "onsolder,square,edge2"]
-	Pad[13091 12795 16437 12795 1181 1000 2181 "34" "34" "onsolder,square,edge2"]
-	Pad[13091 15354 16437 15354 1181 1000 2181 "35" "35" "onsolder,square,edge2"]
-	Pad[13091 17913 16437 17913 1181 1000 2181 "36" "36" "onsolder,square,edge2"]
-	Pad[13091 20472 16437 20472 1181 1000 2181 "37" "37" "onsolder,square,edge2"]
-	Pad[13091 23031 16437 23031 1181 1000 2181 "38" "38" "onsolder,square,edge2"]
+	Pad[-16437 23031 -13091 23031 1181 1000 2181 "TEST/SBWTCK" "1" "onsolder,square"]
+	Pad[-16437 20472 -13091 20472 1181 1000 2181 "DVCC" "2" "onsolder,square"]
+	Pad[-16437 17913 -13091 17913 1181 1000 2181 "P2.5/Rosc" "3" "onsolder,square"]
+	Pad[-16437 15354 -13091 15354 1181 1000 2181 "DVSS" "4" "onsolder,square"]
+	Pad[-16437 12795 -13091 12795 1181 1000 2181 "XOUT/P2.7" "5" "onsolder,square"]
+	Pad[-16437 10236 -13091 10236 1181 1000 2181 "XIN/P2.6" "6" "onsolder,square"]
+	Pad[-16437 7677 -13091 7677 1181 1000 2181 "_RST_/NMI/SBWTDIO" "7" "onsolder,square"]
+	Pad[-16437 5118 -13091 5118 1181 1000 2181 "P2.0/ACLK/A0/OA0I0" "8" "onsolder,square"]
+	Pad[-16437 2559 -13091 2559 1181 1000 2181 "P2.1/TAINCLK/SMCLK/A1/OA0O" "9" "onsolder,square"]
+	Pad[-16437 0 -13091 0 1181 1000 2181 "P2.2/TA0/A2/OA0I1" "10" "onsolder,square"]
+	Pad[-16437 -2559 -13091 -2559 1181 1000 2181 "P3.0/UCB0STE/UCA0CLK/A5" "11" "onsolder,square"]
+	Pad[-16437 -5118 -13091 -5118 1181 1000 2181 "P3.1/UCB0SIMO/UCB0SDA" "12" "onsolder,square"]
+	Pad[-16437 -7677 -13091 -7677 1181 1000 2181 "P3.2/UCB01SOMI/UCB0SCL" "13" "onsolder,square"]
+	Pad[-16437 -10236 -13091 -10236 1181 1000 2181 "P3.3/UCB0CLK/UCA0STE" "14" "onsolder,square"]
+	Pad[-16437 -12795 -13091 -12795 1181 1000 2181 "AVSS" "15" "onsolder,square"]
+	Pad[-16437 -15354 -13091 -15354 1181 1000 2181 "AVCC" "16" "onsolder,square"]
+	Pad[-16437 -17913 -13091 -17913 1181 1000 2181 "P4.0/TB0" "17" "onsolder,square"]
+	Pad[-16437 -20472 -13091 -20472 1181 1000 2181 "P4.1/TB1" "18" "onsolder,square"]
+	Pad[-16437 -23031 -13091 -23031 1181 1000 2181 "P4.2/TB2" "19" "onsolder,square"]
+	Pad[13091 -23031 16437 -23031 1181 1000 2181 "P4.3/TB0/A12/OA0O" "20" "onsolder,square,edge2"]
+	Pad[13091 -20472 16437 -20472 1181 1000 2181 "P4.4/TB1A13/OA1O" "21" "onsolder,square,edge2"]
+	Pad[13091 -17913 16437 -17913 1181 1000 2181 "P4.5/TB2A14/OA0I3" "22" "onsolder,square,edge2"]
+	Pad[13091 -15354 16437 -15354 1181 1000 2181 "P4.6/TBOUTHA15/OA1I3" "23" "onsolder,square,edge2"]
+	Pad[13091 -12795 16437 -12795 1181 1000 2181 "P4.7/TBCLK" "24" "onsolder,square,edge2"]
+	Pad[13091 -10236 16437 -10236 1181 1000 2181 "P3.4/UCA0TXD/UCA0SIMO" "25" "onsolder,square,edge2"]
+	Pad[13091 -7677 16437 -7677 1181 1000 2181 "P3.5/UCA0RXD/UCA0SOMI" "26" "onsolder,square,edge2"]
+	Pad[13091 -5118 16437 -5118 1181 1000 2181 "P3.6/A6/OA0I2" "27" "onsolder,square,edge2"]
+	Pad[13091 -2559 16437 -2559 1181 1000 2181 "P3.7/A7/OA1I2" "28" "onsolder,square,edge2"]
+	Pad[13091 0 16437 0 1181 1000 2181 "P2.3/TA1/A3/Vref-/Veref-/OA1I1/OA1O" "29" "onsolder,square,edge2"]
+	Pad[13091 2559 16437 2559 1181 1000 2181 "P2.4/TA2/A4/Vref+/Veref+/OA1I0" "30" "onsolder,square,edge2"]
+	Pad[13091 5118 16437 5118 1181 1000 2181 "P1.0/TACLK/ADC10CLK" "31" "onsolder,square,edge2"]
+	Pad[13091 7677 16437 7677 1181 1000 2181 "P1.1/TA0" "32" "onsolder,square,edge2"]
+	Pad[13091 10236 16437 10236 1181 1000 2181 "P1.2/TA1" "33" "onsolder,square,edge2"]
+	Pad[13091 12795 16437 12795 1181 1000 2181 "P1.3/TA2" "34" "onsolder,square,edge2"]
+	Pad[13091 15354 16437 15354 1181 1000 2181 "P1.4/SMCLK/TCK" "35" "onsolder,square,edge2"]
+	Pad[13091 17913 16437 17913 1181 1000 2181 "P1.5/TA0/TMS" "36" "onsolder,square,edge2"]
+	Pad[13091 20472 16437 20472 1181 1000 2181 "P1.6/TA1/TDI/TCLK" "37" "onsolder,square,edge2"]
+	Pad[13091 23031 16437 23031 1181 1000 2181 "P1.7/TA2/TDO/TDI" "38" "onsolder,square,edge2"]
 	ElementLine [12205 24803 12205 -24803 1000]
 	ElementLine [12205 -24803 -12205 -24803 1000]
 	ElementLine [-12205 -24803 -12205 24803 1000]
 	ElementLine [-12205 24803 12205 24803 1000]
 	ElementArc [-10984 22323 610 610 0 360 1000]
+
+	)
+
+Element["" "RCY50" "X100" "sr-xtal-32k" 78187 209651 0 200 3 100 ""]
+(
+	Pin[0 -2500 2500 2000 3100 1100 "1" "1" "square"]
+	Pin[0 2500 2500 2000 3100 1100 "2" "2" ""]
+	ElementArc [0 0 5000 5000 270 360 1000]
 
 	)
 Layer(1 "component")
@@ -3407,7 +3407,7 @@ Layer(2 "solder")
 	Line[148000 154559 141000 154500 2500 2000 "clearline,rubberend"]
 	Line[149500 128500 149500 130500 700 1400 "clearline"]
 	Line[141000 154500 138000 151500 2500 2000 "clearline"]
-	Line[73212 212177 78187 217151 1000 2000 "clearline"]
+	Line[73212 207177 78187 212151 1000 2000 "clearline"]
 	Line[100394 71654 72441 71654 2500 2000 ""]
 	Line[103543 61220 97047 61220 2500 2000 "clearline"]
 	Line[96063 62204 96063 64568 2500 2000 "clearline"]
@@ -3725,8 +3725,8 @@ Layer(2 "solder")
 	Line[100500 195000 96500 191000 1000 2000 "clearline"]
 	Line[96500 191000 94000 191000 1000 2000 "clearline"]
 	Line[76000 138000 59500 154500 2500 2000 "clearline"]
-	Line[94000 186118 79149 186149 1000 2000 "clearline"]
-	Line[79149 186149 72500 186000 1000 2000 "clearline"]
+	Line[73228 196851 73212 207177 1000 2000 "clearline"]
+	Line[94000 186000 72500 186000 1000 2000 "clearline"]
 	Line[94000 188500 97000 188500 1000 2000 "clearline"]
 	Line[97000 188500 102500 194000 1000 2000 "clearline,rubberend"]
 	Line[102500 194000 102500 232000 1000 2000 "clearline"]
@@ -3796,7 +3796,6 @@ Layer(2 "solder")
 	Line[105906 98031 105906 100406 1000 2000 "clearline"]
 	Line[85000 201000 85000 208941 1000 2000 "clearline"]
 	Line[78187 207151 78187 198266 1000 2000 "clearline"]
-	Line[73228 196851 73212 212177 1000 2000 "clearline"]
 	Arc[20500 100000 3500 3500 1000 2000 0 90 ""]
 	Polygon("clearpoly")
 	(
