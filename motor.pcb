@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Mon Mar 29 16:17:03 2010
+# date:    Mon Mar 29 16:29:22 2010
 # user:    richard (Richard Barlow)
 # host:    thinkpad.richardbarlow.co.uk
 
@@ -9,7 +9,7 @@ FileVersion[20070407]
 PCB["" 196850 196850]
 
 Grid[196.850388 0 0 1]
-Cursor[0 0 0.000000]
+Cursor[0 196850 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[669 669 669 669 787 669]
@@ -869,7 +869,7 @@ Via[52362 172835 3600 1574 0 2000 "" "thermal(1S,2X,3S)"]
 Via[85433 175197 2520 1574 0 1181 "" ""]
 Via[69094 181299 2520 1574 0 1181 "" ""]
 
-Element["onsolder" "SO8" "Q6" "sr-fet-n-irf8721" 114941 106313 -6000 -2000 1 100 "auto"]
+Element["onsolder" "SO8" "Q6" "sr-fet-n-irf8721" 114941 106313 -15252 -14992 1 89 "auto"]
 (
 	Pad[-7500 -13500 -7500 -7000 2000 1000 3000 "S" "1" "onsolder,square"]
 	Pad[-2500 -13500 -2500 -7000 2000 1000 3000 "S" "2" "onsolder,square"]
@@ -925,14 +925,14 @@ Element["onsolder" "0603" "S/C3" "sr-c-470n" 7854 91736 4791 2650 0 78 "auto"]
 
 	)
 
-Element["onsolder" "0603" "C106" "sr-c-100n" 172244 148032 3150 3150 3 100 "auto"]
+Element["onsolder" "0603" "C106" "sr-c-100n" 172244 148032 2363 -4921 3 89 "auto"]
 (
 	Pad[-492 2559 492 2559 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[-492 -2559 492 -2559 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "0603" "R4" "sr-r-100k" 76181 142520 7481 7559 3 100 "auto"]
+Element["onsolder" "0603" "R4" "sr-r-100k" 76181 142520 -6890 -2442 1 78 "auto"]
 (
 	Pad[-492 2559 492 2559 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[-492 -2559 492 -2559 2952 2000 3552 "2" "2" "onsolder,square"]
@@ -1025,14 +1025,14 @@ Element["onsolder" "SOT223" "S/U1" "sr-ic-ld1117s50" 28954 79736 20900 10300 0 7
 
 	)
 
-Element["onsolder" "0603" "C105" "sr-c-100n" 145472 190747 -3150 3150 0 100 "auto"]
+Element["onsolder" "0603" "C105" "sr-c-100n" 145472 190747 -3938 -1967 0 89 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "0603" "R25" "sr-r-4r7" 129528 59449 -3543 394 3 100 "auto"]
+Element["onsolder" "0603" "R25" "sr-r-4r7" 129528 59449 2362 -4726 3 78 "auto"]
 (
 	Pad[-492 2559 492 2559 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[-492 -2559 492 -2559 2952 2000 3552 "2" "2" "onsolder,square"]
@@ -1139,7 +1139,7 @@ Element["onsolder" "SOT23" "S/D3" "sr-d-gsot12c" 56954 96036 -2500 -3200 0 78 "a
 
 	)
 
-Element["onsolder" "DO214AC" "D1" "sr-d-smaj16a" 110827 10236 -22100 0 1 100 "auto"]
+Element["onsolder" "DO214AC" "D1" "sr-d-smaj16a" 110827 10236 -12796 12061 0 89 "auto"]
 (
 	Pad[6693 0 10236 0 6890 2000 7490 "1" "1" "onsolder,square,edge2"]
 	Pad[-10236 0 -6693 0 6890 2000 7490 "2" "2" "onsolder,square"]
@@ -1209,7 +1209,7 @@ Element["onsolder" "SO8" "S/U3" "sr-ic-sn75179b" 18854 104736 6000 -10000 0 78 "
 
 	)
 
-Element["onsolder" "SO8" "Q3" "sr-fet-n-irf8721" 149199 54705 2788 -7182 2 100 "auto"]
+Element["onsolder" "SO8" "Q3" "sr-fet-n-irf8721" 149199 54705 17121 -4197 0 89 "auto"]
 (
 	Pad[7000 -7500 13500 -7500 2000 1000 3000 "S" "1" "onsolder,square,edge2"]
 	Pad[7000 -2500 13500 -2500 2000 1000 3000 "S" "2" "onsolder,square,edge2"]
@@ -1228,7 +1228,7 @@ Element["onsolder" "SO8" "Q3" "sr-fet-n-irf8721" 149199 54705 2788 -7182 2 100 "
 
 	)
 
-Element["onsolder" "SO8" "Q5" "sr-fet-n-irf8721" 149199 75571 -2000 6000 0 100 "auto"]
+Element["onsolder" "SO8" "Q5" "sr-fet-n-irf8721" 149199 75571 17095 684 0 89 "auto"]
 (
 	Pad[-13500 7500 -7000 7500 2000 1000 3000 "S" "1" "onsolder,square"]
 	Pad[-13500 2500 -7000 2500 2000 1000 3000 "S" "2" "onsolder,square"]
@@ -1309,14 +1309,14 @@ Element["" "0603" "R22" "sr-r-4r7" 156299 52756 -8740 -20670 0 78 ""]
 
 	)
 
-Element["onsolder" "0603" "R24" "sr-r-4r7" 138583 134252 -4725 8268 0 100 "auto"]
+Element["onsolder" "0603" "R24" "sr-r-4r7" 138583 134252 -4331 7087 0 89 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "0603" "R21" "sr-r-4r7" 155316 134253 -4964 8268 0 100 "auto"]
+Element["onsolder" "0603" "R21" "sr-r-4r7" 155316 134253 -4176 7284 0 89 "auto"]
 (
 	Pad[2559 -492 2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
@@ -1330,7 +1330,7 @@ Element["" "0603" "R20" "sr-r-10k" 125591 87598 -2361 25591 1 78 ""]
 
 	)
 
-Element["onsolder" "0805" "C100" "sr-c-2u2-0805" 36024 182677 3150 3150 3 100 "auto"]
+Element["onsolder" "0805" "C100" "sr-c-2u2-0805" 36024 182677 -7481 11615 0 89 "auto"]
 (
 	Pad[-393 3543 393 3543 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-393 -3543 393 -3543 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1339,7 +1339,7 @@ Element["onsolder" "0805" "C100" "sr-c-2u2-0805" 36024 182677 3150 3150 3 100 "a
 
 	)
 
-Element["onsolder" "0805" "C107" "sr-c-2u2-0805" 54723 167323 3150 -3150 2 100 "auto"]
+Element["onsolder" "0805" "C107" "sr-c-2u2-0805" 54723 167323 -4525 -3150 0 89 "auto"]
 (
 	Pad[3543 -393 3543 393 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-3543 -393 -3543 393 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1452,7 +1452,7 @@ Element["" "PLCC2" "LED105" "sr-led-yellow-plcc2" 187992 117671 -59841 12743 0 6
 
 	)
 
-Element["onsolder" "0805" "C103" "sr-c-2u2-0805" 164764 148032 3150 3150 3 100 "auto"]
+Element["onsolder" "0805" "C103" "sr-c-2u2-0805" 164764 148032 2363 -7085 3 89 "auto"]
 (
 	Pad[-393 3543 393 3543 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-393 -3543 393 -3543 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1475,14 +1475,14 @@ Element["" "0603" "R101" "sr-r-1k" 132480 139567 -9449 4921 1 78 ""]
 
 	)
 
-Element["onsolder" "0603" "C8" "sr-c-100n" 72244 167323 -3150 3150 0 100 "auto"]
+Element["onsolder" "0603" "C8" "sr-c-100n" 72244 167323 -2560 7284 0 89 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "SO8" "U103" "sr-ic-sn75179b" 177770 166594 2000 -6000 2 100 "auto"]
+Element["onsolder" "SO8" "U103" "sr-ic-sn75179b" 177770 166594 -15218 15332 0 89 "auto"]
 (
 	Pad[7000 -7500 13500 -7500 2000 1000 3000 "Vcc" "1" "onsolder,square,edge2"]
 	Pad[7000 -2500 13500 -2500 2000 1000 3000 "R" "2" "onsolder,square,edge2"]
@@ -1501,7 +1501,7 @@ Element["onsolder" "SO8" "U103" "sr-ic-sn75179b" 177770 166594 2000 -6000 2 100 
 
 	)
 
-Element["onsolder" "SO8" "U102" "sr-ic-sn65176b" 123045 184391 -2000 6000 0 100 "auto"]
+Element["onsolder" "SO8" "U102" "sr-ic-sn65176b" 123045 184391 4496 -9945 0 89 "auto"]
 (
 	Pad[-13500 7500 -7000 7500 2000 1000 3000 "R" "1" "onsolder,square"]
 	Pad[-13500 2500 -7000 2500 2000 1000 3000 "2" "2" "onsolder,square"]
@@ -1520,7 +1520,7 @@ Element["onsolder" "SO8" "U102" "sr-ic-sn65176b" 123045 184391 -2000 6000 0 100 
 
 	)
 
-Element["onsolder" "SO8" "Q7" "sr-fet-n-irf8721" 105545 41496 2000 -6000 2 100 "auto"]
+Element["onsolder" "SO8" "Q7" "sr-fet-n-irf8721" 105545 41496 -22735 -4160 0 89 "auto"]
 (
 	Pad[7000 -7500 13500 -7500 2000 1000 3000 "S" "1" "onsolder,square,edge2"]
 	Pad[7000 -2500 13500 -2500 2000 1000 3000 "S" "2" "onsolder,square,edge2"]
@@ -1556,7 +1556,7 @@ Element["onsolder" "0603" "S/C5" "sr-c-100n" 15854 50736 -4169 -1783 0 78 "auto"
 
 	)
 
-Element["onsolder" "SO8" "Q4" "sr-fet-n-irf8721" 149199 120059 1150 488 0 100 "auto"]
+Element["onsolder" "SO8" "Q4" "sr-fet-n-irf8721" 149199 120059 17095 9345 0 89 "auto"]
 (
 	Pad[-13500 7500 -7000 7500 2000 1000 3000 "S" "1" "onsolder,square"]
 	Pad[-13500 2500 -7000 2500 2000 1000 3000 "S" "2" "onsolder,square"]
@@ -1575,14 +1575,14 @@ Element["onsolder" "SO8" "Q4" "sr-fet-n-irf8721" 149199 120059 1150 488 0 100 "a
 
 	)
 
-Element["onsolder" "0603" "C7" "sr-c-100n" 89370 129331 3150 3150 3 100 "auto"]
+Element["onsolder" "0603" "C7" "sr-c-100n" 89370 129331 -6496 -2362 1 78 "auto"]
 (
 	Pad[-492 2559 492 2559 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[-492 -2559 492 -2559 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "SO8" "Q2" "sr-fet-n-irf8721" 149199 99193 2000 -6000 2 100 "auto"]
+Element["onsolder" "SO8" "Q2" "sr-fet-n-irf8721" 149199 99193 17121 9189 0 89 "auto"]
 (
 	Pad[7000 -7500 13500 -7500 2000 1000 3000 "S" "1" "onsolder,square,edge2"]
 	Pad[7000 -2500 13500 -2500 2000 1000 3000 "S" "2" "onsolder,square,edge2"]
@@ -1601,7 +1601,7 @@ Element["onsolder" "SO8" "Q2" "sr-fet-n-irf8721" 149199 99193 2000 -6000 2 100 "
 
 	)
 
-Element["onsolder" "0603" "C9" "sr-c-470n" 82874 112008 -8505 7087 0 100 "auto"]
+Element["onsolder" "0603" "C9" "sr-c-470n" 82874 112008 -2206 6299 0 78 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
@@ -1638,7 +1638,7 @@ Element["" "OPTO4" "U5" "sr-ic-hcpl-817" 96767 72717 -30247 -4295 1 100 ""]
 
 	)
 
-Element["onsolder" "0603" "C6" "sr-c-100n" 74606 51969 -3150 3150 0 100 "auto"]
+Element["onsolder" "0603" "C6" "sr-c-100n" 74606 51969 -2362 -2362 0 78 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
@@ -1678,7 +1678,7 @@ Element["" "0603" "R103" "sr-r-100k" 37008 184449 7087 -4527 3 78 ""]
 
 	)
 
-Element["onsolder" "0603" "C101" "sr-c-100n" 27756 183268 3150 3150 3 100 "auto"]
+Element["onsolder" "0603" "C101" "sr-c-100n" 27756 183268 -7481 -4923 1 89 "auto"]
 (
 	Pad[-492 2559 492 2559 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[-492 -2559 492 -2559 2952 2000 3552 "2" "2" "onsolder,square"]
@@ -1755,7 +1755,7 @@ Element["" "TSSOP38" "U101" "sr-ic-msp430f2254" 90945 163779 -12008 25395 0 78 "
 
 	)
 
-Element["onsolder" "0603" "S/R6" "sr-r-1k" 42354 148736 -3150 6150 0 67 "auto"]
+Element["onsolder" "0603" "S/R6" "sr-r-1k" 42354 148736 5117 2016 0 67 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
@@ -1808,7 +1808,7 @@ Element["" "8P8C" "J101" "sr-cn-8p8c" 156495 179094 -24091 11300 0 78 ""]
 
 	)
 
-Element["onsolder" "0603" "C104" "sr-c-100n" 185630 151968 -3150 3150 0 100 "auto"]
+Element["onsolder" "0603" "C104" "sr-c-100n" 185630 151968 -1378 -2165 0 78 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
@@ -1833,14 +1833,14 @@ Element["" "RCY200" "C1" "sr-c-1m" 183779 21653 2796 16023 0 89 ""]
 
 	)
 
-Element["onsolder" "0603" "C108" "sr-c-1n" 43504 181890 3150 3150 3 100 "auto"]
+Element["onsolder" "0603" "C108" "sr-c-1n" 43504 181890 -2364 10630 0 89 "auto"]
 (
 	Pad[-492 2559 492 2559 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[-492 -2559 492 -2559 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "2512" "R30" "sr-r-3m5-2512" 116535 70767 9450 5906 3 100 "auto"]
+Element["onsolder" "2512" "R30" "sr-r-3m5-2512" 116535 70767 12600 4724 3 89 "auto"]
 (
 	Pad[-3543 12894 3543 12894 7087 2000 7687 "1" "1" "onsolder,square"]
 	Pad[-3543 -12894 3543 -12894 7087 2000 7687 "2" "2" "onsolder,square"]
@@ -1849,21 +1849,21 @@ Element["onsolder" "2512" "R30" "sr-r-3m5-2512" 116535 70767 9450 5906 3 100 "au
 
 	)
 
-Element["onsolder" "0603" "R32" "sr-r-100k" 99213 73032 788 18386 3 100 "auto"]
+Element["onsolder" "0603" "R32" "sr-r-100k" 99213 73032 2362 12875 3 78 "auto"]
 (
 	Pad[-492 2559 492 2559 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[-492 -2559 492 -2559 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "0603" "R29" "sr-r-10k" 105512 73031 5118 -3583 3 100 "auto"]
+Element["onsolder" "0603" "R29" "sr-r-10k" 105512 73031 2165 12559 3 78 "auto"]
 (
 	Pad[-492 2559 492 2559 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[-492 -2559 492 -2559 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "0805" "C13" "sr-c-2u2-0805" 102165 60630 -4724 14566 3 100 "auto"]
+Element["onsolder" "0805" "C13" "sr-c-2u2-0805" 102165 60630 -3345 1180 3 89 "auto"]
 (
 	Pad[-393 3543 393 3543 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-393 -3543 393 -3543 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1872,7 +1872,7 @@ Element["onsolder" "0805" "C13" "sr-c-2u2-0805" 102165 60630 -4724 14566 3 100 "
 
 	)
 
-Element["onsolder" "0603" "R3" "sr-r-47k" 82874 119882 -4883 7087 0 100 "auto"]
+Element["onsolder" "0603" "R3" "sr-r-47k" 82874 119882 -2521 6693 0 78 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
@@ -1929,7 +1929,7 @@ Element["" "PLCC2" "LED104" "sr-led-red-plcc2" 173031 117671 -58859 12743 0 67 "
 
 	)
 
-Element["onsolder" "SOT25" "U100" "sr-ic-ts5205cx533" 52362 184178 11000 -11800 2 100 "auto"]
+Element["onsolder" "SOT25" "U100" "sr-ic-ts5205cx533" 52362 184178 2977 7617 0 89 "auto"]
 (
 	Pad[-800 0 800 0 2400 3000 3000 "IN" "1" "onsolder,square"]
 	Pad[-800 -7800 800 -7800 2400 3000 3000 "GND" "2" "onsolder,square"]
@@ -1958,63 +1958,63 @@ Element["" "RCY50" "X100" "sr-xtal-32k" 117263 171063 -6493 -9842 0 78 ""]
 
 	)
 
-Element["onsolder" "0603" "R104" "sr-r-10k" 99803 191929 -3150 3150 0 100 "auto"]
+Element["onsolder" "0603" "R104" "sr-r-10k" 99803 191929 -6694 -2165 0 89 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "0603" "R108" "sr-r-10k" 166732 187402 -3150 3150 0 100 "auto"]
+Element["onsolder" "0603" "R108" "sr-r-10k" 166732 187402 -6693 7284 0 89 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "0603" "R14" "sr-r-10k" 76575 82087 -5748 7481 0 100 "auto"]
+Element["onsolder" "0603" "R14" "sr-r-10k" 76575 82087 5078 2363 0 78 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "0603" "R8" "sr-r-330" 96260 119882 -7954 7481 0 100 "auto"]
+Element["onsolder" "0603" "R8" "sr-r-330" 96260 119882 -2836 6693 0 78 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "0603" "R18" "sr-r-100k" 81693 88780 -5906 7480 0 100 "auto"]
+Element["onsolder" "0603" "R18" "sr-r-100k" 81693 88780 4919 2166 0 78 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "0603" "R11" "sr-r-1k" 114961 125984 8110 -6693 2 100 "auto"]
+Element["onsolder" "0603" "R11" "sr-r-1k" 114961 125984 4882 2953 0 89 "auto"]
 (
 	Pad[2559 -492 2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "0603" "R2" "sr-r-1k" 76575 97835 -8190 9449 0 100 "auto"]
+Element["onsolder" "0603" "R2" "sr-r-1k" 76575 97835 -2875 6889 0 78 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "0603" "C10" "sr-c-470n" 85039 59252 -4647 7481 0 100 "auto"]
+Element["onsolder" "0603" "C10" "sr-c-470n" 85039 59252 -3072 -1968 0 78 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "SOT23" "Q1" "sr-fet-n-bss123" 91893 74933 -12300 -11000 1 100 "auto"]
+Element["onsolder" "SOT23" "Q1" "sr-fet-n-bss123" 91893 74933 -17223 -2141 1 100 "auto"]
 (
 	Pad[0 -300 0 300 3400 3000 4000 "G" "1" "onsolder,square,edge2"]
 	Pad[-7800 -300 -7800 300 3400 3000 4000 "S" "2" "onsolder,square,edge2"]
@@ -2026,7 +2026,7 @@ Element["onsolder" "SOT23" "Q1" "sr-fet-n-bss123" 91893 74933 -12300 -11000 1 10
 
 	)
 
-Element["onsolder" "SOT23" "D2" "sr-ic-ts2431" 88386 103666 11000 -12300 2 100 "auto"]
+Element["onsolder" "SOT23" "D2" "sr-ic-ts2431" 88386 103666 4552 8512 0 89 "auto"]
 (
 	Pad[-300 0 300 0 3400 3000 4000 "K" "1" "onsolder,square"]
 	Pad[-300 -7800 300 -7800 3400 3000 4000 "ref" "2" "onsolder,square"]
@@ -2038,63 +2038,63 @@ Element["onsolder" "SOT23" "D2" "sr-ic-ts2431" 88386 103666 11000 -12300 2 100 "
 
 	)
 
-Element["onsolder" "0603" "R13" "sr-r-100k" 74606 59252 -6772 7874 0 100 "auto"]
+Element["onsolder" "0603" "R13" "sr-r-100k" 74606 59252 -3819 6693 0 78 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "0603" "R6" "sr-r-2k4" 76180 153150 -8268 -7796 1 100 "auto"]
+Element["onsolder" "0603" "R6" "sr-r-2k4" 76180 153150 -6891 -3859 1 78 "auto"]
 (
 	Pad[-492 -2559 492 -2559 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[-492 2559 492 2559 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "0603" "R9" "sr-r-100k" 107479 160827 5905 -7481 2 100 "auto"]
+Element["onsolder" "0603" "R9" "sr-r-100k" 107479 160827 -2360 6693 0 78 "auto"]
 (
 	Pad[2559 -492 2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "0603" "R17" "sr-r-10k" 114961 132283 9843 -7481 2 100 "auto"]
+Element["onsolder" "0603" "R17" "sr-r-10k" 114961 132283 4920 2953 0 89 "auto"]
 (
 	Pad[2559 -492 2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "0603" "R15" "sr-r-10k" 85431 160827 -7087 8269 0 100 "auto"]
+Element["onsolder" "0603" "R15" "sr-r-10k" 85431 160827 -3347 6695 0 78 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "0603" "R5" "sr-r-100k" 126572 150593 -7480 -8426 1 100 "auto"]
+Element["onsolder" "0603" "R5" "sr-r-100k" 126572 150593 -2560 4960 1 89 "auto"]
 (
 	Pad[-492 -2559 492 -2559 2952 1340 3552 "1" "1" "onsolder,square"]
 	Pad[-492 2559 492 2559 2952 1340 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "0603" "R16" "sr-r-100k" 118304 148034 -6299 -6221 1 100 "auto"]
+Element["onsolder" "0603" "R16" "sr-r-100k" 118304 148034 -2362 5000 1 89 "auto"]
 (
 	Pad[-492 -2559 492 -2559 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[-492 2559 492 2559 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "0603" "R12" "sr-r-10k" 96455 160827 -9173 8346 0 100 "auto"]
+Element["onsolder" "0603" "R12" "sr-r-10k" 96455 160827 -3464 6968 0 78 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "TSSOP14" "U1" "sr-ic-lm339" 96454 148034 -2000 6000 0 100 "auto"]
+Element["onsolder" "TSSOP14" "U1" "sr-ic-lm339" 96454 148034 -15386 -9749 0 78 "auto"]
 (
 	Pad[-13917 7677 -9311 7677 1299 1000 2299 "1" "1" "onsolder,square"]
 	Pad[-13917 5118 -9311 5118 1299 1000 2299 "2" "2" "onsolder,square"]
@@ -2119,14 +2119,14 @@ Element["onsolder" "TSSOP14" "U1" "sr-ic-lm339" 96454 148034 -2000 6000 0 100 "a
 
 	)
 
-Element["onsolder" "0603" "R7" "sr-r-100k" 97046 134843 -6300 7481 0 100 "auto"]
+Element["onsolder" "0603" "R7" "sr-r-100k" 97046 134843 -2756 -2165 0 78 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 1340 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "0603" "R10" "sr-r-1k" 69685 159449 7086 8111 3 100 "auto"]
+Element["onsolder" "0603" "R10" "sr-r-1k" 69685 159449 -7284 -3780 1 89 "auto"]
 (
 	Pad[-492 2559 492 2559 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[-492 -2559 492 -2559 2952 2000 3552 "2" "2" "onsolder,square"]
