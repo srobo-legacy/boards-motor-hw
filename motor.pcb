@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Sun Mar 28 14:00:17 2010
+# date:    Mon Mar 29 12:07:35 2010
 # user:    richard (Richard Barlow)
 # host:    thinkpad.richardbarlow.co.uk
 
@@ -2464,7 +2464,7 @@ Element["onsolder" "TSSOP38" "U101" "sr-ic-msp430f2254" 79134 178346 -12205 -251
 
 	)
 
-Element["" "RCY50" "X100" "sr-xtal-32k" 78187 209651 0 200 3 100 ""]
+Element["" "RCY50" "X100" "sr-xtal-32k" 78187 209651 -4836 -11338 0 89 ""]
 (
 	Pin[0 -2500 2500 2000 3100 1100 "1" "1" "square"]
 	Pin[0 2500 2500 2000 3100 1100 "2" "2" ""]
