@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Mon Mar 29 00:49:58 2010
+# date:    Mon Mar 29 12:09:51 2010
 # user:    richard (Richard Barlow)
 # host:    thinkpad.richardbarlow.co.uk
 
@@ -14,7 +14,7 @@ PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[669 669 669 669 787 669]
 Flags("showdrc,rubberband,nameonpcb,clearnew,snappin,locknames,hidenames")
-Groups("1,c:2,s")
+Groups("1,3,c:2,4,s")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,669,2520,1181,600"]
 
 Symbol(' ' 18)
@@ -3476,12 +3476,18 @@ Layer(2 "solder")
 		[155512 84055] [196063 84055] [196063 43701] [155512 43701] 
 	)
 )
-Layer(3 "silk")
+Layer(3 "component-GND")
+(
+)
+Layer(4 "solder-GND")
+(
+)
+Layer(5 "silk")
 (
 	Line[34854 117736 34354 117736 1000 2000 ""]
 	Line[35854 116736 34854 117736 1000 2000 ""]
 )
-Layer(4 "silk")
+Layer(6 "silk")
 (
 	Line[24854 150736 22354 150236 1000 2000 ""]
 	Line[46354 150736 24854 150736 1000 2000 ""]
