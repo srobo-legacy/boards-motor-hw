@@ -1,6 +1,6 @@
 GSCH2PCB=gsch2pcb
 PCB=pcb
-GEDA_HIERPCB=./geda_hierpcb.py
+GEDA_HIERPCB=sr geda-hierpcb
 PROJECTRC=projectrc
 
 .PHONY: pcb photo clean
