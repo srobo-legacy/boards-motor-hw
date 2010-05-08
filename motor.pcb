@@ -1,7 +1,7 @@
 # release: pcb 1.99z
-# date:    Mon Mar 29 16:29:22 2010
+# date:    Sat May  8 13:07:27 2010
 # user:    richard (Richard Barlow)
-# host:    thinkpad.richardbarlow.co.uk
+# host:    localhost
 
 # To read pcb files, the pcb version (or the cvs source date) must be >= the file version
 FileVersion[20070407]
@@ -13,7 +13,7 @@ Cursor[0 196850 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[669 669 669 669 787 669]
-Flags("showdrc,rubberband,nameonpcb,clearnew,snappin")
+Flags("showdrc,nameonpcb,clearnew,snappin")
 Groups("1,3,c:2,4,s")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,669,2520,1181,600"]
 
@@ -895,7 +895,7 @@ Element["" "0603" "R1" "sr-r-1k" 141535 26969 5159 -2561 0 89 ""]
 
 	)
 
-Element["" "JUMPER5" "S/J3" "sr-cn-header4" 7354 157236 50800 -5700 3 78 ""]
+Element["" "JUMPER5" "S/J3" "sr-cn-header5" 7354 157236 50800 -5700 3 78 ""]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
 	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
@@ -1170,16 +1170,16 @@ Element["" "8P8C" "S/S/J1" "sr-cn-8p8c" 40354 87736 20000 -14000 3 78 ""]
 
 	)
 
-Element["" "PLCC2" "LED1" "sr-led-green-plcc2" 141339 13038 11816 -5556 3 89 ""]
+Element["" "PLCC2" "LED1" "sr-led-green-plcc2" 141339 13038 11814 -4663 3 89 ""]
 (
-	Pad[-2118 5860 2118 5860 6000 2000 6600 "A" "1" "square"]
 	Pad[-2118 -5860 2118 -5860 6000 2000 6600 "K" "2" "square"]
-	ElementLine [-3900 6690 5900 6690 1000]
-	ElementLine [5900 -6690 5900 6690 1000]
-	ElementLine [-5900 -6690 5900 -6690 1000]
-	ElementLine [-5900 -6690 -5900 4690 1000]
-	ElementLine [-3900 6690 -5900 4690 1000]
-	ElementArc [0 0 4000 4000 90 360 1000]
+	Pad[-2118 5860 2118 5860 6000 2000 6600 "A" "1" "square"]
+	ElementLine [-5900 -6690 3900 -6690 1000]
+	ElementLine [-5900 -6690 -5900 6690 1000]
+	ElementLine [-5900 6690 5900 6690 1000]
+	ElementLine [5900 -4690 5900 6690 1000]
+	ElementLine [3900 -6690 5900 -4690 1000]
+	ElementArc [0 0 4000 4000 270 360 1000]
 
 	)
 
@@ -1439,16 +1439,16 @@ Element["" "SO8" "U7" "sr-ic-fan7380" 146049 66949 -16173 -14661 0 78 ""]
 
 	)
 
-Element["" "PLCC2" "LED105" "sr-led-yellow-plcc2" 187992 117671 -59841 12743 0 67 ""]
+Element["" "PLCC2" "LED105" "sr-led-yellow-plcc2" 187992 117671 -59646 12833 0 67 ""]
 (
-	Pad[-2118 5860 2118 5860 6000 2000 6600 "A" "1" "square"]
 	Pad[-2118 -5860 2118 -5860 6000 2000 6600 "K" "2" "square"]
-	ElementLine [-3900 6690 5900 6690 1000]
-	ElementLine [5900 -6690 5900 6690 1000]
-	ElementLine [-5900 -6690 5900 -6690 1000]
-	ElementLine [-5900 -6690 -5900 4690 1000]
-	ElementLine [-3900 6690 -5900 4690 1000]
-	ElementArc [0 0 4000 4000 90 360 1000]
+	Pad[-2118 5860 2118 5860 6000 2000 6600 "A" "1" "square"]
+	ElementLine [-5900 -6690 3900 -6690 1000]
+	ElementLine [-5900 -6690 -5900 6690 1000]
+	ElementLine [-5900 6690 5900 6690 1000]
+	ElementLine [5900 -4690 5900 6690 1000]
+	ElementLine [3900 -6690 5900 -4690 1000]
+	ElementArc [0 0 4000 4000 270 360 1000]
 
 	)
 
@@ -1645,16 +1645,16 @@ Element["onsolder" "0603" "C6" "sr-c-100n" 74606 51969 -2362 -2362 0 78 "auto"]
 
 	)
 
-Element["" "PLCC2" "LED100" "sr-led-green-plcc2" 22199 184252 -6845 6684 0 78 ""]
+Element["" "PLCC2" "LED100" "sr-led-green-plcc2" 22199 184252 -7148 6685 0 78 ""]
 (
-	Pad[-5860 -2118 -5860 2118 6000 2000 6600 "A" "1" "square"]
 	Pad[5860 -2118 5860 2118 6000 2000 6600 "K" "2" "square"]
-	ElementLine [-6690 -3900 -6690 5900 1000]
-	ElementLine [-6690 5900 6690 5900 1000]
-	ElementLine [6690 5900 6690 -5900 1000]
-	ElementLine [6690 -5900 -4690 -5900 1000]
-	ElementLine [-6690 -3900 -4690 -5900 1000]
-	ElementArc [0 0 4000 4000 0 360 1000]
+	Pad[-5860 -2118 -5860 2118 6000 2000 6600 "A" "1" "square"]
+	ElementLine [6690 -5900 6690 3900 1000]
+	ElementLine [-6690 -5900 6690 -5900 1000]
+	ElementLine [-6690 -5900 -6690 5900 1000]
+	ElementLine [-6690 5900 4690 5900 1000]
+	ElementLine [6690 3900 4690 5900 1000]
+	ElementArc [0 0 4000 4000 180 360 1000]
 
 	)
 
@@ -1916,16 +1916,16 @@ Element["" "0603" "R100" "sr-r-1k" 7480 184252 -1771 -4528 3 78 ""]
 
 	)
 
-Element["" "PLCC2" "LED104" "sr-led-red-plcc2" 173031 117671 -58859 12743 0 67 ""]
+Element["" "PLCC2" "LED104" "sr-led-red-plcc2" 173031 117671 -58663 12834 0 67 ""]
 (
-	Pad[-2118 5860 2118 5860 6000 2000 6600 "A" "1" "square"]
 	Pad[-2118 -5860 2118 -5860 6000 2000 6600 "K" "2" "square"]
-	ElementLine [-3900 6690 5900 6690 1000]
-	ElementLine [5900 -6690 5900 6690 1000]
-	ElementLine [-5900 -6690 5900 -6690 1000]
-	ElementLine [-5900 -6690 -5900 4690 1000]
-	ElementLine [-3900 6690 -5900 4690 1000]
-	ElementArc [0 0 4000 4000 90 360 1000]
+	Pad[-2118 5860 2118 5860 6000 2000 6600 "A" "1" "square"]
+	ElementLine [-5900 -6690 3900 -6690 1000]
+	ElementLine [-5900 -6690 -5900 6690 1000]
+	ElementLine [-5900 6690 5900 6690 1000]
+	ElementLine [5900 -4690 5900 6690 1000]
+	ElementLine [3900 -6690 5900 -4690 1000]
+	ElementArc [0 0 4000 4000 270 360 1000]
 
 	)
 
@@ -2147,29 +2147,29 @@ Element["" "0603" "R105" "sr-r-1k" 64370 169882 -4723 -6693 0 78 ""]
 
 	)
 
-Element["" "PLCC2" "LED102" "sr-led-yellow-plcc2" 132480 174849 -7284 9200 0 78 ""]
+Element["" "PLCC2" "LED102" "sr-led-yellow-plcc2" 132480 174849 -6692 8913 0 78 ""]
 (
-	Pad[-2118 5860 2118 5860 6000 2000 6600 "A" "1" "square"]
 	Pad[-2118 -5860 2118 -5860 6000 2000 6600 "K" "2" "square"]
-	ElementLine [-3900 6690 5900 6690 1000]
-	ElementLine [5900 -6690 5900 6690 1000]
-	ElementLine [-5900 -6690 5900 -6690 1000]
-	ElementLine [-5900 -6690 -5900 4690 1000]
-	ElementLine [-3900 6690 -5900 4690 1000]
-	ElementArc [0 0 4000 4000 90 360 1000]
-
-	)
-
-Element["" "PLCC2" "LED101" "sr-led-red-plcc2" 132480 153104 -11031 8510 1 78 ""]
-(
-	Pad[-2118 -5860 2118 -5860 6000 2000 6600 "A" "1" "square"]
-	Pad[-2118 5860 2118 5860 6000 2000 6600 "K" "2" "square"]
+	Pad[-2118 5860 2118 5860 6000 2000 6600 "A" "1" "square"]
 	ElementLine [-5900 -6690 3900 -6690 1000]
 	ElementLine [-5900 -6690 -5900 6690 1000]
 	ElementLine [-5900 6690 5900 6690 1000]
 	ElementLine [5900 -4690 5900 6690 1000]
 	ElementLine [3900 -6690 5900 -4690 1000]
 	ElementArc [0 0 4000 4000 270 360 1000]
+
+	)
+
+Element["" "PLCC2" "LED101" "sr-led-red-plcc2" 132480 153104 -11031 7026 1 78 ""]
+(
+	Pad[-2118 5860 2118 5860 6000 2000 6600 "K" "2" "square"]
+	Pad[-2118 -5860 2118 -5860 6000 2000 6600 "A" "1" "square"]
+	ElementLine [-3900 6690 5900 6690 1000]
+	ElementLine [5900 -6690 5900 6690 1000]
+	ElementLine [-5900 -6690 5900 -6690 1000]
+	ElementLine [-5900 -6690 -5900 4690 1000]
+	ElementLine [-3900 6690 -5900 4690 1000]
+	ElementArc [0 0 4000 4000 90 360 1000]
 
 	)
 
