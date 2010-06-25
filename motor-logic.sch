@@ -233,7 +233,7 @@ device=RESISTOR
 T 52900 47100 5 10 1 1 0 0 1
 refdes=R105
 T 52900 46900 5 10 1 1 0 0 1
-value=sr-r-1k
+value=sr-r-330
 T 52600 47500 5 10 0 0 0 0 1
 footprint=0603
 }
@@ -262,7 +262,7 @@ device=RESISTOR
 T 54000 47100 5 10 1 1 0 0 1
 refdes=R106
 T 54000 46900 5 10 1 1 0 0 1
-value=sr-r-1k
+value=sr-r-330
 T 53700 47500 5 10 0 0 0 0 1
 footprint=0603
 }
@@ -290,7 +290,7 @@ device=RESISTOR
 T 56100 47100 5 10 1 1 0 0 1
 refdes=R107
 T 56100 46900 5 10 1 1 0 0 1
-value=sr-r-1k
+value=sr-r-330
 T 55800 47500 5 10 0 0 0 0 1
 footprint=0603
 }
@@ -353,7 +353,7 @@ device=RESISTOR
 T 42900 54100 5 10 1 1 0 0 1
 refdes=R101
 T 42900 53900 5 10 1 1 0 0 1
-value=sr-r-1k
+value=sr-r-330
 T 42600 54500 5 10 0 0 0 0 1
 footprint=0603
 }
@@ -379,7 +379,7 @@ device=RESISTOR
 T 45100 54100 5 10 1 1 0 0 1
 refdes=R102
 T 45100 53900 5 10 1 1 0 0 1
-value=sr-r-1k
+value=sr-r-330
 T 44800 54500 5 10 0 0 0 0 1
 footprint=0603
 }
