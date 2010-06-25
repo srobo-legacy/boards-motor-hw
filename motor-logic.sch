@@ -425,7 +425,7 @@ N 30900 59000 37000 59000 4
 C 37000 58800 1 0 0 polyfuse-1.sym
 {
 T 37000 59300 5 10 1 1 0 0 1
-refdes=F?
+refdes=F100
 T 37000 60000 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
 }
@@ -556,28 +556,28 @@ netname=Out_Bu
 C 39400 43500 1 0 0 polyfuse-1.sym
 {
 T 39400 44000 5 10 1 1 0 0 1
-refdes=F?
+refdes=F101
 T 39400 44700 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
 }
 C 39400 42600 1 0 0 polyfuse-1.sym
 {
 T 39400 43100 5 10 1 1 0 0 1
-refdes=F?
+refdes=F102
 T 39400 43800 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
 }
 C 39400 40500 1 0 0 polyfuse-1.sym
 {
 T 39400 41000 5 10 1 1 0 0 1
-refdes=F?
+refdes=F103
 T 39400 41700 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
 }
 C 39400 39600 1 0 0 polyfuse-1.sym
 {
 T 39400 40100 5 10 1 1 0 0 1
-refdes=F?
+refdes=F104
 T 39400 40800 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
 }
@@ -586,28 +586,28 @@ C 40600 41600 1 0 0 TVS-dual-ca.sym
 T 40700 43000 5 10 0 0 0 0 1
 device=TVS
 T 42000 42300 5 10 1 1 0 0 1
-refdes=D?
+refdes=D102
 }
 C 43700 41600 1 0 0 TVS-dual-ca.sym
 {
 T 43800 43000 5 10 0 0 0 0 1
 device=TVS
 T 45100 42300 5 10 1 1 0 0 1
-refdes=D?
+refdes=D103
 }
 C 43600 38600 1 0 0 TVS-dual-ca.sym
 {
 T 43700 40000 5 10 0 0 0 0 1
 device=TVS
 T 45000 39300 5 10 1 1 0 0 1
-refdes=D?
+refdes=D105
 }
 C 40600 38600 1 0 0 TVS-dual-ca.sym
 {
 T 40700 40000 5 10 0 0 0 0 1
 device=TVS
 T 42000 39300 5 10 1 1 0 0 1
-refdes=D?
+refdes=D104
 }
 N 40300 42800 44000 42800 4
 {
@@ -667,28 +667,28 @@ C 39400 46600 1 0 0 resistor-2.sym
 T 39800 46950 5 10 0 0 0 0 1
 device=RESISTOR
 T 39600 46900 5 10 1 1 0 0 1
-refdes=R?
+refdes=R100
 }
 C 39400 45700 1 0 0 resistor-2.sym
 {
 T 39800 46050 5 10 0 0 0 0 1
 device=RESISTOR
 T 39600 46000 5 10 1 1 0 0 1
-refdes=R?
+refdes=R108
 }
 C 40700 44600 1 0 0 TVS-dual-ca.sym
 {
 T 40800 46000 5 10 0 0 0 0 1
 device=TVS
 T 42100 45300 5 10 1 1 0 0 1
-refdes=D?
+refdes=D100
 }
 C 43700 44600 1 0 0 TVS-dual-ca.sym
 {
 T 43800 46000 5 10 0 0 0 0 1
 device=TVS
 T 45100 45300 5 10 1 1 0 0 1
-refdes=D?
+refdes=D101
 }
 N 40300 45800 44000 45800 4
 {
@@ -721,12 +721,12 @@ C 37100 46700 1 270 0 resistor-2.sym
 T 37450 46300 5 10 0 0 270 0 1
 device=RESISTOR
 T 37400 46300 5 10 1 1 0 0 1
-refdes=R?
+refdes=R104
 }
 C 37100 43700 1 270 0 resistor-2.sym
 {
 T 37450 43300 5 10 0 0 270 0 1
 device=RESISTOR
 T 37400 43300 5 10 1 1 0 0 1
-refdes=R?
+refdes=R109
 }
