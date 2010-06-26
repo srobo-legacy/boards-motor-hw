@@ -117,7 +117,7 @@ symversion=0.1
 T 40300 56100 5 10 1 1 0 0 1
 value=sr-c-1m
 T 39800 56700 5 10 0 0 0 0 1
-footprint=RCY200
+footprint=RCY200P
 }
 C 44600 56700 1 270 0 capacitor-1.sym
 {
