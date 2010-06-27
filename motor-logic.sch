@@ -250,7 +250,7 @@ comment=Debug
 T 52400 45900 5 10 1 1 0 6 1
 value=sr-led-red-0603
 T 52500 46400 5 10 0 0 0 0 1
-footprint=0603
+footprint=sr_0603_led
 }
 C 52600 45200 1 0 0 gnd-1.sym
 N 52700 46400 52700 46600 4
