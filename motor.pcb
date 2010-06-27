@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Sun Jun 27 18:49:52 2010
+# date:    Sun Jun 27 18:58:31 2010
 # user:    richard (Richard Barlow)
 # host:    pc.richardbarlow.co.uk
 
@@ -8,7 +8,7 @@ FileVersion[20100606]
 
 PCB["" 236220 216535]
 
-Grid[196.850388 0 0 1]
+Grid[196.850388 0 0 0]
 Cursor[0 196850 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
@@ -1629,12 +1629,14 @@ Element["" "JUMPER4" "J100" "sr-cn-header4" 17717 162992 41198 -4685 3 89 ""]
 
 	)
 
-Element["" "1812" "F100" "sr-fuse-r200-1812" 40157 196532 0 0 1 100 ""]
+Element["" "sr_0603_led" "LED103" "sr-led-red-0603" 57283 194721 0 0 1 100 ""]
 (
-	Pad[-3000 7752 2961 7752 7500 984 9468 "2" "2" "square"]
-	Pad[-3000 -7752 3000 -7752 7500 984 9468 "1" "1" "square"]
-	ElementLine [6358 -3213 6358 3213 787]
-	ElementLine [-6358 -3213 -6358 3213 787]
+	Pad[-484 2917 484 2917 2831 1968 3815 "2" "2" "square"]
+	Pad[-484 -2917 484 -2917 2831 1968 3815 "1" "1" "square"]
+	ElementLine [0 -787 0 787 787]
+	ElementLine [0 787 -1181 -787 787]
+	ElementLine [0 787 1181 -787 787]
+	ElementLine [-1181 -787 1181 -787 787]
 
 	)
 
@@ -2477,14 +2479,12 @@ Element["onsolder" "sr_0603" "R12" "sr-r-10k" 135666 160827 0 0 2 100 "auto"]
 
 	)
 
-Element["" "sr_0603_led" "LED103" "sr-led-red-0603" 57283 194721 0 0 1 100 ""]
+Element["" "1812" "F100" "sr-fuse-r200-1812" 40157 196532 0 0 1 100 ""]
 (
-	Pad[-484 2917 484 2917 2831 1968 3815 "2" "2" "square"]
-	Pad[-484 -2917 484 -2917 2831 1968 3815 "1" "1" "square"]
-	ElementLine [0 -787 0 787 787]
-	ElementLine [0 787 -1181 -787 787]
-	ElementLine [0 787 1181 -787 787]
-	ElementLine [-1181 -787 1181 -787 787]
+	Pad[-3000 7752 2961 7752 7500 1968 8484 "2" "2" "square"]
+	Pad[-3000 -7752 3000 -7752 7500 1968 8484 "1" "1" "square"]
+	ElementLine [6358 -3213 6358 3213 787]
+	ElementLine [-6358 -3213 -6358 3213 787]
 
 	)
 Layer(1 "component")
