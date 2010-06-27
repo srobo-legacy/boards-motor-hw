@@ -45,7 +45,7 @@ symversion=0.1
 T 34100 57700 5 10 1 1 0 0 1
 value=sr-c-100n
 T 33600 58300 5 10 0 0 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 C 35000 58300 1 270 0 capacitor-1.sym
 {
@@ -58,7 +58,7 @@ symversion=0.1
 T 35500 57700 5 10 1 1 0 0 1
 value=sr-c-100n
 T 35000 58300 5 10 0 0 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 N 32000 57200 37000 57200 4
 N 31400 58500 37000 58500 4
@@ -157,7 +157,7 @@ refdes=R103
 T 47400 49800 5 10 1 1 0 0 1
 value=sr-r-100k
 T 48200 49700 5 10 0 0 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 N 48200 49300 46900 49300 4
 N 48200 49000 46900 49000 4
@@ -235,7 +235,7 @@ refdes=R105
 T 52900 46900 5 10 1 1 0 0 1
 value=sr-r-330
 T 52600 47500 5 10 0 0 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 C 52500 46400 1 270 0 led-1.sym
 {
@@ -264,7 +264,7 @@ refdes=R106
 T 54000 46900 5 10 1 1 0 0 1
 value=sr-r-330
 T 53700 47500 5 10 0 0 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 C 53600 46400 1 270 0 led-1.sym
 {
@@ -292,7 +292,7 @@ refdes=R107
 T 56100 46900 5 10 1 1 0 0 1
 value=sr-r-330
 T 55800 47500 5 10 0 0 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 C 55700 46400 1 270 0 led-1.sym
 {
@@ -355,7 +355,7 @@ refdes=R101
 T 42900 53900 5 10 1 1 0 0 1
 value=sr-r-330
 T 42600 54500 5 10 0 0 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 C 42500 53400 1 270 0 led-1.sym
 {
@@ -381,7 +381,7 @@ refdes=R102
 T 45100 53900 5 10 1 1 0 0 1
 value=sr-r-330
 T 44800 54500 5 10 0 0 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 C 44700 53400 1 270 0 led-1.sym
 {
@@ -707,7 +707,7 @@ refdes=R100
 T 39300 46900 5 10 1 1 0 0 1
 value=sr-r-330
 T 38800 46600 5 10 0 1 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 C 38800 45700 1 0 0 resistor-2.sym
 {
@@ -718,7 +718,7 @@ refdes=R108
 T 39300 46000 5 10 1 1 0 0 1
 value=sr-r-330
 T 38800 45700 5 10 0 1 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 C 40700 44600 1 0 0 TVS-dual-ca.sym
 {
@@ -788,7 +788,7 @@ refdes=R109
 T 36800 43100 5 10 1 1 0 0 1
 value=sr-r-100
 T 36500 43700 5 10 0 1 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 C 36300 46700 1 270 0 resistor-2.sym
 {
