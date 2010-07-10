@@ -1243,7 +1243,7 @@ symversion=0.1
 T 63400 42000 5 10 0 1 0 0 1
 footprint=sr_0603_led
 T 64100 41500 5 10 1 1 0 0 1
-footprint=sr-led-red-0603
+value=sr-led-red-0603
 T 64100 41200 5 10 1 1 0 0 1
 comment=Overcurrent
 }
