@@ -1,7 +1,7 @@
 # release: pcb 1.99z
-# date:    Mon Jun 28 12:27:56 2010
+# date:    Sat Jul 10 15:23:28 2010
 # user:    rbarlow (Richard Barlow)
-# host:    kneewax.ecs.soton.ac.uk
+# host:    localhost.localdomain
 
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20100606]
@@ -1640,8 +1640,8 @@ Element["" "JUMPER4" "J100" "sr-cn-header4" 17717 188778 41198 -4685 3 89 ""]
 
 Element["" "sr_0603_led" "LED103" "sr-led-red-0603" 57283 220507 2362 13976 1 100 ""]
 (
-	Pad[-484 2917 484 2917 2831 1968 3815 "2" "2" "square"]
-	Pad[-484 -2917 484 -2917 2831 1968 3815 "1" "1" "square"]
+	Pad[-484 2917 484 2917 2831 1968 3815 "K" "2" "square"]
+	Pad[-484 -2917 484 -2917 2831 1968 3815 "A" "1" "square"]
 	ElementLine [0 -787 0 787 787]
 	ElementLine [0 787 -1181 -787 787]
 	ElementLine [0 787 1181 -787 787]
@@ -2519,6 +2519,41 @@ Element["" "hole-M3" "" "" 221457 249016 -16900 -21000 0 100 ""]
 	ElementArc [0 0 12000 12000 0 360 1000]
 
 	)
+
+Element["" "sr_0603" "R34" "sr-r-1k" 77756 18701 0 0 0 100 ""]
+(
+	Pad[-2917 -484 -2917 484 2831 1968 3815 "2" "2" "square"]
+	Pad[2917 -484 2917 484 2831 1968 3815 "1" "1" "square"]
+	ElementLine [-787 1508 787 1508 787]
+	ElementLine [-787 -1508 787 -1508 787]
+
+	)
+
+Element["" "sr_0603_led" "LED2" "sr-led-red-0603" 74803 27559 0 0 0 100 ""]
+(
+	Pad[-2917 -484 -2917 484 2831 1968 3815 "K" "2" "square"]
+	Pad[2917 -484 2917 484 2831 1968 3815 "A" "1" "square"]
+	ElementLine [-787 0 787 0 787]
+	ElementLine [-787 0 787 -1181 787]
+	ElementLine [-787 0 787 1181 787]
+	ElementLine [787 -1181 787 1181 787]
+
+	)
+
+Element["" "sr_0603" "R35" "sr-r-10k" 53150 17717 0 0 0 100 ""]
+(
+	Pad[-2917 -484 -2917 484 2831 1968 3815 "2" "2" "square"]
+	Pad[2917 -484 2917 484 2831 1968 3815 "1" "1" "square"]
+	ElementLine [-787 1508 787 1508 787]
+	ElementLine [-787 -1508 787 -1508 787]
+
+	)
+Rat[93898 179920 0 99999 180707 0  ""]
+Rat[196457 117518 1 56067 17233 0  ""]
+Rat[196457 73030 1 50233 17233 0  ""]
+Rat[168504 95471 1 80673 18217 0  ""]
+Rat[71886 27075 0 144416 100893 1  ""]
+Rat[77720 27075 0 74839 18217 0  ""]
 Layer(1 "component")
 (
 	Line[173425 80510 179133 80510 1000 2000 "clearline"]
@@ -4562,7 +4597,7 @@ NetList()
 	Net("IBL" "(unknown)")
 	(
 		Connect("R26-1")
-		Connect("U101-21")
+		Connect("U101-17")
 	)
 	Net("IBR" "(unknown)")
 	(
@@ -4607,7 +4642,7 @@ NetList()
 	Net("ITL" "(unknown)")
 	(
 		Connect("R23-1")
-		Connect("U101-17")
+		Connect("U101-21")
 	)
 	Net("ITR" "(unknown)")
 	(
@@ -4669,6 +4704,7 @@ NetList()
 		Connect("Q4-6")
 		Connect("Q4-7")
 		Connect("Q4-8")
+		Connect("R35-1")
 		Connect("U4-6")
 	)
 	Net("MR" "(unknown)")
@@ -4682,6 +4718,7 @@ NetList()
 		Connect("Q5-6")
 		Connect("Q5-7")
 		Connect("Q5-8")
+		Connect("R35-2")
 		Connect("U7-6")
 	)
 	Net("Out_A" "(unknown)")
@@ -5000,6 +5037,7 @@ NetList()
 		Connect("Q6-6")
 		Connect("Q6-7")
 		Connect("Q6-8")
+		Connect("R34-1")
 	)
 	Net("unnamed_net34" "(unknown)")
 	(
@@ -5064,6 +5102,7 @@ NetList()
 	)
 	Net("unnamed_net45" "(unknown)")
 	(
+		Connect("LED2-2")
 		Connect("Q6-1")
 		Connect("Q6-2")
 		Connect("Q6-3")
@@ -5147,6 +5186,11 @@ NetList()
 	(
 		Connect("Q1-1")
 		Connect("R17-2")
+	)
+	Net("unnamed_net58" "(unknown)")
+	(
+		Connect("LED2-1")
+		Connect("R34-2")
 	)
 	Net("Vcc" "(unknown)")
 	(
