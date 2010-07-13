@@ -21,13 +21,13 @@ $DIMGAP
  40
 0.625
   9
-$DIMEXO
- 40
-0.625
-  9
 $INSUNITS
  70
 4
+  9
+$DIMEXO
+ 40
+0.625
   9
 $DIMTXT
  40
@@ -37,17 +37,21 @@ $DIMSTYLE
   2
 Standard
   9
+$PLIMMIN
+ 10
+0.0
+ 20
+0.0
+  9
 $PLIMMAX
  10
 210.0
  20
 297.0
   9
-$PLIMMIN
- 10
-0.0
- 20
-0.0
+$DIMEXE
+ 40
+1.25
   9
 $PINSBASE
  10
@@ -56,10 +60,6 @@ $PINSBASE
 84.0000000000000142
  30
 0.0
-  9
-$DIMEXE
- 40
-1.25
   0
 ENDSEC
   0
@@ -13983,9 +13983,9 @@ AcDbBlockReference
   6
 ByLayer
   2
-Side East
+Bottom
  10
-124.0
+50.0
  20
 30.0
  30
@@ -14007,11 +14007,11 @@ AcDbBlockReference
   6
 ByLayer
   2
-Side South
+Top
  10
-70.0
+25.0
  20
--21.0
+103.0
  30
 0.0
   0
@@ -14031,11 +14031,11 @@ AcDbBlockReference
   6
 ByLayer
   2
-Side West
+PCB Support
  10
--24.0000000000000036
+73.0
  20
-15.0000000000000018
+124.0
  30
 0.0
   0
@@ -14055,13 +14055,17 @@ AcDbBlockReference
   6
 ByLayer
   2
-Side North
+PCB Support
  10
-26.0
+83.0
  20
-86.0
+124.0
  30
 0.0
+ 44
+1.0
+ 45
+1.0
   0
 INSERT
   5
@@ -14079,11 +14083,11 @@ AcDbBlockReference
   6
 ByLayer
   2
-PCB Support
+Side South
  10
-2.0
+95.0
  20
-127.0
+-14.0
  30
 0.0
   0
@@ -14103,11 +14107,11 @@ AcDbBlockReference
   6
 ByLayer
   2
-Top
+Side West
  10
-50.0
+-18.0
  20
-150.0
+84.0
  30
 0.0
   0
@@ -14127,11 +14131,35 @@ AcDbBlockReference
   6
 ByLayer
   2
-Bottom
+Side East
  10
-50.0
+-44.0
  20
 30.0
+ 30
+0.0
+  0
+INSERT
+  5
+221
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+  2
+Side North
+ 10
+-27.0
+ 20
+-40.0
  30
 0.0
   0
@@ -14173,7 +14201,7 @@ E
   3
 AcDbVariableDictionary
 350
-221
+222
   0
 DICTIONARY
   5
@@ -14637,7 +14665,7 @@ Layout2
   0
 DICTIONARY
   5
-221
+222
 100
 AcDbDictionary
 281
@@ -14645,15 +14673,15 @@ AcDbDictionary
   3
 DIMASSOC
 350
-223
+224
   3
 HIDETEXT
 350
-222
+223
   0
 DICTIONARYVAR
   5
-222
+223
 100
 DictionaryVariables
 280
@@ -14663,7 +14691,7 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-223
+224
 100
 DictionaryVariables
 280
