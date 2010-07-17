@@ -1,0 +1,5 @@
+ - Ensure that the ground connection between the comparator circuit and the
+   'power' ground going into the reverse polarity FET is made directly to the
+   sense resistor. This is to prevent any voltage drop between the sense
+   resistor and the reverse polairty protection FET from affecting the current
+   limit.
