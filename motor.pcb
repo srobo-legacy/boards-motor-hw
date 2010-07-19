@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Mon Jul 19 17:44:57 2010
+# date:    Mon Jul 19 18:09:08 2010
 # user:    rbarlow (Richard Barlow)
 # host:    kneewax.ecs.soton.ac.uk
 
@@ -4452,6 +4452,26 @@ Layer(4 "solder-GND")
 )
 Layer(5 "outline")
 (
+	Line[0 0 47244 0 1000 2000 "clearline"]
+	Line[47244 0 55118 7874 1000 2000 "clearline"]
+	Line[55118 7874 62992 7874 1000 2000 "clearline"]
+	Line[62992 7874 70866 0 1000 2000 "clearline"]
+	Line[70866 0 236220 0 1000 2000 "clearline"]
+	Line[236220 0 236220 25592 1000 2000 "clearline"]
+	Line[236220 25592 228346 33465 1000 2000 "clearline"]
+	Line[228346 33465 228346 41339 1000 2000 "clearline"]
+	Line[228346 41339 236220 49213 1000 2000 "clearline"]
+	Line[236220 49213 236220 263780 1000 2000 "clearline"]
+	Line[236220 263780 129922 263780 1000 2000 "clearline"]
+	Line[129922 263780 122047 255906 1000 2000 "clearline"]
+	Line[122047 255906 114173 255906 1000 2000 "clearline"]
+	Line[114173 255906 106299 263780 1000 2000 "clearline"]
+	Line[106299 263780 0 263780 1000 2000 "clearline"]
+	Line[0 263780 0 222442 1000 2000 "clearline"]
+	Line[0 222442 7874 214567 1000 2000 "clearline"]
+	Line[7874 214567 7874 206693 1000 2000 "clearline"]
+	Line[7874 206693 0 198819 1000 2000 "clearline"]
+	Line[0 198819 0 0 1000 2000 "clearline"]
 )
 Layer(6 "silk")
 (
