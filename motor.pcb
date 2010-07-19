@@ -1,7 +1,7 @@
 # release: pcb 1.99z
-# date:    Sat Jul 17 12:30:28 2010
-# user:    richard (Richard Barlow)
-# host:    rich_pc
+# date:    Mon Jul 19 17:36:53 2010
+# user:    rbarlow (Richard Barlow)
+# host:    kneewax.ecs.soton.ac.uk
 
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20100606]
@@ -9,7 +9,7 @@ FileVersion[20100606]
 PCB["" 236220 263780]
 
 Grid[196.850388 0 0 1]
-Cursor[0 244095 0.000000]
+Cursor[0 19685 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[787 787 787 787 1969 787]
@@ -2542,7 +2542,7 @@ Element["" "sr_0603_led" "LED2" "sr-led-red-0603" 157319 155708 -4724 1969 0 78 
 
 	)
 
-Element["onsolder" "sr_0603" "R35" "sr-r-10k" 218504 103508 1968 -4331 1 100 "auto"]
+Element["onsolder" "sr_0603" "R35" "sr-r-10k" 218504 103508 -1 -14765 1 100 "auto"]
 (
 	Pad[-484 -2917 484 -2917 2831 1968 3815 "2" "2" "onsolder,square"]
 	Pad[-484 2917 484 2917 2831 1968 3815 "1" "1" "onsolder,square"]
@@ -2557,6 +2557,15 @@ Element["onsolder" "sr_0603" "C14" "sr-c-470n" 135988 151772 4366 -3170 1 100 "a
 	Pad[-2917 -484 -2917 484 2831 1968 3815 "1" "1" "onsolder,square"]
 	ElementLine [-787 1508 787 1508 787]
 	ElementLine [-787 -1508 787 -1508 787]
+
+	)
+
+Element["onsolder" "sr_0603" "C15" "sr-c-100n" 225394 103579 -393 -14137 1 100 "auto"]
+(
+	Pad[-484 -2917 484 -2917 2831 1968 3815 "2" "2" "onsolder,square"]
+	Pad[-484 2917 484 2917 2831 1968 3815 "1" "1" "onsolder,square"]
+	ElementLine [1508 -787 1508 787 787]
+	ElementLine [-1508 -787 -1508 787 787]
 
 	)
 Layer(1 "component")
@@ -4153,7 +4162,7 @@ Layer(2 "solder")
 	Line[218504 106425 218504 111061 1000 2000 "clearline"]
 	Line[218504 111061 218504 117560 1000 2000 ""]
 	Line[218504 117560 212005 117560 1000 2000 ""]
-	Line[215354 100591 221850 100591 1000 2000 ""]
+	Line[215354 100591 228544 100591 1000 2000 ""]
 	Line[218504 103346 218504 97835 1000 2000 ""]
 	Line[146811 121849 146811 117087 1000 2000 "clearline"]
 	Line[146811 117087 141929 112205 1000 2000 "clearline"]
@@ -4198,6 +4207,12 @@ Layer(2 "solder")
 	Line[122243 134251 122244 164173 787 1740 "clearline"]
 	Line[125197 148622 124408 149410 787 1740 "clearline"]
 	Line[142128 152165 146457 156494 2500 2000 ""]
+	Line[225394 106496 225393 111417 1000 2000 "clearline"]
+	Line[225394 115552 223229 117717 1000 2000 ""]
+	Line[223229 117717 212162 117717 1000 2000 ""]
+	Line[212162 117717 212005 117560 1000 2000 "clearline"]
+	Line[225393 111417 225394 115552 1000 2000 ""]
+	Line[225394 103418 225394 97907 1000 2000 ""]
 	Text[105315 6890 0 100 "BOTTOM" "auto"]
 	Text[5315 238384 0 166 "SR11.P1" "auto"]
 	Text[2559 226179 0 133 "Motor" "auto"]
@@ -4772,6 +4787,7 @@ NetList()
 	Net("ML" "(unknown)")
 	(
 		Connect("C11-2")
+		Connect("C15-1")
 		Connect("J2-1")
 		Connect("Q2-1")
 		Connect("Q2-2")
@@ -4786,6 +4802,7 @@ NetList()
 	Net("MR" "(unknown)")
 	(
 		Connect("C12-2")
+		Connect("C15-2")
 		Connect("J2-2")
 		Connect("Q3-1")
 		Connect("Q3-2")
