@@ -530,7 +530,7 @@ refdes=C11
 T 49000 47000 5 10 0 0 270 0 1
 symversion=0.1
 T 48600 46600 5 10 1 1 0 0 1
-value=sr-c-330n-0805
+value=sr-c-2u2-0805
 T 48100 47200 5 10 0 0 0 0 1
 footprint=0805
 }
@@ -543,7 +543,7 @@ refdes=C12
 T 49000 41000 5 10 0 0 270 0 1
 symversion=0.1
 T 48600 40600 5 10 1 1 0 0 1
-value=sr-c-330n-0805
+value=sr-c-2u2-0805
 T 48100 41200 5 10 0 0 0 0 1
 footprint=0805
 }
