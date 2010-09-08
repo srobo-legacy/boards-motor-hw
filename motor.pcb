@@ -1,7 +1,7 @@
 # release: pcb 1.99z
-# date:    Wed Sep  1 17:32:09 2010
+# date:    Wed Sep  8 18:35:55 2010
 # user:    rbarlow (Richard Barlow)
-# host:    kneewax.ecs.soton.ac.uk
+# host:    localhost.localdomain
 
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20100606]
@@ -3265,7 +3265,7 @@ Layer(1 "component")
 	Text[58661 61613 1 154 "OUT" ""]
 	Text[58860 122045 1 154 "IN" ""]
 	Text[99606 1572 0 122 "TOP" ""]
-	Text[62794 21063 0 188 "SR11.P2" ""]
+	Text[62794 21063 0 188 "SR11.F" ""]
 	Text[31496 10827 0 177 "Motor Controller" ""]
 	Text[76181 242914 0 155 "studentrobotics.org" ""]
 	Polygon("clearpoly")
@@ -4413,7 +4413,7 @@ Layer(3 "component-GND")
 	Polygon("clearpoly")
 	(
 		[66142 32087] [66142 41142] [114173 41142] [114173 9646] [110827 9646] 
-		[110827 21260] [103346 21260] [103346 32087] 
+		[110827 21260] [95472 21260] [95472 32087] 
 	)
 )
 Layer(4 "solder-GND")
