@@ -3,24 +3,26 @@ PCB=pcb
 GEDA_HIERPCB=sr geda-hierpcb
 PROJECTRC=projectrc
 
+BOARD=motor
+
 .PHONY: pcb photo bom clean
 
 pcb:
 	${GSCH2PCB} ${PROJECTRC}
 	${GEDA_HIERPCB} ${PROJECTRC}
 
-photo: motor-top.png motor-bottom.png
+photo: ${BOARD}-top.png ${BOARD}-bottom.png
 
-motor-top.png: motor.pcb
-	${PCB} -x png --dpi 600 --photo-mode --outfile motor-top.png motor.pcb
+${BOARD}-top.png: ${BOARD}.pcb
+	${PCB} -x png --dpi 600 --photo-mode --outfile $@ $<
 
-motor-bottom.png: motor.pcb
-	${PCB} -x png --dpi 600 --photo-mode --photo-flip-y --outfile motor-bottom.png motor.pcb
+${BOARD}-bottom.png: ${BOARD}.pcb
+	${PCB} -x png --dpi 600 --photo-mode --photo-flip-y --outfile $@ $<
 
 bom: bom.html
 
 bom.html: motor-logic.sch motor-power.sch
-	sr create_bom motor-logic.sch motor-power.sch bom.html
+	sr create_bom $< $@
 
 clean:
-	-rm -f motor-{top,bottom}.png motor.{net,cmd,new.pcb} bom.html
+	-rm -f ${BOARD}-{top,bottom}.png ${BOARD}.{net,cmd,new.pcb} bom.html
