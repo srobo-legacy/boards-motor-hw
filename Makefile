@@ -14,15 +14,15 @@ pcb:
 photo: ${BOARD}-top.png ${BOARD}-bottom.png
 
 ${BOARD}-top.png: ${BOARD}.pcb
-	${PCB} -x png --dpi 600 --photo-mode --outfile $@ $<
+	${PCB} -x png --dpi 600 --photo-mode --outfile $@ $^
 
 ${BOARD}-bottom.png: ${BOARD}.pcb
-	${PCB} -x png --dpi 600 --photo-mode --photo-flip-y --outfile $@ $<
+	${PCB} -x png --dpi 600 --photo-mode --photo-flip-y --outfile $@ $^
 
 bom: bom.html
 
 bom.html: motor-logic.sch motor-power.sch
-	sr create_bom $< $@
+	sr create_bom $^ $@
 
 clean:
 	-rm -f ${BOARD}-{top,bottom}.png ${BOARD}.{net,cmd,new.pcb} bom.html
