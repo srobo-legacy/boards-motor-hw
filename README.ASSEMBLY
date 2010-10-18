@@ -1,0 +1,4 @@
+- The silk on the board for the PLCC2 LEDs does not indicate the polarity.
+  Refer to the silk layer in the gerbers to check the polarity, the notch
+  on the corner of the silk corresponds with the notch on the corner of
+  the LED.
