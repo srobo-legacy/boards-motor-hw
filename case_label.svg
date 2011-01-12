@@ -1181,6 +1181,20 @@
        inkscape:vp_y="0 : 1000 : 0"
        inkscape:vp_x="0 : 196.47949 : 1"
        sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4541"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4704"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1189,9 +1203,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="127.20399"
-     inkscape:cy="111.1134"
+     inkscape:zoom="1.694413"
+     inkscape:cx="94.028538"
+     inkscape:cy="110.61703"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
      showgrid="true"
@@ -1199,7 +1213,8 @@
      inkscape:window-height="729"
      inkscape:window-x="0"
      inkscape:window-y="25"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="1"
+     borderlayer="false">
     <inkscape:grid
        type="xygrid"
        id="grid11762"
@@ -1229,9 +1244,25 @@
      inkscape:label="label"
      style="display:inline"
      transform="translate(-137.68898,-61.406731)">
+    <rect
+       ry="7.0866141"
+       y="65.6688"
+       x="202.72044"
+       height="17.716534"
+       width="62.007874"
+       id="rect5576"
+       style="fill:#253571;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#253571;fill-opacity:1;stroke:none"
+       id="rect5578"
+       width="83.267715"
+       height="17.716534"
+       x="277.82715"
+       y="65.6688"
+       ry="7.0866141" />
     <text
        xml:space="preserve"
-       style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       style="font-size:20px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
        x="207.03346"
        y="79.62326"
        id="text3346"><tspan
@@ -1239,12 +1270,20 @@
          id="tspan3348"
          x="207.03346"
          y="79.62326"
-         style="font-size:14px">MOTOR</tspan></text>
+         style="font-size:14px;fill:#ffffff">MOTOR</tspan></text>
+    <rect
+       style="fill:#253571;fill-opacity:1;stroke:none"
+       id="rect4730"
+       width="17.716536"
+       height="62.007874"
+       x="141.45107"
+       y="114.07785"
+       ry="7.0866141" />
     <text
        id="text3350"
        y="155.40552"
        x="-171.49927"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
        xml:space="preserve"
        transform="matrix(0,-1,1,0,0,0)"
        sodipodi:linespacing="125%"><tspan
@@ -1252,10 +1291,18 @@
          x="-171.49927"
          id="tspan3352"
          sodipodi:role="line">POWER</tspan></text>
+    <rect
+       style="fill:#253571;fill-opacity:1;stroke:none"
+       id="rect5584"
+       width="42.519695"
+       height="17.716545"
+       x="203.07664"
+       y="231.76669"
+       ry="7.0866189" />
     <text
        transform="scale(-1,-1)"
        xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
        x="-240.69489"
        y="-235.52878"
        id="text3354"
@@ -1264,11 +1311,19 @@
          id="tspan3356"
          x="-240.69489"
          y="-235.52878">SRIC</tspan></text>
+    <rect
+       ry="7.0866189"
+       y="253.03336"
+       x="239.59489"
+       height="17.716545"
+       width="26.574795"
+       id="rect5582"
+       style="fill:#253571;fill-opacity:1;stroke:none" />
     <text
        id="text3358"
        y="-256.7886"
        x="-260.18307"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
        xml:space="preserve"
        transform="scale(-1,-1)"
        sodipodi:linespacing="125%"><tspan
@@ -1276,10 +1331,18 @@
          x="-260.18307"
          id="tspan3360"
          sodipodi:role="line">IN</tspan></text>
+    <rect
+       style="fill:#253571;fill-opacity:1;stroke:none"
+       id="rect5580"
+       width="38.976376"
+       height="17.716545"
+       x="173.99075"
+       y="253.02652"
+       ry="7.0866189" />
     <text
        transform="scale(-1,-1)"
        xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
        x="-208.80511"
        y="-256.7886"
        id="text3362"
@@ -1292,13 +1355,13 @@
        id="text3366"
        y="79.62326"
        x="281.44293"
-       style="font-size:20px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       style="font-size:20px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
        xml:space="preserve"><tspan
          y="79.62326"
          x="281.44293"
          id="tspan3368"
          sodipodi:role="line"
-         style="font-size:14px">FEEDBACK</tspan></text>
+         style="font-size:14px;fill:#ffffff">FEEDBACK</tspan></text>
     <g
        id="g5694"
        transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,146.23392,-94.017845)">
