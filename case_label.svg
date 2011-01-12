@@ -1404,5 +1404,29 @@
          inkscape:label="2"
          id="layer2-1" />
     </g>
+    <g
+       transform="matrix(0,-1,1,0,-836.72048,483.08414)"
+       id="g3036">
+      <text
+         id="text3038"
+         y="1009.8425"
+         x="311.81104"
+         style="font-size:16px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="1009.8425"
+           x="311.81104"
+           id="tspan3040"
+           sodipodi:role="line">−</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:16px;font-style:normal;font-weight:normal;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         x="350.78741"
+         y="1009.8425"
+         id="text3042"><tspan
+           id="tspan3044"
+           sodipodi:role="line"
+           x="350.78741"
+           y="1009.8425">+</tspan></text>
+    </g>
   </g>
 </svg>
