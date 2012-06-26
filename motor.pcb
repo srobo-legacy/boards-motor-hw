@@ -6,7 +6,7 @@ FileVersion[20100606]
 PCB["" 2362.20mil 2637.80mil]
 
 Grid[196.850394 0.0000 0.0000 1]
-Cursor[23.1000mm 54.8000mm 0.000000]
+Cursor[19.3000mm 5.7000mm 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[7.87mil 7.87mil 7.87mil 7.87mil 19.69mil 7.87mil]
@@ -796,6 +796,8 @@ Symbol['~' 12.00mil]
 )
 Attribute("PCB::grid::unit" "mm")
 Attribute("PCB::grid::size" "0.0500mm")
+Attribute("import::src0" "motor-logic.sch")
+Attribute("import::src1" "motor-power.sch")
 Via[51.2000mm 40.2496mm 36.00mil 15.74mil 0.0000 20.00mil "" ""]
 Via[52.3999mm 811.01mil 36.00mil 19.74mil 0.0000 20.00mil "" ""]
 Via[43.5000mm 40.0500mm 36.00mil 15.74mil 0.0000 20.00mil "" ""]
@@ -913,8 +915,13 @@ Via[17.0500mm 982.28mil 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0S,1S)"]
 Via[17.0500mm 929.13mil 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0S,1S)"]
 Via[17.0500mm 875.98mil 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(0S,1S)"]
 
-Element["" "1812" "F100" "sr-fuse-r200-1812" 401.57mil 56.4688mm -53.89mil -177.92mil 0 100 ""]
+Element["" "1812" "F100" "sr-nothing" 401.57mil 56.4688mm -53.89mil -177.92mil 0 100 ""]
 (
+	Attribute("device" "RESETTABLE_FUSE")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-30.00mil 77.52mil 29.61mil 77.52mil 75.00mil 19.68mil 84.84mil "2" "2" "square"]
 	Pad[-30.00mil -77.52mil 30.00mil -77.52mil 75.00mil 19.68mil 84.84mil "1" "1" "square"]
 	ElementLine [63.58mil -32.13mil 63.58mil 32.13mil 7.87mil]
@@ -922,8 +929,13 @@ Element["" "1812" "F100" "sr-fuse-r200-1812" 401.57mil 56.4688mm -53.89mil -177.
 
 	)
 
-Element["onsolder" "1206" "R104" "sr-r-100-1206" 52.4500mm 54.4995mm -322.83mil -277.56mil 1 78 "auto"]
+Element["onsolder" "1206" "R104" "sr-nothing" 52.4500mm 54.4995mm -322.83mil -277.56mil 1 78 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-11.81mil 59.05mil 11.81mil 59.05mil 51.18mil 20.00mil 61.18mil "1" "1" "onsolder,square"]
 	Pad[-11.81mil -59.05mil 11.81mil -59.05mil 51.18mil 20.00mil 61.18mil "2" "2" "onsolder,square"]
 	ElementLine [-37.40mil -23.62mil -37.40mil 23.62mil 8.00mil]
@@ -933,6 +945,11 @@ Element["onsolder" "1206" "R104" "sr-r-100-1206" 52.4500mm 54.4995mm -322.83mil 
 
 Element["" "0805" "C12" "sr-c-2u2-0805" 49.5000mm 708.65mil 157.48mil -31.49mil 0 89 ""]
 (
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 51.18mil 20.00mil 61.18mil "1" "1" "square"]
 	Pad[35.43mil -3.93mil 35.43mil 3.93mil 51.18mil 20.00mil 61.18mil "2" "2" "square"]
 	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
@@ -942,6 +959,11 @@ Element["" "0805" "C12" "sr-c-2u2-0805" 49.5000mm 708.65mil 157.48mil -31.49mil 
 
 Element["" "0805" "C11" "sr-c-2u2-0805" 47.1000mm 1368.10mil 75.59mil -27.56mil 0 89 ""]
 (
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 51.18mil 20.00mil 61.18mil "1" "1" "square"]
 	Pad[35.43mil -3.93mil 35.43mil 3.93mil 51.18mil 20.00mil 61.18mil "2" "2" "square"]
 	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
@@ -949,8 +971,13 @@ Element["" "0805" "C11" "sr-c-2u2-0805" 47.1000mm 1368.10mil 75.59mil -27.56mil 
 
 	)
 
-Element["onsolder" "TSSOP16" "U100" "sr-ic-sn65lvds051" 34.8999mm 57.1998mm 41.04mil -109.30mil 0 100 "auto"]
+Element["onsolder" "TSSOP16" "U100" "sr-nothing" 34.8999mm 57.1998mm 41.04mil -109.30mil 0 100 "auto"]
 (
+	Attribute("device" "SN65LVDS051")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[93.11mil -89.56mil 139.17mil -89.56mil 12.99mil 15.76mil 22.99mil "B" "1" "onsolder,square,edge2"]
 	Pad[93.11mil -63.97mil 139.17mil -63.97mil 12.99mil 15.76mil 22.99mil "A" "2" "onsolder,square,edge2"]
 	Pad[93.11mil -38.38mil 139.17mil -38.38mil 12.99mil 15.76mil 22.99mil "R" "3" "onsolder,square,edge2"]
@@ -978,6 +1005,11 @@ Element["onsolder" "TSSOP16" "U100" "sr-ic-sn65lvds051" 34.8999mm 57.1998mm 41.0
 
 Element["" "PLCC2" "LED1" "sr-led-green-plcc2" 36.5115mm 411.42mil -54.50mil 62.96mil 0 100 ""]
 (
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-58.60mil -21.18mil -58.60mil 21.18mil 60.00mil 20.00mil 70.00mil "K" "2" "square"]
 	Pad[58.60mil -21.18mil 58.60mil 21.18mil 60.00mil 20.00mil 70.00mil "A" "1" "square"]
 	ElementLine [-66.90mil -39.00mil -66.90mil 59.00mil 10.00mil]
@@ -991,6 +1023,11 @@ Element["" "PLCC2" "LED1" "sr-led-green-plcc2" 36.5115mm 411.42mil -54.50mil 62.
 
 Element["" "SOD80" "D4" "sr-d-ll4448" 45.6999mm 693.81mil -113.12mil -28.46mil 1 89 ""]
 (
+	Attribute("device" "DIODE")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-16.00mil 58.00mil 16.00mil 58.00mil 53.00mil 20.00mil 63.00mil "1" "1" "square"]
 	Pad[-16.00mil -58.00mil 16.00mil -58.00mil 53.00mil 20.00mil 63.00mil "2" "2" "square"]
 	ElementLine [-43.00mil 106.00mil 43.00mil 106.00mil 20.00mil]
@@ -1004,6 +1041,11 @@ Element["" "SOD80" "D4" "sr-d-ll4448" 45.6999mm 693.81mil -113.12mil -28.46mil 1
 
 Element["" "SOD80" "D3" "sr-d-ll4448" 48.9267mm 37.2496mm -75.86mil 57.99mil 0 100 ""]
 (
+	Attribute("device" "DIODE")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-58.00mil -16.00mil -58.00mil 16.00mil 53.00mil 20.00mil 63.00mil "1" "1" "square"]
 	Pad[58.00mil -16.00mil 58.00mil 16.00mil 53.00mil 20.00mil 63.00mil "2" "2" "square"]
 	ElementLine [-106.00mil -43.00mil -106.00mil 43.00mil 20.00mil]
@@ -1017,6 +1059,11 @@ Element["" "SOD80" "D3" "sr-d-ll4448" 48.9267mm 37.2496mm -75.86mil 57.99mil 0 1
 
 Element["" "OPTO4" "U3" "sr-ic-hcpl-817" 34.5788mm 30.5196mm -302.48mil -44.92mil 1 100 ""]
 (
+	Attribute("device" "HCPL-817")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-188.00mil -50.00mil -168.00mil -50.00mil 74.00mil 15.76mil 84.00mil "1" "1" "square"]
 	Pad[-188.00mil 50.00mil -168.00mil 50.00mil 74.00mil 15.76mil 84.00mil "2" "2" "square"]
 	Pad[168.00mil 50.00mil 188.00mil 50.00mil 74.00mil 15.76mil 84.00mil "3" "3" "square,edge2"]
@@ -1032,6 +1079,11 @@ Element["" "OPTO4" "U3" "sr-ic-hcpl-817" 34.5788mm 30.5196mm -302.48mil -44.92mi
 
 Element["" "SO8" "U4" "sr-ic-fan7380" 47.0964mm 30.9547mm 123.70mil -144.65mil 0 78 ""]
 (
+	Attribute("device" "FAN7380")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-135.00mil -75.00mil -70.00mil -75.00mil 20.00mil 15.76mil 30.00mil "Lin" "1" "square"]
 	Pad[-135.00mil -25.00mil -70.00mil -25.00mil 20.00mil 15.76mil 30.00mil "Hin" "2" "square"]
 	Pad[-135.00mil 25.00mil -70.00mil 25.00mil 20.00mil 15.76mil 30.00mil "Vcc" "3" "square"]
@@ -1051,6 +1103,11 @@ Element["" "SO8" "U4" "sr-ic-fan7380" 47.0964mm 30.9547mm 123.70mil -144.65mil 0
 
 Element["" "SO8" "U7" "sr-ic-fan7380" 47.0964mm 927.35mil -161.73mil -146.61mil 0 78 ""]
 (
+	Attribute("device" "FAN7380")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-135.00mil -75.00mil -70.00mil -75.00mil 20.00mil 15.76mil 30.00mil "Lin" "1" "square"]
 	Pad[-135.00mil -25.00mil -70.00mil -25.00mil 20.00mil 15.76mil 30.00mil "Hin" "2" "square"]
 	Pad[-135.00mil 25.00mil -70.00mil 25.00mil 20.00mil 15.76mil 30.00mil "Vcc" "3" "square"]
@@ -1070,6 +1127,11 @@ Element["" "SO8" "U7" "sr-ic-fan7380" 47.0964mm 927.35mil -161.73mil -146.61mil 
 
 Element["" "PLCC2" "LED105" "sr-led-yellow-plcc2" 57.7499mm 36.4381mm -68.92mil 96.85mil 0 78 ""]
 (
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-21.18mil -58.60mil 21.18mil -58.60mil 60.00mil 20.00mil 70.00mil "K" "2" "square"]
 	Pad[-21.18mil 58.60mil 21.18mil 58.60mil 60.00mil 20.00mil 70.00mil "A" "1" "square"]
 	ElementLine [-59.00mil -66.90mil 39.00mil -66.90mil 10.00mil]
@@ -1083,6 +1145,11 @@ Element["" "PLCC2" "LED105" "sr-led-yellow-plcc2" 57.7499mm 36.4381mm -68.92mil 
 
 Element["" "PLCC2" "LED101" "sr-led-red-plcc2" 36.0500mm 49.4612mm -116.20mil 72.23mil 1 89 ""]
 (
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-21.18mil 58.60mil 21.18mil 58.60mil 60.00mil 20.00mil 70.00mil "K" "2" "square"]
 	Pad[-21.18mil -58.60mil 21.18mil -58.60mil 60.00mil 20.00mil 70.00mil "A" "1" "square"]
 	ElementLine [-39.00mil 66.90mil 59.00mil 66.90mil 10.00mil]
@@ -1096,6 +1163,11 @@ Element["" "PLCC2" "LED101" "sr-led-red-plcc2" 36.0500mm 49.4612mm -116.20mil 72
 
 Element["" "camcon2" "J2" "sr-cn-camcon2w" 53.8493mm 26.1102mm 105.92mil -356.72mil 0 89 ""]
 (
+	Attribute("device" "CONNECTOR_2")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 147.64mil 126.00mil 20.00mil 136.00mil 60.00mil "1" "1" "thermal(1S)"]
 	Pin[0.0000 -147.64mil 126.00mil 20.00mil 136.00mil 60.00mil "2" "2" "thermal(1S)"]
 	ElementLine [-2.0000mm -295.28mil 236.22mil -295.28mil 10.00mil]
@@ -1106,6 +1178,11 @@ Element["" "camcon2" "J2" "sr-cn-camcon2w" 53.8493mm 26.1102mm 105.92mil -356.72
 
 Element["" "OPTO4" "U6" "sr-ic-hcpl-817" 34.5788mm 768.49mil -302.48mil -40.97mil 1 100 ""]
 (
+	Attribute("device" "HCPL-817")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-188.00mil -50.00mil -168.00mil -50.00mil 74.00mil 15.76mil 84.00mil "1" "1" "square"]
 	Pad[-188.00mil 50.00mil -168.00mil 50.00mil 74.00mil 15.76mil 84.00mil "2" "2" "square"]
 	Pad[168.00mil 50.00mil 188.00mil 50.00mil 74.00mil 15.76mil 84.00mil "3" "3" "square,edge2"]
@@ -1121,6 +1198,11 @@ Element["" "OPTO4" "U6" "sr-ic-hcpl-817" 34.5788mm 768.49mil -302.48mil -40.97mi
 
 Element["" "OPTO4" "U5" "sr-ic-hcpl-817" 34.5788mm 985.03mil -302.47mil -42.95mil 1 100 ""]
 (
+	Attribute("device" "HCPL-817")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-188.00mil -50.00mil -168.00mil -50.00mil 74.00mil 15.76mil 84.00mil "1" "1" "square"]
 	Pad[-188.00mil 50.00mil -168.00mil 50.00mil 74.00mil 15.76mil 84.00mil "2" "2" "square"]
 	Pad[168.00mil 50.00mil 188.00mil 50.00mil 74.00mil 15.76mil 84.00mil "3" "3" "square,edge2"]
@@ -1134,8 +1216,13 @@ Element["" "OPTO4" "U5" "sr-ic-hcpl-817" 34.5788mm 985.03mil -302.47mil -42.95mi
 
 	)
 
-Element["onsolder" "1206" "R110" "sr-r-100-1206" 56.5498mm 52.4998mm -47.24mil -11.4000mm 0 100 "auto"]
+Element["onsolder" "1206" "R110" "sr-nothing" 56.5498mm 52.4998mm -47.24mil -11.4000mm 0 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 61.18mil "1" "1" "onsolder,square"]
 	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 61.18mil "2" "2" "onsolder,square"]
 	ElementLine [-23.62mil -37.40mil 23.62mil -37.40mil 8.00mil]
@@ -1145,6 +1232,11 @@ Element["onsolder" "1206" "R110" "sr-r-100-1206" 56.5498mm 52.4998mm -47.24mil -
 
 Element["" "PLCC2" "LED102" "sr-led-yellow-plcc2" 36.0500mm 54.8381mm -116.05mil 81.16mil 1 89 ""]
 (
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-21.18mil -58.60mil 21.18mil -58.60mil 60.00mil 20.00mil 70.00mil "K" "2" "square"]
 	Pad[-21.18mil 58.60mil 21.18mil 58.60mil 60.00mil 20.00mil 70.00mil "A" "1" "square"]
 	ElementLine [-59.00mil -66.90mil 39.00mil -66.90mil 10.00mil]
@@ -1158,6 +1250,11 @@ Element["" "PLCC2" "LED102" "sr-led-yellow-plcc2" 36.0500mm 54.8381mm -116.05mil
 
 Element["" "camcon2" "J1" "sr-cn-camcon2w" 36.5501mm 6.1501mm -9.0998mm 69.66mil 1 100 ""]
 (
+	Attribute("device" "CONNECTOR_2")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pin[147.64mil 0.0000 126.00mil 20.00mil 136.00mil 60.00mil "1" "1" "edge2"]
 	Pin[-147.64mil 0.0000 126.00mil 20.00mil 136.00mil 60.00mil "2" "2" "edge2"]
 	ElementLine [-295.28mil -236.22mil -295.28mil 2.0000mm 10.00mil]
@@ -1166,8 +1263,13 @@ Element["" "camcon2" "J1" "sr-cn-camcon2w" 36.5501mm 6.1501mm -9.0998mm 69.66mil
 
 	)
 
-Element["onsolder" "1206" "R111" "sr-r-100-1206" 52.4500mm 49.5999mm -324.82mil -196.88mil 1 78 "auto"]
+Element["onsolder" "1206" "R111" "sr-nothing" 52.4500mm 49.5999mm -324.82mil -196.88mil 1 78 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-11.81mil 59.05mil 11.81mil 59.05mil 51.18mil 20.00mil 61.18mil "1" "1" "onsolder,square"]
 	Pad[-11.81mil -59.05mil 11.81mil -59.05mil 51.18mil 20.00mil 61.18mil "2" "2" "onsolder,square"]
 	ElementLine [-37.40mil -23.62mil -37.40mil 23.62mil 8.00mil]
@@ -1177,6 +1279,11 @@ Element["onsolder" "1206" "R111" "sr-r-100-1206" 52.4500mm 49.5999mm -324.82mil 
 
 Element["" "OPTO4" "U2" "sr-ic-hcpl-817" 34.5788mm 1418.10mil -304.44mil -39.02mil 1 100 ""]
 (
+	Attribute("device" "HCPL-817")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-188.00mil -50.00mil -168.00mil -50.00mil 74.00mil 15.76mil 84.00mil "1" "1" "square"]
 	Pad[-188.00mil 50.00mil -168.00mil 50.00mil 74.00mil 15.76mil 84.00mil "2" "2" "square"]
 	Pad[168.00mil 50.00mil 188.00mil 50.00mil 74.00mil 15.76mil 84.00mil "3" "3" "square,edge2"]
@@ -1192,6 +1299,11 @@ Element["" "OPTO4" "U2" "sr-ic-hcpl-817" 34.5788mm 1418.10mil -304.44mil -39.02m
 
 Element["" "PLCC2" "LED104" "sr-led-red-plcc2" 53.9499mm 36.4381mm -96.48mil 96.83mil 0 78 ""]
 (
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-21.18mil -58.60mil 21.18mil -58.60mil 60.00mil 20.00mil 70.00mil "K" "2" "square"]
 	Pad[-21.18mil 58.60mil 21.18mil 58.60mil 60.00mil 20.00mil 70.00mil "A" "1" "square"]
 	ElementLine [-59.00mil -66.90mil 39.00mil -66.90mil 10.00mil]
@@ -1205,6 +1317,11 @@ Element["" "PLCC2" "LED104" "sr-led-red-plcc2" 53.9499mm 36.4381mm -96.48mil 96.
 
 Element["onsolder" "SO8" "Q6" "sr-nothing" 39.1950mm 33.5531mm -152.52mil -149.92mil 1 89 "auto"]
 (
+	Attribute("device" "NMOS_TRANSISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-75.00mil -135.00mil -75.00mil -70.00mil 20.00mil 10.00mil 30.00mil "S" "1" "onsolder,square"]
 	Pad[-25.00mil -135.00mil -25.00mil -70.00mil 20.00mil 10.00mil 30.00mil "S" "2" "onsolder,square"]
 	Pad[25.00mil -135.00mil 25.00mil -70.00mil 20.00mil 10.00mil 30.00mil "S" "3" "onsolder,square"]
@@ -1224,6 +1341,11 @@ Element["onsolder" "SO8" "Q6" "sr-nothing" 39.1950mm 33.5531mm -152.52mil -149.9
 
 Element["onsolder" "0805" "C13" "sr-nothing" 35.9499mm 864.17mil -37.39mil -62.98mil 0 89 "auto"]
 (
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-3.93mil 35.43mil 3.93mil 35.43mil 51.18mil 20.00mil 61.18mil "1" "1" "onsolder,square"]
 	Pad[-3.93mil -35.43mil 3.93mil -35.43mil 51.18mil 20.00mil 61.18mil "2" "2" "onsolder,square"]
 	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
@@ -1233,6 +1355,11 @@ Element["onsolder" "0805" "C13" "sr-nothing" 35.9499mm 864.17mil -37.39mil -62.9
 
 Element["onsolder" "SOT23" "D2" "sr-nothing" 32.4500mm 32.8808mm 45.52mil 85.12mil 0 89 "auto"]
 (
+	Attribute("device" "VOLTAGE_REF")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-3.00mil 0.0000 3.00mil 0.0000 34.00mil 30.00mil 44.00mil "K" "1" "onsolder,square"]
 	Pad[-3.00mil -78.00mil 3.00mil -78.00mil 34.00mil 30.00mil 44.00mil "ref" "2" "onsolder,square"]
 	Pad[79.00mil -39.00mil 85.00mil -39.00mil 34.00mil 22.00mil 44.00mil "A" "3" "onsolder,square,edge2"]
@@ -1245,6 +1372,11 @@ Element["onsolder" "SOT23" "D2" "sr-nothing" 32.4500mm 32.8808mm 45.52mil 85.12m
 
 Element["onsolder" "TSSOP14" "U1" "sr-nothing" 34.4993mm 1738.20mil -153.86mil -97.49mil 0 78 "auto"]
 (
+	Attribute("device" "LM339")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-139.17mil 76.77mil -93.11mil 76.77mil 12.99mil 15.76mil 22.99mil "1" "1" "onsolder,square"]
 	Pad[-139.17mil 51.18mil -93.11mil 51.18mil 12.99mil 15.76mil 22.99mil "2" "2" "onsolder,square"]
 	Pad[-139.17mil 25.59mil -93.11mil 25.59mil 12.99mil 15.76mil 22.99mil "3" "3" "onsolder,square"]
@@ -1270,6 +1402,11 @@ Element["onsolder" "TSSOP14" "U1" "sr-nothing" 34.4993mm 1738.20mil -153.86mil -
 
 Element["" "TSSOP38" "U101" "sr-ic-msp430f2254" 875.98mil 53.1993mm -120.08mil 253.95mil 0 78 ""]
 (
+	Attribute("device" "MSP430F22x4")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[130.91mil 230.31mil 4.1750mm 230.31mil 11.81mil 15.76mil 21.81mil "TEST/SBWTCK" "1" "square,edge2"]
 	Pad[130.91mil 204.72mil 4.1750mm 204.72mil 11.81mil 15.76mil 21.81mil "DVCC" "2" "square,edge2"]
 	Pad[130.91mil 4.5499mm 4.1750mm 4.5499mm 11.81mil 15.76mil 21.81mil "P2.5/Rosc" "3" "square,edge2"]
@@ -1318,6 +1455,11 @@ Element["" "TSSOP38" "U101" "sr-ic-msp430f2254" 875.98mil 53.1993mm -120.08mil 2
 
 Element["onsolder" "SOT23" "Q1" "sr-nothing" 33.3408mm 25.5826mm -172.23mil -21.41mil 1 100 "auto"]
 (
+	Attribute("device" "NMOS_TRANSISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -3.00mil 0.0000 3.00mil 34.00mil 30.00mil 44.00mil "G" "1" "onsolder,square,edge2"]
 	Pad[-78.00mil -3.00mil -78.00mil 3.00mil 34.00mil 30.00mil 44.00mil "S" "2" "onsolder,square,edge2"]
 	Pad[-39.00mil -85.00mil -39.00mil -79.00mil 34.00mil 30.00mil 44.00mil "D" "3" "onsolder,square"]
@@ -1330,6 +1472,11 @@ Element["onsolder" "SOT23" "Q1" "sr-nothing" 33.3408mm 25.5826mm -172.23mil -21.
 
 Element["onsolder" "DO214AC" "D1" "sr-d-smaj16a" 39.1500mm 10.0500mm -127.96mil 120.61mil 0 89 "auto"]
 (
+	Attribute("device" "TVS")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[66.93mil 0.0000 102.36mil 0.0000 68.90mil 20.00mil 78.90mil "1" "1" "onsolder,square,edge2"]
 	Pad[-102.36mil 0.0000 -66.93mil 0.0000 68.90mil 20.00mil 78.90mil "2" "2" "onsolder,square"]
 	ElementLine [156.50mil -42.06mil 156.50mil 42.06mil 20.00mil]
@@ -1343,6 +1490,11 @@ Element["onsolder" "DO214AC" "D1" "sr-d-smaj16a" 39.1500mm 10.0500mm -127.96mil 
 
 Element["onsolder" "2512" "R30" "sr-nothing" 39.5999mm 965.53mil 74.80mil -35.41mil 1 89 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-35.43mil 128.94mil 35.43mil 128.94mil 70.87mil 20.00mil 80.87mil "1" "1" "onsolder,square"]
 	Pad[-35.43mil -128.94mil 35.43mil -128.94mil 70.87mil 20.00mil 80.87mil "2" "2" "onsolder,square"]
 	ElementLine [68.87mil -86.61mil 68.87mil 86.61mil 8.00mil]
@@ -1352,6 +1504,11 @@ Element["onsolder" "2512" "R30" "sr-nothing" 39.5999mm 965.53mil 74.80mil -35.41
 
 Element["onsolder" "SO8" "Q3" "sr-fet-n-irf8721" 47.8965mm 804.91mil 171.21mil -41.97mil 0 89 "auto"]
 (
+	Attribute("device" "NMOS_TRANSISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[70.00mil -75.00mil 135.00mil -75.00mil 20.00mil 15.76mil 30.00mil "S" "1" "onsolder,square,edge2"]
 	Pad[70.00mil -25.00mil 135.00mil -25.00mil 20.00mil 15.76mil 30.00mil "S" "2" "onsolder,square,edge2"]
 	Pad[70.00mil 25.00mil 135.00mil 25.00mil 20.00mil 15.76mil 30.00mil "S" "3" "onsolder,square,edge2"]
@@ -1371,6 +1528,11 @@ Element["onsolder" "SO8" "Q3" "sr-fet-n-irf8721" 47.8965mm 804.91mil 171.21mil -
 
 Element["onsolder" "SO8" "Q5" "sr-fet-n-irf8721" 47.8965mm 25.7447mm 170.95mil 6.84mil 0 89 "auto"]
 (
+	Attribute("device" "NMOS_TRANSISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-135.00mil 75.00mil -70.00mil 75.00mil 20.00mil 10.00mil 30.00mil "S" "1" "onsolder,square"]
 	Pad[-135.00mil 25.00mil -70.00mil 25.00mil 20.00mil 10.00mil 30.00mil "S" "2" "onsolder,square"]
 	Pad[-135.00mil -25.00mil -70.00mil -25.00mil 20.00mil 10.00mil 30.00mil "S" "3" "onsolder,square"]
@@ -1390,6 +1552,11 @@ Element["onsolder" "SO8" "Q5" "sr-fet-n-irf8721" 47.8965mm 25.7447mm 170.95mil 6
 
 Element["onsolder" "SO8" "Q7" "sr-fet-n-irf8721" 36.8084mm 623.62mil -227.35mil -41.60mil 0 89 "auto"]
 (
+	Attribute("device" "NMOS_TRANSISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[70.00mil -75.00mil 135.00mil -75.00mil 20.00mil 15.76mil 30.00mil "S" "1" "onsolder,square,edge2"]
 	Pad[70.00mil -25.00mil 135.00mil -25.00mil 20.00mil 15.76mil 30.00mil "S" "2" "onsolder,square,edge2"]
 	Pad[70.00mil 25.00mil 135.00mil 25.00mil 20.00mil 15.76mil 30.00mil "S" "3" "onsolder,square,edge2"]
@@ -1409,6 +1576,11 @@ Element["onsolder" "SO8" "Q7" "sr-fet-n-irf8721" 36.8084mm 623.62mil -227.35mil 
 
 Element["onsolder" "SO8" "Q4" "sr-fet-n-irf8721" 47.8965mm 37.0446mm 170.95mil 93.45mil 0 89 "auto"]
 (
+	Attribute("device" "NMOS_TRANSISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-135.00mil 75.00mil -70.00mil 75.00mil 20.00mil 10.00mil 30.00mil "S" "1" "onsolder,square"]
 	Pad[-135.00mil 25.00mil -70.00mil 25.00mil 20.00mil 10.00mil 30.00mil "S" "2" "onsolder,square"]
 	Pad[-135.00mil -25.00mil -70.00mil -25.00mil 20.00mil 10.00mil 30.00mil "S" "3" "onsolder,square"]
@@ -1428,6 +1600,11 @@ Element["onsolder" "SO8" "Q4" "sr-fet-n-irf8721" 47.8965mm 37.0446mm 170.95mil 9
 
 Element["onsolder" "SO8" "Q2" "sr-fet-n-irf8721" 47.8965mm 31.7447mm 171.21mil 91.89mil 0 89 "auto"]
 (
+	Attribute("device" "NMOS_TRANSISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[70.00mil -75.00mil 135.00mil -75.00mil 20.00mil 15.76mil 30.00mil "S" "1" "onsolder,square,edge2"]
 	Pad[70.00mil -25.00mil 135.00mil -25.00mil 20.00mil 15.76mil 30.00mil "S" "2" "onsolder,square,edge2"]
 	Pad[70.00mil 25.00mil 135.00mil 25.00mil 20.00mil 15.76mil 30.00mil "S" "3" "onsolder,square,edge2"]
@@ -1447,6 +1624,11 @@ Element["onsolder" "SO8" "Q2" "sr-fet-n-irf8721" 47.8965mm 31.7447mm 171.21mil 9
 
 Element["" "0805" "C100" "sr-c-2u2-0805" 28.1000mm 50.1995mm 35.42mil 53.15mil 1 89 ""]
 (
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-3.93mil -35.43mil 3.93mil -35.43mil 51.18mil 20.00mil 61.18mil "1" "1" "square"]
 	Pad[-3.93mil 35.43mil 3.93mil 35.43mil 51.18mil 20.00mil 61.18mil "2" "2" "square"]
 	ElementLine [27.55mil 3.93mil 27.55mil -3.93mil 8.00mil]
@@ -1454,8 +1636,13 @@ Element["" "0805" "C100" "sr-c-2u2-0805" 28.1000mm 50.1995mm 35.42mil 53.15mil 1
 
 	)
 
-Element["onsolder" "1206" "F101" "sr-fuse-r50-1206" 46.2999mm 58.7995mm -51.18mil 96.46mil 0 100 "auto"]
+Element["onsolder" "1206" "F101" "sr-nothing" 46.2999mm 58.7995mm -51.18mil 96.46mil 0 100 "auto"]
 (
+	Attribute("device" "RESETTABLE_FUSE")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 61.18mil "1" "1" "onsolder,square"]
 	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 61.18mil "2" "2" "onsolder,square"]
 	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
@@ -1463,8 +1650,13 @@ Element["onsolder" "1206" "F101" "sr-fuse-r50-1206" 46.2999mm 58.7995mm -51.18mi
 
 	)
 
-Element["onsolder" "1206" "F102" "sr-fuse-r50-1206" 46.2999mm 56.4495mm -125.96mil -41.34mil 0 100 "auto"]
+Element["onsolder" "1206" "F102" "sr-nothing" 46.2999mm 56.4495mm -125.96mil -41.34mil 0 100 "auto"]
 (
+	Attribute("device" "RESETTABLE_FUSE")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 61.18mil "1" "1" "onsolder,square"]
 	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 61.18mil "2" "2" "onsolder,square"]
 	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
@@ -1472,8 +1664,13 @@ Element["onsolder" "1206" "F102" "sr-fuse-r50-1206" 46.2999mm 56.4495mm -125.96m
 
 	)
 
-Element["onsolder" "1206" "R112" "sr-r-100-1206" 56.5498mm 50.0997mm -46.52mil -415.35mil 0 100 "auto"]
+Element["onsolder" "1206" "R112" "sr-nothing" 56.5498mm 50.0997mm -46.52mil -415.35mil 0 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 61.18mil "1" "1" "onsolder,square"]
 	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 61.18mil "2" "2" "onsolder,square"]
 	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
@@ -1481,8 +1678,13 @@ Element["onsolder" "1206" "R112" "sr-r-100-1206" 56.5498mm 50.0997mm -46.52mil -
 
 	)
 
-Element["" "SOT23" "D105" "sr-d-mmbz5v6al" 40.8501mm 48.8996mm -76.54mil -160.40mil 0 89 ""]
+Element["" "SOT23" "D105" "sr-nothing" 40.8501mm 48.8996mm -76.54mil -160.40mil 0 89 ""]
 (
+	Attribute("device" "TVS")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-3.00mil 0.0000 3.00mil 0.0000 34.00mil 30.00mil 44.00mil "1" "1" "square,edge2"]
 	Pad[-3.00mil -78.00mil 3.00mil -78.00mil 34.00mil 30.00mil 44.00mil "2" "2" "square,edge2"]
 	Pad[-85.00mil -39.00mil -79.00mil -39.00mil 34.00mil 30.00mil 44.00mil "3" "3" "square"]
@@ -1493,8 +1695,13 @@ Element["" "SOT23" "D105" "sr-d-mmbz5v6al" 40.8501mm 48.8996mm -76.54mil -160.40
 
 	)
 
-Element["onsolder" "1206" "F103" "sr-fuse-r50-1206" 51.3502mm 45.6496mm -210.65mil -1.96mil 0 100 "auto"]
+Element["onsolder" "1206" "F103" "sr-nothing" 51.3502mm 45.6496mm -210.65mil -1.96mil 0 100 "auto"]
 (
+	Attribute("device" "RESETTABLE_FUSE")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 61.18mil "1" "1" "onsolder,square"]
 	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 61.18mil "2" "2" "onsolder,square"]
 	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
@@ -1502,8 +1709,13 @@ Element["onsolder" "1206" "F103" "sr-fuse-r50-1206" 51.3502mm 45.6496mm -210.65m
 
 	)
 
-Element["onsolder" "1206" "F104" "sr-fuse-r50-1206" 51.3497mm 43.1996mm 98.44mil 23.64mil 0 100 "auto"]
+Element["onsolder" "1206" "F104" "sr-nothing" 51.3497mm 43.1996mm 98.44mil 23.64mil 0 100 "auto"]
 (
+	Attribute("device" "RESETTABLE_FUSE")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 61.18mil "1" "1" "onsolder,square"]
 	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 61.18mil "2" "2" "onsolder,square"]
 	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
@@ -1511,8 +1723,13 @@ Element["onsolder" "1206" "F104" "sr-fuse-r50-1206" 51.3497mm 43.1996mm 98.44mil
 
 	)
 
-Element["" "SOT23" "D102" "sr-d-mmbz5v6al" 1681.10mil 2192.90mil -11.56mil 109.28mil 0 100 ""]
+Element["" "SOT23" "D102" "sr-nothing" 1681.10mil 2192.90mil -11.56mil 109.28mil 0 100 ""]
 (
+	Attribute("device" "TVS")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-3.00mil 0.0000 3.00mil 0.0000 34.00mil 30.00mil 44.00mil "1" "1" "square"]
 	Pad[-3.00mil 78.00mil 3.00mil 78.00mil 34.00mil 22.00mil 44.00mil "2" "2" "square"]
 	Pad[79.00mil 39.00mil 85.00mil 39.00mil 34.00mil 30.00mil 44.00mil "3" "3" "square,edge2"]
@@ -1523,8 +1740,13 @@ Element["" "SOT23" "D102" "sr-d-mmbz5v6al" 1681.10mil 2192.90mil -11.56mil 109.2
 
 	)
 
-Element["" "8P8C" "J101" "sr-cn-8p8c" 49.7497mm 55.6395mm -146.43mil -558.26mil 0 100 ""]
+Element["" "8P8C" "J101" "sr-nothing" 49.7497mm 55.6395mm -146.43mil -558.26mil 0 100 ""]
 (
+	Attribute("device" "RJ45")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pin[-100.00mil -350.00mil 60.00mil 20.00mil 70.00mil 35.00mil "I7" "8" ""]
 	Pin[0.0000 -300.00mil 60.00mil 20.00mil 70.00mil 35.00mil "I6" "7" ""]
 	Pin[-100.00mil -150.00mil 60.00mil 20.00mil 70.00mil 35.00mil "I3" "4" ""]
@@ -1541,8 +1763,13 @@ Element["" "8P8C" "J101" "sr-cn-8p8c" 49.7497mm 55.6395mm -146.43mil -558.26mil 
 
 	)
 
-Element["" "SOT23" "D103" "sr-d-mmbz5v6al" 40.8501mm 2270.90mil -88.35mil 32.50mil 0 100 ""]
+Element["" "SOT23" "D103" "sr-nothing" 40.8501mm 2270.90mil -88.35mil 32.50mil 0 100 ""]
 (
+	Attribute("device" "TVS")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-3.00mil 0.0000 3.00mil 0.0000 34.00mil 22.00mil 44.00mil "1" "1" "square,edge2"]
 	Pad[-3.00mil -78.00mil 3.00mil -78.00mil 34.00mil 30.00mil 44.00mil "2" "2" "square,edge2"]
 	Pad[-85.00mil -39.00mil -79.00mil -39.00mil 34.00mil 30.00mil 44.00mil "3" "3" "square"]
@@ -1553,8 +1780,13 @@ Element["" "SOT23" "D103" "sr-d-mmbz5v6al" 40.8501mm 2270.90mil -88.35mil 32.50m
 
 	)
 
-Element["onsolder" "0805" "C103" "sr-c-2u2-0805" 44.8000mm 51.7995mm -2.6002mm -61.03mil 1 111 "auto"]
+Element["onsolder" "0805" "C103" "sr-nothing" 44.8000mm 51.7995mm -2.6002mm -61.03mil 1 111 "auto"]
 (
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-3.93mil 35.43mil 3.93mil 35.43mil 51.18mil 20.00mil 61.18mil "1" "1" "onsolder,square"]
 	Pad[-3.93mil -35.43mil 3.93mil -35.43mil 51.18mil 20.00mil 61.18mil "2" "2" "onsolder,square"]
 	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
@@ -1562,8 +1794,13 @@ Element["onsolder" "0805" "C103" "sr-c-2u2-0805" 44.8000mm 51.7995mm -2.6002mm -
 
 	)
 
-Element["" "SOT23" "D104" "sr-d-mmbz5v6al" 1681.10mil 46.9184mm -13.53mil -87.06mil 0 100 ""]
+Element["" "SOT23" "D104" "sr-nothing" 1681.10mil 46.9184mm -13.53mil -87.06mil 0 100 ""]
 (
+	Attribute("device" "TVS")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-3.00mil 0.0000 3.00mil 0.0000 34.00mil 30.00mil 44.00mil "1" "1" "square"]
 	Pad[-3.00mil 78.00mil 3.00mil 78.00mil 34.00mil 30.00mil 44.00mil "2" "2" "square"]
 	Pad[79.00mil 39.00mil 85.00mil 39.00mil 34.00mil 30.00mil 44.00mil "3" "3" "square,edge2"]
@@ -1574,8 +1811,13 @@ Element["" "SOT23" "D104" "sr-d-mmbz5v6al" 1681.10mil 46.9184mm -13.53mil -87.06
 
 	)
 
-Element["" "SOT23" "D100" "sr-d-mmbz5v6al" 40.8501mm 53.1995mm -62.75mil 24.64mil 0 78 ""]
+Element["" "SOT23" "D100" "sr-nothing" 40.8501mm 53.1995mm -62.75mil 24.64mil 0 78 ""]
 (
+	Attribute("device" "TVS")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-3.00mil 0.0000 3.00mil 0.0000 34.00mil 30.00mil 44.00mil "1" "1" "square,edge2"]
 	Pad[-3.00mil -78.00mil 3.00mil -78.00mil 34.00mil 30.00mil 44.00mil "2" "2" "square,edge2"]
 	Pad[-85.00mil -39.00mil -79.00mil -39.00mil 34.00mil 30.00mil 44.00mil "3" "3" "square"]
@@ -1586,8 +1828,13 @@ Element["" "SOT23" "D100" "sr-d-mmbz5v6al" 40.8501mm 53.1995mm -62.75mil 24.64mi
 
 	)
 
-Element["" "SOT23" "D101" "sr-d-mmbz5v6al" 1681.10mil 51.2183mm 25.83mil 101.91mil 0 78 ""]
+Element["" "SOT23" "D101" "sr-nothing" 1681.10mil 51.2183mm 25.83mil 101.91mil 0 78 ""]
 (
+	Attribute("device" "TVS")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-3.00mil 0.0000 3.00mil 0.0000 34.00mil 30.00mil 44.00mil "1" "1" "square"]
 	Pad[-3.00mil 78.00mil 3.00mil 78.00mil 34.00mil 30.00mil 44.00mil "2" "2" "square"]
 	Pad[79.00mil 39.00mil 85.00mil 39.00mil 34.00mil 30.00mil 44.00mil "3" "3" "square,edge2"]
@@ -1600,6 +1847,11 @@ Element["" "SOT23" "D101" "sr-d-mmbz5v6al" 1681.10mil 51.2183mm 25.83mil 101.91m
 
 Element["" "RCY200P_2" "C1" "sr-c-1m" 2231.50mil 474.40mil -288.99mil -219.68mil 0 100 ""]
 (
+	Attribute("device" "POLARIZED_CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 30.00mil 70.00mil 35.00mil "+" "1" "square"]
 	Pin[-200.00mil 0.0000 60.00mil 30.00mil 70.00mil 35.00mil "-" "2" "thermal(0S,2S)"]
 	ElementLine [-270.00mil 180.00mil -230.00mil 180.00mil 10.00mil]
@@ -1611,6 +1863,11 @@ Element["" "RCY200P_2" "C1" "sr-c-1m" 2231.50mil 474.40mil -288.99mil -219.68mil
 
 Element["" "JUMPER4" "J100" "sr-cn-header4" 177.17mil 47.9496mm 411.98mil -46.85mil 3 89 ""]
 (
+	Attribute("device" "CONNECTOR_4")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 30.00mil 70.00mil 35.00mil "1" "1" "square,edge2"]
 	Pin[100.00mil 0.0000 60.00mil 30.00mil 70.00mil 35.00mil "2" "2" "edge2"]
 	Pin[200.00mil 0.0000 60.00mil 30.00mil 70.00mil 35.00mil "3" "3" "edge2"]
@@ -1626,6 +1883,11 @@ Element["" "JUMPER4" "J100" "sr-cn-header4" 177.17mil 47.9496mm 411.98mil -46.85
 
 Element["" "sr_0603_led" "LED103" "sr-led-red-0603" 572.83mil 56.0088mm 23.62mil 3.5499mm 1 100 ""]
 (
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "K" "2" "square"]
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "A" "1" "square"]
 	ElementLine [0.0000 -7.87mil 0.0000 7.87mil 7.87mil]
@@ -1637,6 +1899,11 @@ Element["" "sr_0603_led" "LED103" "sr-led-red-0603" 572.83mil 56.0088mm 23.62mil
 
 Element["" "SOT23" "S/D9" "sr-d-mmbz5v6al" 795.27mil 31.1495mm -160.40mil 135.59mil 1 89 ""]
 (
+	Attribute("device" "TVS")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -3.00mil 0.0000 3.00mil 34.00mil 18.00mil 44.00mil "1" "1" "square"]
 	Pad[-78.00mil -3.00mil -78.00mil 3.00mil 34.00mil 18.00mil 44.00mil "2" "2" "square"]
 	Pad[-39.00mil 79.00mil -39.00mil 85.00mil 34.00mil 18.00mil 44.00mil "3" "3" "square,edge2"]
@@ -1649,6 +1916,11 @@ Element["" "SOT23" "S/D9" "sr-d-mmbz5v6al" 795.27mil 31.1495mm -160.40mil 135.59
 
 Element["" "SOT23" "S/D8" "sr-d-mmbz5v6al" 867.74mil 508.54mil -168.28mil 108.03mil 1 100 ""]
 (
+	Attribute("device" "TVS")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -3.00mil 0.0000 3.00mil 34.00mil 22.00mil 44.00mil "1" "1" "square"]
 	Pad[-78.00mil -3.00mil -78.00mil 3.00mil 34.00mil 22.00mil 44.00mil "2" "2" "square"]
 	Pad[-39.00mil 79.00mil -39.00mil 85.00mil 34.00mil 22.00mil 44.00mil "3" "3" "square,edge2"]
@@ -1661,6 +1933,11 @@ Element["" "SOT23" "S/D8" "sr-d-mmbz5v6al" 867.74mil 508.54mil -168.28mil 108.03
 
 Element["" "SOT23" "S/D7" "sr-d-mmbz5v6al" 789.74mil 759.15mil -90.27mil 26.72mil 1 100 ""]
 (
+	Attribute("device" "TVS")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -3.00mil 0.0000 3.00mil 34.00mil 22.00mil 44.00mil "1" "1" "square,edge2"]
 	Pad[78.00mil -3.00mil 78.00mil 3.00mil 34.00mil 22.00mil 44.00mil "2" "2" "square,edge2"]
 	Pad[39.00mil -85.00mil 39.00mil -79.00mil 34.00mil 22.00mil 44.00mil "3" "3" "square"]
@@ -1673,6 +1950,11 @@ Element["" "SOT23" "S/D7" "sr-d-mmbz5v6al" 789.74mil 759.15mil -90.27mil 26.72mi
 
 Element["" "8P8C" "S/S/J2" "sr-cn-8p8c" 411.42mil 469.28mil 158.27mil 372.04mil 1 89 ""]
 (
+	Attribute("device" "RJ45")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pin[100.00mil 350.00mil 60.00mil 20.00mil 70.00mil 35.00mil "I7" "8" ""]
 	Pin[0.0000 300.00mil 60.00mil 20.00mil 70.00mil 35.00mil "I6" "7" ""]
 	Pin[100.00mil 150.00mil 60.00mil 20.00mil 70.00mil 35.00mil "I3" "4" ""]
@@ -1691,6 +1973,11 @@ Element["" "8P8C" "S/S/J2" "sr-cn-8p8c" 411.42mil 469.28mil 158.27mil 372.04mil 
 
 Element["onsolder" "1206" "S/F4" "sr-fuse-r50-1206" 663.38mil 592.50mil 49.21mil 354.34mil 0 78 "auto"]
 (
+	Attribute("device" "RESETTABLE_FUSE")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 61.18mil "1" "1" "onsolder,square"]
 	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 61.18mil "2" "2" "onsolder,square"]
 	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
@@ -1700,6 +1987,11 @@ Element["onsolder" "1206" "S/F4" "sr-fuse-r50-1206" 663.38mil 592.50mil 49.21mil
 
 Element["onsolder" "1206" "S/F3" "sr-fuse-r50-1206" 663.38mil 494.08mil 49.21mil 10.3500mm 0 78 "auto"]
 (
+	Attribute("device" "RESETTABLE_FUSE")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 61.18mil "1" "1" "onsolder,square"]
 	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 61.18mil "2" "2" "onsolder,square"]
 	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
@@ -1709,6 +2001,11 @@ Element["onsolder" "1206" "S/F3" "sr-fuse-r50-1206" 663.38mil 494.08mil 49.21mil
 
 Element["onsolder" "1206" "S/F2" "sr-fuse-r50-1206" 663.38mil 799.20mil 49.22mil 240.16mil 0 78 "auto"]
 (
+	Attribute("device" "RESETTABLE_FUSE")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 61.18mil "1" "1" "onsolder,square"]
 	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 61.18mil "2" "2" "onsolder,square"]
 	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
@@ -1718,6 +2015,11 @@ Element["onsolder" "1206" "S/F2" "sr-fuse-r50-1206" 663.38mil 799.20mil 49.22mil
 
 Element["onsolder" "1206" "S/F1" "sr-fuse-r50-1206" 663.38mil 706.69mil 49.20mil 287.40mil 0 78 "auto"]
 (
+	Attribute("device" "RESETTABLE_FUSE")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-59.05mil -11.81mil -59.05mil 11.81mil 51.18mil 20.00mil 61.18mil "1" "1" "onsolder,square"]
 	Pad[59.05mil -11.81mil 59.05mil 11.81mil 51.18mil 20.00mil 61.18mil "2" "2" "onsolder,square"]
 	ElementLine [-23.62mil 37.40mil 23.62mil 37.40mil 8.00mil]
@@ -1727,6 +2029,11 @@ Element["onsolder" "1206" "S/F1" "sr-fuse-r50-1206" 663.38mil 706.69mil 49.20mil
 
 Element["" "8P8C" "S/S/J1" "sr-cn-8p8c" 411.42mil 29.4196mm 158.28mil 313.01mil 1 89 ""]
 (
+	Attribute("device" "RJ45")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pin[100.00mil 350.00mil 60.00mil 20.00mil 70.00mil 35.00mil "I7" "8" ""]
 	Pin[0.0000 300.00mil 60.00mil 20.00mil 70.00mil 35.00mil "I6" "7" ""]
 	Pin[100.00mil 150.00mil 60.00mil 20.00mil 70.00mil 35.00mil "I3" "4" ""]
@@ -1745,6 +2052,11 @@ Element["" "8P8C" "S/S/J1" "sr-cn-8p8c" 411.42mil 29.4196mm 158.28mil 313.01mil 
 
 Element["onsolder" "SOT23" "S/D3" "sr-d-mmbz5v6al" 717.27mil 31.1495mm 107.79mil -27.32mil 1 78 "auto"]
 (
+	Attribute("device" "TVS")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -3.00mil 0.0000 3.00mil 34.00mil 30.00mil 44.00mil "1" "1" "onsolder,square"]
 	Pad[78.00mil -3.00mil 78.00mil 3.00mil 34.00mil 18.00mil 44.00mil "2" "2" "onsolder,square"]
 	Pad[39.00mil 79.00mil 39.00mil 85.00mil 34.00mil 22.00mil 44.00mil "3" "3" "onsolder,square,edge2"]
@@ -1757,6 +2069,11 @@ Element["onsolder" "SOT23" "S/D3" "sr-d-mmbz5v6al" 717.27mil 31.1495mm 107.79mil
 
 Element["onsolder" "SOT262" "S/U4" "sr-ic-pic10f200" 295.42mil 32.0764mm -39.13mil 153.43mil 0 89 "auto"]
 (
+	Attribute("device" "PIC10F200")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-8.00mil 0.0000 8.00mil 0.0000 24.00mil 30.00mil 34.00mil "GP0/ICSPDAT" "1" "onsolder,square,edge2"]
 	Pad[-8.00mil 39.00mil 8.00mil 39.00mil 24.00mil 30.00mil 34.00mil "Vss" "2" "onsolder,square,edge2"]
 	Pad[-8.00mil 78.00mil 8.00mil 78.00mil 24.00mil 30.00mil 34.00mil "GP1/ICSPCLK" "3" "onsolder,square,edge2"]
@@ -1774,6 +2091,11 @@ Element["onsolder" "SOT262" "S/U4" "sr-ic-pic10f200" 295.42mil 32.0764mm -39.13m
 
 Element["onsolder" "SOT23" "S/D5" "sr-d-mmbz5v6al" 789.74mil 508.54mil 108.56mil -16.87mil 1 78 "auto"]
 (
+	Attribute("device" "TVS")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -3.00mil 0.0000 3.00mil 34.00mil 22.00mil 44.00mil "1" "1" "onsolder,square"]
 	Pad[78.00mil -3.00mil 78.00mil 3.00mil 34.00mil 22.00mil 44.00mil "2" "2" "onsolder,square"]
 	Pad[39.00mil 79.00mil 39.00mil 85.00mil 34.00mil 18.00mil 44.00mil "3" "3" "onsolder,square,edge2"]
@@ -1786,6 +2108,11 @@ Element["onsolder" "SOT23" "S/D5" "sr-d-mmbz5v6al" 789.74mil 508.54mil 108.56mil
 
 Element["onsolder" "SOT23" "S/D6" "sr-d-gsot15" 656.32mil 37.1607mm 30.53mil -110.01mil 1 78 "auto"]
 (
+	Attribute("device" "TVS")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -3.00mil 0.0000 3.00mil 34.00mil 22.00mil 44.00mil "1" "1" "onsolder,square,edge2"]
 	Pad[-78.00mil -3.00mil -78.00mil 3.00mil 34.00mil 30.00mil 44.00mil "2" "2" "onsolder,square,edge2"]
 	Pad[-39.00mil -85.00mil -39.00mil -79.00mil 34.00mil 30.00mil 44.00mil "3" "3" "onsolder,square"]
@@ -1798,6 +2125,11 @@ Element["onsolder" "SOT23" "S/D6" "sr-d-gsot15" 656.32mil 37.1607mm 30.53mil -11
 
 Element["onsolder" "TSSOP16" "S/U2" "sr-ic-sn65lvds051" 183.07mil 634.81mil 46.93mil -113.23mil 0 78 "auto"]
 (
+	Attribute("device" "SN65LVDS051")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-139.17mil 89.56mil -93.11mil 89.56mil 12.99mil 10.00mil 22.99mil "B" "1" "onsolder,square"]
 	Pad[-139.17mil 63.97mil -93.11mil 63.97mil 12.99mil 10.00mil 22.99mil "A" "2" "onsolder,square"]
 	Pad[-139.17mil 38.38mil -93.11mil 38.38mil 12.99mil 10.00mil 22.99mil "R" "3" "onsolder,square"]
@@ -1825,6 +2157,11 @@ Element["onsolder" "TSSOP16" "S/U2" "sr-ic-sn65lvds051" 183.07mil 634.81mil 46.9
 
 Element["onsolder" "SOT23" "S/D4" "sr-d-mmbz5v6al" 867.74mil 759.15mil 30.54mil -98.18mil 1 78 "auto"]
 (
+	Attribute("device" "TVS")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[0.0000 -3.00mil 0.0000 3.00mil 34.00mil 18.00mil 44.00mil "1" "1" "onsolder,square,edge2"]
 	Pad[-78.00mil -3.00mil -78.00mil 3.00mil 34.00mil 30.00mil 44.00mil "2" "2" "onsolder,square,edge2"]
 	Pad[-39.00mil -85.00mil -39.00mil -79.00mil 34.00mil 18.00mil 44.00mil "3" "3" "onsolder,square"]
@@ -1837,6 +2174,11 @@ Element["onsolder" "SOT23" "S/D4" "sr-d-mmbz5v6al" 867.74mil 759.15mil 30.54mil 
 
 Element["" "dual_led" "S/LED1" "sr-led-redgreen" 637.80mil 43.5488mm 58.13mil 71.24mil 1 78 ""]
 (
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[27.56mil -2.0000mm 27.56mil -59.06mil 39.37mil 15.76mil 1.2540mm "A" "1" "square"]
 	Pad[-27.56mil -2.0000mm -27.56mil -59.06mil 39.37mil 15.76mil 1.2540mm "A" "3" "square"]
 	Pad[-27.56mil 59.06mil -27.56mil 2.0000mm 39.37mil 15.76mil 1.2540mm "K" "4" "square,edge2"]
@@ -1852,6 +2194,11 @@ Element["" "dual_led" "S/LED1" "sr-led-redgreen" 637.80mil 43.5488mm 58.13mil 71
 
 Element["" "JUMPER5" "S/J3" "sr-cn-header5" 77.97mil 44.0497mm 497.07mil -134.27mil 1 78 ""]
 (
+	Attribute("device" "CONNECTOR_5")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pin[0.0000 0.0000 60.00mil 30.00mil 70.00mil 35.00mil "1" "1" "square,edge2"]
 	Pin[100.00mil 0.0000 60.00mil 19.76mil 70.00mil 35.00mil "2" "2" "edge2"]
 	Pin[200.00mil 0.0000 60.00mil 30.00mil 70.00mil 35.00mil "3" "3" "edge2,thermal(2X,3X)"]
@@ -1868,6 +2215,11 @@ Element["" "JUMPER5" "S/J3" "sr-cn-header5" 77.97mil 44.0497mm 497.07mil -134.27
 
 Element["onsolder" "SOD80" "S/D1" "sr-d-ll4448" 119.17mil 36.3497mm 109.19mil 2.6195mm 0 78 "auto"]
 (
+	Attribute("device" "DIODE")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[58.00mil -16.00mil 58.00mil 16.00mil 53.00mil 20.00mil 63.00mil "1" "1" "onsolder,square"]
 	Pad[-58.00mil -16.00mil -58.00mil 16.00mil 53.00mil 20.00mil 63.00mil "2" "2" "onsolder,square"]
 	ElementLine [80.00mil -55.00mil 106.00mil -43.00mil 10.00mil]
@@ -1881,6 +2233,11 @@ Element["onsolder" "SOD80" "S/D1" "sr-d-ll4448" 119.17mil 36.3497mm 109.19mil 2.
 
 Element["onsolder" "SOD80" "S/D2" "sr-d-ll4448" 353.28mil 40.9496mm -227.28mil 79.52mil 0 78 "auto"]
 (
+	Attribute("device" "DIODE")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-58.00mil -16.00mil -58.00mil 16.00mil 53.00mil 20.00mil 63.00mil "1" "1" "onsolder,square"]
 	Pad[58.00mil -16.00mil 58.00mil 16.00mil 53.00mil 20.00mil 63.00mil "2" "2" "onsolder,square"]
 	ElementLine [-80.00mil 55.00mil -106.00mil 43.00mil 10.00mil]
@@ -1894,6 +2251,11 @@ Element["onsolder" "SOD80" "S/D2" "sr-d-ll4448" 353.28mil 40.9496mm -227.28mil 7
 
 Element["onsolder" "SOT223" "S/U1" "sr-ic-ld1117s33" 311.12mil 27.4356mm 334.95mil -66.72mil 1 78 "auto"]
 (
+	Attribute("device" "regulator")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-33.00mil 0.0000 33.00mil 0.0000 56.00mil 30.00mil 66.00mil "GND" "1" "onsolder,square"]
 	Pad[-33.00mil -90.00mil 33.00mil -90.00mil 56.00mil 30.00mil 66.00mil "OUT" "2" "onsolder,square"]
 	Pad[-33.00mil -181.00mil 33.00mil -181.00mil 56.00mil 30.00mil 66.00mil "IN" "3" "onsolder,square"]
@@ -1907,6 +2269,11 @@ Element["onsolder" "SOT223" "S/U1" "sr-ic-ld1117s33" 311.12mil 27.4356mm 334.95m
 
 Element["onsolder" "0805" "S/C2" "sr-c-2u2-0805" 68.90mil 980.31mil 31.49mil -51.20mil 1 78 "auto"]
 (
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-3.93mil 35.43mil 3.93mil 35.43mil 51.18mil 20.00mil 61.18mil "1" "1" "onsolder,square"]
 	Pad[-3.93mil -35.43mil 3.93mil -35.43mil 51.18mil 20.00mil 61.18mil "2" "2" "onsolder,square"]
 	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
@@ -1916,6 +2283,11 @@ Element["onsolder" "0805" "S/C2" "sr-c-2u2-0805" 68.90mil 980.31mil 31.49mil -51
 
 Element["" "RCY50" "X100" "sr-xtal-32k" 28.2496mm 54.3496mm 59.08mil 11.81mil 0 100 ""]
 (
+	Attribute("device" "CRYSTAL")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pin[-25.00mil 0.0000 35.43mil 19.68mil 45.28mil 19.69mil "1" "1" "square"]
 	Pin[25.00mil 0.0000 35.43mil 19.68mil 45.28mil 19.69mil "2" "2" ""]
 	ElementArc [0.0000 0.0000 50.00mil 50.00mil 0 360 10.00mil]
@@ -1924,6 +2296,11 @@ Element["" "RCY50" "X100" "sr-xtal-32k" 28.2496mm 54.3496mm 59.08mil 11.81mil 0 
 
 Element["" "sr_0603" "C101" "sr-c-100n" 28.5501mm 57.7405mm 21.66mil 57.82mil 1 100 ""]
 (
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "square"]
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "square"]
 	ElementLine [-15.08mil -7.87mil -15.08mil 7.87mil 7.87mil]
@@ -1931,8 +2308,13 @@ Element["" "sr_0603" "C101" "sr-c-100n" 28.5501mm 57.7405mm 21.66mil 57.82mil 1 
 
 	)
 
-Element["onsolder" "sr_0603" "C102" "sr-c-100n" 40.2999mm 56.6905mm 21.65mil -61.03mil 1 100 "auto"]
+Element["onsolder" "sr_0603" "C102" "sr-nothing" 40.2999mm 56.6905mm 21.65mil -61.03mil 1 100 "auto"]
 (
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [15.08mil -7.87mil 15.08mil 7.87mil 7.87mil]
@@ -1942,6 +2324,11 @@ Element["onsolder" "sr_0603" "C102" "sr-c-100n" 40.2999mm 56.6905mm 21.65mil -61
 
 Element["" "sr_0603" "R103" "sr-r-100k" 205.08mil 50.5998mm -57.09mil 19.69mil 0 100 ""]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "square"]
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "square"]
 	ElementLine [-7.87mil 15.08mil 7.87mil 15.08mil 7.87mil]
@@ -1951,6 +2338,11 @@ Element["" "sr_0603" "R103" "sr-r-100k" 205.08mil 50.5998mm -57.09mil 19.69mil 0
 
 Element["" "sr_0603" "R105" "sr-r-330" 572.83mil 53.2407mm 23.63mil 25.59mil 1 100 ""]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "square"]
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "square"]
 	ElementLine [15.08mil -7.87mil 15.08mil 7.87mil 7.87mil]
@@ -1960,6 +2352,11 @@ Element["" "sr_0603" "R105" "sr-r-330" 572.83mil 53.2407mm 23.63mil 25.59mil 1 1
 
 Element["" "sr_0603" "R106" "sr-r-330" 40.7091mm 44.2996mm 54.41mil -51.18mil 0 89 ""]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "square"]
 	ElementLine [-7.87mil -15.08mil 7.87mil -15.08mil 7.87mil]
@@ -1969,6 +2366,11 @@ Element["" "sr_0603" "R106" "sr-r-330" 40.7091mm 44.2996mm 54.41mil -51.18mil 0 
 
 Element["" "sr_0603" "R107" "sr-r-330" 40.7591mm 42.0494mm 56.35mil -45.26mil 0 89 ""]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "square"]
 	ElementLine [-7.87mil -15.08mil 7.87mil -15.08mil 7.87mil]
@@ -1978,6 +2380,11 @@ Element["" "sr_0603" "R107" "sr-r-330" 40.7591mm 42.0494mm 56.35mil -45.26mil 0 
 
 Element["" "sr_0603" "R101" "sr-r-330" 35.9590mm 46.2496mm -55.84mil -80.72mil 0 100 ""]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "square"]
 	ElementLine [-7.87mil -15.08mil 7.87mil -15.08mil 7.87mil]
@@ -1987,6 +2394,11 @@ Element["" "sr_0603" "R101" "sr-r-330" 35.9590mm 46.2496mm -55.84mil -80.72mil 0
 
 Element["" "sr_0603" "R102" "sr-r-330" 36.3591mm 58.8996mm -59.77mil 21.67mil 0 100 ""]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "square"]
 	ElementLine [-7.87mil -15.08mil 7.87mil -15.08mil 7.87mil]
@@ -1994,8 +2406,13 @@ Element["" "sr_0603" "R102" "sr-r-330" 36.3591mm 58.8996mm -59.77mil 21.67mil 0 
 
 	)
 
-Element["onsolder" "sr_0603" "R100" "sr-r-330" 55.7908mm 54.3496mm 53.87mil 25.60mil 0 78 "auto"]
+Element["onsolder" "sr_0603" "R100" "sr-nothing" 55.7908mm 54.3496mm 53.87mil 25.60mil 0 78 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil 15.08mil 7.87mil 15.08mil 7.87mil]
@@ -2003,8 +2420,13 @@ Element["onsolder" "sr_0603" "R100" "sr-r-330" 55.7908mm 54.3496mm 53.87mil 25.6
 
 	)
 
-Element["onsolder" "sr_0603" "R108" "sr-r-330" 55.7908mm 48.0497mm -16.99mil -10.0500mm 0 100 "auto"]
+Element["onsolder" "sr_0603" "R108" "sr-nothing" 55.7908mm 48.0497mm -16.99mil -10.0500mm 0 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil 15.08mil 7.87mil 15.08mil 7.87mil]
@@ -2012,8 +2434,13 @@ Element["onsolder" "sr_0603" "R108" "sr-r-330" 55.7908mm 48.0497mm -16.99mil -10
 
 	)
 
-Element["onsolder" "sr_0603" "R109" "sr-r-100" 49.7500mm 58.8406mm 21.66mil -60.30mil 1 100 "auto"]
+Element["onsolder" "sr_0603" "R109" "sr-nothing" 49.7500mm 58.8406mm 21.66mil -60.30mil 1 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-15.08mil -7.87mil -15.08mil 7.87mil 7.87mil]
@@ -2023,6 +2450,11 @@ Element["onsolder" "sr_0603" "R109" "sr-r-100" 49.7500mm 58.8406mm 21.66mil -60.
 
 Element["onsolder" "sr_0603" "C4" "sr-nothing" 29.0091mm 785.42mil -34.17mil -23.63mil 0 100 "auto"]
 (
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil 15.08mil 7.87mil 15.08mil 7.87mil]
@@ -2032,6 +2464,11 @@ Element["onsolder" "sr_0603" "C4" "sr-nothing" 29.0091mm 785.42mil -34.17mil -23
 
 Element["onsolder" "sr_0603" "R21" "sr-r-4r7" 49.5409mm 40.6497mm 57.10mil 29.53mil 0 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil -15.08mil 7.87mil -15.08mil 7.87mil]
@@ -2041,6 +2478,11 @@ Element["onsolder" "sr_0603" "R21" "sr-r-4r7" 49.5409mm 40.6497mm 57.10mil 29.53
 
 Element["onsolder" "sr_0603" "R24" "sr-r-4r7" 45.1091mm 40.6497mm -47.96mil 80.71mil 0 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil 15.08mil 7.87mil 15.08mil 7.87mil]
@@ -2050,6 +2492,11 @@ Element["onsolder" "sr_0603" "R24" "sr-r-4r7" 45.1091mm 40.6497mm -47.96mil 80.7
 
 Element["" "sr_0603" "R22" "sr-r-4r7" 49.6090mm 785.42mil -83.39mil -206.69mil 0 78 ""]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "square"]
 	ElementLine [-7.87mil -15.08mil 7.87mil -15.08mil 7.87mil]
@@ -2059,6 +2506,11 @@ Element["" "sr_0603" "R22" "sr-r-4r7" 49.6090mm 785.42mil -83.39mil -206.69mil 0
 
 Element["onsolder" "sr_0603" "R25" "sr-r-4r7" 42.9001mm 848.77mil -29.53mil -151.58mil 1 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [15.08mil -7.87mil 15.08mil 7.87mil 7.87mil]
@@ -2068,6 +2520,11 @@ Element["onsolder" "sr_0603" "R25" "sr-r-4r7" 42.9001mm 848.77mil -29.53mil -151
 
 Element["" "sr_0603" "R27" "sr-r-10k" 41.9001mm 933.41mil -37.05mil -262.17mil 0 78 ""]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "square"]
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "square"]
 	ElementLine [-15.08mil -7.87mil -15.08mil 7.87mil 7.87mil]
@@ -2077,6 +2534,11 @@ Element["" "sr_0603" "R27" "sr-r-10k" 41.9001mm 933.41mil -37.05mil -262.17mil 0
 
 Element["" "sr_0603" "R28" "sr-r-10k" 41.9001mm 815.30mil -17.36mil -98.79mil 0 78 ""]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "square"]
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "square"]
 	ElementLine [-15.08mil -7.87mil -15.08mil 7.87mil 7.87mil]
@@ -2086,6 +2548,11 @@ Element["" "sr_0603" "R28" "sr-r-10k" 41.9001mm 815.30mil -17.36mil -98.79mil 0 
 
 Element["" "sr_0603" "R19" "sr-r-10k" 41.9001mm 31.7089mm -43.32mil 278.82mil 1 78 ""]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "square"]
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "square"]
 	ElementLine [-15.08mil -7.87mil -15.08mil 7.87mil 7.87mil]
@@ -2095,6 +2562,11 @@ Element["" "sr_0603" "R19" "sr-r-10k" 41.9001mm 31.7089mm -43.32mil 278.82mil 1 
 
 Element["" "sr_0603" "R20" "sr-r-10k" 41.9001mm 28.7086mm -23.63mil 255.19mil 1 78 ""]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "square"]
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "square"]
 	ElementLine [-15.08mil -7.87mil -15.08mil 7.87mil 7.87mil]
@@ -2104,6 +2576,11 @@ Element["" "sr_0603" "R20" "sr-r-10k" 41.9001mm 28.7086mm -23.63mil 255.19mil 1 
 
 Element["" "sr_0603" "R23" "sr-r-1k" 29.6499mm 40.0408mm -30.25mil 151.57mil 1 100 ""]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "square"]
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "square"]
 	ElementLine [-15.08mil -7.87mil -15.08mil 7.87mil 7.87mil]
@@ -2113,6 +2590,11 @@ Element["" "sr_0603" "R23" "sr-r-1k" 29.6499mm 40.0408mm -30.25mil 151.57mil 1 1
 
 Element["" "sr_0603" "R26" "sr-r-1k" 1281.50mil 40.0408mm -32.23mil 153.53mil 1 100 ""]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "square"]
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "square"]
 	ElementLine [-15.08mil -7.87mil -15.08mil 7.87mil 7.87mil]
@@ -2122,6 +2604,11 @@ Element["" "sr_0603" "R26" "sr-r-1k" 1281.50mil 40.0408mm -32.23mil 153.53mil 1 
 
 Element["" "sr_0603" "R31" "sr-r-1k" 34.6499mm 1576.40mil -31.52mil 144.42mil 1 100 ""]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "square"]
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "square"]
 	ElementLine [-15.08mil -7.87mil -15.08mil 7.87mil 7.87mil]
@@ -2131,6 +2618,11 @@ Element["" "sr_0603" "R31" "sr-r-1k" 34.6499mm 1576.40mil -31.52mil 144.42mil 1 
 
 Element["" "sr_0603" "R33" "sr-r-1k" 36.6499mm 40.0408mm -29.49mil 3.7686mm 1 100 ""]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "square"]
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "square"]
 	ElementLine [-15.08mil -7.87mil -15.08mil 7.87mil 7.87mil]
@@ -2140,6 +2632,11 @@ Element["" "sr_0603" "R33" "sr-r-1k" 36.6499mm 40.0408mm -29.49mil 3.7686mm 1 10
 
 Element["" "sr_0603" "C5" "sr-c-100n" 1722.80mil 34.6499mm 38.98mil 144.06mil 1 78 ""]
 (
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "square"]
 	ElementLine [-7.87mil -15.08mil 7.87mil -15.08mil 7.87mil]
@@ -2149,6 +2646,11 @@ Element["" "sr_0603" "C5" "sr-c-100n" 1722.80mil 34.6499mm 38.98mil 144.06mil 1 
 
 Element["" "sr_0603" "C6" "sr-c-100n" 44.7591mm 27.2496mm -94.49mil -41.34mil 0 78 ""]
 (
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "square"]
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "square"]
 	ElementLine [-7.87mil 15.08mil 7.87mil 15.08mil 7.87mil]
@@ -2158,6 +2660,11 @@ Element["" "sr_0603" "C6" "sr-c-100n" 44.7591mm 27.2496mm -94.49mil -41.34mil 0 
 
 Element["onsolder" "sr_0603" "C7" "sr-nothing" 28.4409mm 49.0497mm -26.84mil 84.64mil 0 100 "auto"]
 (
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil 15.08mil 7.87mil 15.08mil 7.87mil]
@@ -2167,6 +2674,11 @@ Element["onsolder" "sr_0603" "C7" "sr-nothing" 28.4409mm 49.0497mm -26.84mil 84.
 
 Element["onsolder" "sr_0603" "C8" "sr-nothing" 32.5001mm 39.3088mm -82.67mil -27.56mil 1 100 "auto"]
 (
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 15.76mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [15.08mil -7.87mil 15.08mil 7.87mil 7.87mil]
@@ -2176,6 +2688,11 @@ Element["onsolder" "sr_0603" "C8" "sr-nothing" 32.5001mm 39.3088mm -82.67mil -27
 
 Element["" "sr_0603" "R1" "sr-r-1k" 45.7004mm 12.9410mm -88.95mil -27.23mil 0 100 ""]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "square"]
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "square"]
 	ElementLine [-15.08mil -7.87mil -15.08mil 7.87mil 7.87mil]
@@ -2185,6 +2702,11 @@ Element["" "sr_0603" "R1" "sr-r-1k" 45.7004mm 12.9410mm -88.95mil -27.23mil 0 10
 
 Element["onsolder" "sr_0603" "R29" "sr-nothing" 35.9407mm 25.7498mm -43.32mil 129.93mil 0 89 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil -15.08mil 7.87mil -15.08mil 7.87mil]
@@ -2194,6 +2716,11 @@ Element["onsolder" "sr_0603" "R29" "sr-nothing" 35.9407mm 25.7498mm -43.32mil 12
 
 Element["onsolder" "sr_0603" "R32" "sr-nothing" 1415.00mil 962.58mil -43.31mil 129.92mil 0 89 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil -15.08mil 7.87mil -15.08mil 7.87mil]
@@ -2203,6 +2730,11 @@ Element["onsolder" "sr_0603" "R32" "sr-nothing" 1415.00mil 962.58mil -43.31mil 1
 
 Element["onsolder" "sr_0603" "R14" "sr-nothing" 29.3591mm 27.3997mm -144.41mil 31.49mil 0 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil 15.08mil 7.87mil 15.08mil 7.87mil]
@@ -2212,6 +2744,11 @@ Element["onsolder" "sr_0603" "R14" "sr-nothing" 29.3591mm 27.3997mm -144.41mil 3
 
 Element["onsolder" "sr_0603" "R15" "sr-nothing" 31.6090mm 47.3997mm -42.06mil 82.67mil 0 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil 15.08mil 7.87mil 15.08mil 7.87mil]
@@ -2221,6 +2758,11 @@ Element["onsolder" "sr_0603" "R15" "sr-nothing" 31.6090mm 47.3997mm -42.06mil 82
 
 Element["onsolder" "sr_0603" "R13" "sr-nothing" 29.0091mm 850.38mil -140.49mil 29.53mil 0 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil 15.08mil 7.87mil 15.08mil 7.87mil]
@@ -2230,6 +2772,11 @@ Element["onsolder" "sr_0603" "R13" "sr-nothing" 29.0091mm 850.38mil -140.49mil 2
 
 Element["onsolder" "sr_0603" "R7" "sr-nothing" 34.5587mm 40.7998mm 54.44mil 31.48mil 0 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.76mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 15.76mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil 15.08mil 7.87mil 15.08mil 7.87mil]
@@ -2239,6 +2786,11 @@ Element["onsolder" "sr_0603" "R7" "sr-nothing" 34.5587mm 40.7998mm 54.44mil 31.4
 
 Element["onsolder" "sr_0603" "R18" "sr-nothing" 30.8409mm 29.0497mm -141.02mil 29.52mil 0 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil 15.08mil 7.87mil 15.08mil 7.87mil]
@@ -2248,6 +2800,11 @@ Element["onsolder" "sr_0603" "R18" "sr-nothing" 30.8409mm 29.0497mm -141.02mil 2
 
 Element["onsolder" "sr_0603" "R6" "sr-nothing" 29.3500mm 45.4906mm -84.66mil -64.24mil 1 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-15.08mil -7.87mil -15.08mil 7.87mil 7.87mil]
@@ -2257,6 +2814,11 @@ Element["onsolder" "sr_0603" "R6" "sr-nothing" 29.3500mm 45.4906mm -84.66mil -64
 
 Element["onsolder" "sr_0603" "R10" "sr-nothing" 27.7000mm 1846.80mil -82.68mil -43.30mil 1 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [15.08mil -7.87mil 15.08mil 7.87mil 7.87mil]
@@ -2266,6 +2828,11 @@ Element["onsolder" "sr_0603" "R10" "sr-nothing" 27.7000mm 1846.80mil -82.68mil -
 
 Element["onsolder" "sr_0603" "R5" "sr-nothing" 42.1500mm 44.8086mm -27.56mil 58.37mil 1 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-15.08mil -7.87mil -15.08mil 7.87mil 7.87mil]
@@ -2275,6 +2842,11 @@ Element["onsolder" "sr_0603" "R5" "sr-nothing" 42.1500mm 44.8086mm -27.56mil 58.
 
 Element["onsolder" "sr_0603" "R4" "sr-nothing" 29.3500mm 42.8407mm -84.64mil -55.11mil 1 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [15.08mil -7.87mil 15.08mil 7.87mil 7.87mil]
@@ -2284,6 +2856,11 @@ Element["onsolder" "sr_0603" "R4" "sr-nothing" 29.3500mm 42.8407mm -84.64mil -55
 
 Element["onsolder" "sr_0603" "R9" "sr-nothing" 37.1909mm 47.3997mm -23.62mil 82.67mil 0 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil -15.08mil 7.87mil -15.08mil 7.87mil]
@@ -2293,6 +2870,11 @@ Element["onsolder" "sr_0603" "R9" "sr-nothing" 37.1909mm 47.3997mm -23.62mil 82.
 
 Element["onsolder" "sr_0603" "R16" "sr-nothing" 40.0500mm 1740.50mil -27.53mil 60.33mil 1 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-15.08mil -7.87mil -15.08mil 7.87mil 7.87mil]
@@ -2302,6 +2884,11 @@ Element["onsolder" "sr_0603" "R16" "sr-nothing" 40.0500mm 1740.50mil -27.53mil 6
 
 Element["onsolder" "sr_0603" "R11" "sr-nothing" 39.1091mm 1517.70mil 109.89mil -162.99mil 1 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 15.76mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 15.76mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil -15.08mil 7.87mil -15.08mil 7.87mil]
@@ -2311,6 +2898,11 @@ Element["onsolder" "sr_0603" "R11" "sr-nothing" 39.1091mm 1517.70mil 109.89mil -
 
 Element["onsolder" "sr_0603" "C10" "sr-nothing" 31.6908mm 850.38mil -36.67mil -19.68mil 0 100 "auto"]
 (
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil 15.08mil 7.87mil 15.08mil 7.87mil]
@@ -2320,6 +2912,11 @@ Element["onsolder" "sr_0603" "C10" "sr-nothing" 31.6908mm 850.38mil -36.67mil -1
 
 Element["onsolder" "sr_0603" "R2" "sr-nothing" 29.5590mm 31.3997mm -36.14mil 82.67mil 0 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil 15.08mil 7.87mil 15.08mil 7.87mil]
@@ -2329,6 +2926,11 @@ Element["onsolder" "sr_0603" "R2" "sr-nothing" 29.5590mm 31.3997mm -36.14mil 82.
 
 Element["onsolder" "sr_0603" "C9" "sr-nothing" 1222.80mil 35.3494mm -108.98mil 27.56mil 0 100 "auto"]
 (
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil 15.08mil 7.87mil 15.08mil 7.87mil]
@@ -2338,6 +2940,11 @@ Element["onsolder" "sr_0603" "C9" "sr-nothing" 1222.80mil 35.3494mm -108.98mil 2
 
 Element["onsolder" "sr_0603" "R3" "sr-nothing" 1222.80mil 36.9997mm -112.93mil 29.53mil 0 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil 15.08mil 7.87mil 15.08mil 7.87mil]
@@ -2347,6 +2954,11 @@ Element["onsolder" "sr_0603" "R3" "sr-nothing" 1222.80mil 36.9997mm -112.93mil 2
 
 Element["onsolder" "sr_0603" "R8" "sr-nothing" 34.5410mm 36.9997mm -11.10mil -19.68mil 0 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil 15.08mil 7.87mil 15.08mil 7.87mil]
@@ -2356,6 +2968,11 @@ Element["onsolder" "sr_0603" "R8" "sr-nothing" 34.5410mm 36.9997mm -11.10mil -19
 
 Element["onsolder" "sr_0603" "R17" "sr-nothing" 39.1091mm 40.1495mm -11.81mil 88.58mil 0 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil -15.08mil 7.87mil -15.08mil 7.87mil]
@@ -2365,6 +2982,11 @@ Element["onsolder" "sr_0603" "R17" "sr-nothing" 39.1091mm 40.1495mm -11.81mil 88
 
 Element["onsolder" "sr_0603" "R12" "sr-nothing" 34.4592mm 47.3997mm -46.00mil 82.68mil 0 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil 15.08mil 7.87mil 15.08mil 7.87mil]
@@ -2406,6 +3028,11 @@ Element["" "hole-M3" "" "" 56.2501mm 63.2501mm -169.00mil -210.00mil 0 100 ""]
 
 Element["onsolder" "sr_0603" "R34" "sr-nothing" 41.3499mm 39.3408mm 23.62mil -46.51mil 1 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-15.08mil -7.87mil -15.08mil 7.87mil 7.87mil]
@@ -2415,6 +3042,11 @@ Element["onsolder" "sr_0603" "R34" "sr-nothing" 41.3499mm 39.3408mm 23.62mil -46
 
 Element["" "sr_0603_led" "LED2" "sr-nothing" 39.9590mm 39.5498mm -47.24mil 19.69mil 0 78 ""]
 (
+	Attribute("device" "LED")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "K" "2" "square"]
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "A" "1" "square"]
 	ElementLine [-7.87mil 0.0000 7.87mil 0.0000 7.87mil]
@@ -2426,6 +3058,11 @@ Element["" "sr_0603_led" "LED2" "sr-nothing" 39.9590mm 39.5498mm -47.24mil 19.69
 
 Element["onsolder" "sr_0603" "R35" "sr-r-10k" 55.5000mm 26.2910mm -0.01mil -147.65mil 1 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [15.08mil -7.87mil 15.08mil 7.87mil 7.87mil]
@@ -2435,6 +3072,11 @@ Element["onsolder" "sr_0603" "R35" "sr-r-10k" 55.5000mm 26.2910mm -0.01mil -147.
 
 Element["onsolder" "sr_0603" "C14" "sr-nothing" 34.5410mm 38.5501mm 43.66mil -31.70mil 1 100 "auto"]
 (
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil 15.08mil 7.87mil 15.08mil 7.87mil]
@@ -2444,6 +3086,11 @@ Element["onsolder" "sr_0603" "C14" "sr-nothing" 34.5410mm 38.5501mm 43.66mil -31
 
 Element["onsolder" "sr_0603" "C15" "sr-c-100n" 57.2501mm 26.3091mm -3.93mil -3.5908mm 1 100 "auto"]
 (
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [15.08mil -7.87mil 15.08mil 7.87mil 7.87mil]
@@ -2453,6 +3100,11 @@ Element["onsolder" "sr_0603" "C15" "sr-c-100n" 57.2501mm 26.3091mm -3.93mil -3.5
 
 Element["onsolder" "sr_0603" "S/C3" "sr-c-470n" 59.06mil 11.8410mm -29.53mil -185.04mil 1 100 "auto"]
 (
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [15.08mil -7.87mil 15.08mil 7.87mil 7.87mil]
@@ -2462,6 +3114,11 @@ Element["onsolder" "sr_0603" "S/C3" "sr-c-470n" 59.06mil 11.8410mm -29.53mil -18
 
 Element["onsolder" "sr_0603" "S/C1" "sr-c-470n" 323.19mil 793.31mil -164.10mil 11.81mil 0 89 "auto"]
 (
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil 15.08mil 7.87mil 15.08mil 7.87mil]
@@ -2471,6 +3128,11 @@ Element["onsolder" "sr_0603" "S/C1" "sr-c-470n" 323.19mil 793.31mil -164.10mil 1
 
 Element["onsolder" "sr_0603" "S/R3" "sr-r-1k" 83.04mil 30.3500mm -41.70mil -131.54mil 1 78 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil -15.08mil 7.87mil -15.08mil 7.87mil]
@@ -2480,6 +3142,11 @@ Element["onsolder" "sr_0603" "S/R3" "sr-r-1k" 83.04mil 30.3500mm -41.70mil -131.
 
 Element["onsolder" "sr_0603" "S/C6" "sr-c-100n" 84.28mil 1336.60mil 183.07mil -98.42mil 0 89 "auto"]
 (
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil -15.08mil 7.87mil -15.08mil 7.87mil]
@@ -2489,6 +3156,11 @@ Element["onsolder" "sr_0603" "S/C6" "sr-c-100n" 84.28mil 1336.60mil 183.07mil -9
 
 Element["onsolder" "sr_0603" "S/C4" "sr-c-100n" 76.41mil 32.2499mm 65.69mil -45.27mil 0 78 "auto"]
 (
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil 15.08mil 7.87mil 15.08mil 7.87mil]
@@ -2498,6 +3170,11 @@ Element["onsolder" "sr_0603" "S/C4" "sr-c-100n" 76.41mil 32.2499mm 65.69mil -45.
 
 Element["onsolder" "sr_0603" "S/R1" "sr-r-10k" 556.73mil 41.3497mm 51.91mil 29.54mil 0 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil 15.08mil 7.87mil 15.08mil 7.87mil]
@@ -2507,6 +3184,11 @@ Element["onsolder" "sr_0603" "S/R1" "sr-r-10k" 556.73mil 41.3497mm 51.91mil 29.5
 
 Element["onsolder" "sr_0603" "S/R2" "sr-r-10k" 556.73mil 1568.90mil 51.89mil 27.56mil 0 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil 15.08mil 7.87mil 15.08mil 7.87mil]
@@ -2516,6 +3198,11 @@ Element["onsolder" "sr_0603" "S/R2" "sr-r-10k" 556.73mil 1568.90mil 51.89mil 27.
 
 Element["onsolder" "sr_0603" "S/R8" "sr-r-330" 596.46mil 32.5410mm 104.32mil -213.86mil 1 78 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-15.08mil -7.87mil -15.08mil 7.87mil 7.87mil]
@@ -2525,6 +3212,11 @@ Element["onsolder" "sr_0603" "S/R8" "sr-r-330" 596.46mil 32.5410mm 104.32mil -21
 
 Element["onsolder" "SOT23" "S/Q1" "sr-fet-p-bss84lt1g" 625.98mil 44.3499mm -104.10mil 168.28mil 0 100 "auto"]
 (
+	Attribute("device" "PMOS_TRANSISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-3.00mil 0.0000 3.00mil 0.0000 34.00mil 30.00mil 44.00mil "G" "1" "onsolder,square,edge2"]
 	Pad[-3.00mil 78.00mil 3.00mil 78.00mil 34.00mil 30.00mil 44.00mil "S" "2" "onsolder,square,edge2"]
 	Pad[-85.00mil 39.00mil -79.00mil 39.00mil 34.00mil 30.00mil 44.00mil "D" "3" "onsolder,square"]
@@ -2537,6 +3229,11 @@ Element["onsolder" "SOT23" "S/Q1" "sr-fet-p-bss84lt1g" 625.98mil 44.3499mm -104.
 
 Element["onsolder" "sr_0603" "S/R7" "sr-r-100" 617.75mil 30.4000mm -84.67mil -15.77mil 0 78 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-29.17mil -4.84mil -29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[29.17mil -4.84mil 29.17mil 4.84mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-7.87mil -15.08mil 7.87mil -15.08mil 7.87mil]
@@ -2546,6 +3243,11 @@ Element["onsolder" "sr_0603" "S/R7" "sr-r-100" 617.75mil 30.4000mm -84.67mil -15
 
 Element["onsolder" "sr_0603" "S/R4" "sr-r-330" 653.54mil 32.5410mm 100.40mil -213.85mil 1 78 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [-15.08mil -7.87mil -15.08mil 7.87mil 7.87mil]
@@ -2555,6 +3257,11 @@ Element["onsolder" "sr_0603" "S/R4" "sr-r-330" 653.54mil 32.5410mm 100.40mil -21
 
 Element["onsolder" "sr_0603" "S/R5" "sr-r-100" 742.13mil 44.9910mm 19.68mil -66.94mil 1 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [15.08mil -7.87mil 15.08mil 7.87mil 7.87mil]
@@ -2564,6 +3271,11 @@ Element["onsolder" "sr_0603" "S/R5" "sr-r-100" 742.13mil 44.9910mm 19.68mil -66.
 
 Element["onsolder" "sr_0603" "S/R6" "sr-r-100" 687.01mil 44.9910mm -140.12mil -56.74mil 0 100 "auto"]
 (
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-4.84mil -29.17mil 4.84mil -29.17mil 28.31mil 19.68mil 38.15mil "2" "2" "onsolder,square"]
 	Pad[-4.84mil 29.17mil 4.84mil 29.17mil 28.31mil 19.68mil 38.15mil "1" "1" "onsolder,square"]
 	ElementLine [15.08mil -7.87mil 15.08mil 7.87mil 7.87mil]
@@ -2573,6 +3285,11 @@ Element["onsolder" "sr_0603" "S/R6" "sr-r-100" 687.01mil 44.9910mm -140.12mil -5
 
 Element["" "0805" "C2" "sr-c-4u7-0805-16v" 48.1500mm 27.2499mm 70.88mil -45.28mil 0 78 ""]
 (
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[35.43mil -3.93mil 35.43mil 3.93mil 51.18mil 20.00mil 61.18mil "1" "1" "square"]
 	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 51.18mil 20.00mil 61.18mil "2" "2" "square"]
 	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
@@ -2582,6 +3299,11 @@ Element["" "0805" "C2" "sr-c-4u7-0805-16v" 48.1500mm 27.2499mm 70.88mil -45.28mi
 
 Element["" "0805" "C3" "sr-c-4u7-0805-16v" 43.3001mm 1431.10mil -21.63mil 33.45mil 0 89 ""]
 (
+	Attribute("device" "CAPACITOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
 	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 51.18mil 20.00mil 61.18mil "1" "1" "square"]
 	Pad[35.43mil -3.93mil 35.43mil 3.93mil 51.18mil 20.00mil 61.18mil "2" "2" "square"]
 	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]

@@ -1,4 +1,4 @@
-v 20100214 2
+v 20111231 2
 C 48100 47300 1 0 0 MSP430F22x4.sym
 {
 T 48500 55550 5 10 0 0 0 0 1
@@ -55,10 +55,12 @@ T 35500 57900 5 10 1 1 0 0 1
 refdes=C102
 T 35900 58100 5 10 0 0 270 0 1
 symversion=0.1
-T 35500 57700 5 10 1 1 0 0 1
-value=sr-c-100n
+T 35500 57700 5 10 0 1 0 0 1
+oldvalue=sr-c-100n
 T 35000 58300 5 10 0 0 0 0 1
 footprint=sr_0603
+T 35500 57700 5 10 1 1 0 0 1
+value=sr-nothing
 }
 N 32000 57200 37000 57200 4
 N 31400 58500 37000 58500 4
@@ -413,10 +415,12 @@ T 31600 42500 5 10 0 0 0 0 1
 footprint=8P8C
 T 31600 41700 5 10 1 1 0 0 1
 refdes=J101
-T 31600 39600 5 10 1 1 0 0 1
-value=sr-cn-8p8c
+T 31600 39600 5 10 0 1 0 0 1
+oldvalue=sr-cn-8p8c
 T 31500 40700 5 20 1 1 90 3 1
 comment=Feedback
+T 31600 39600 5 10 1 1 0 0 1
+value=sr-nothing
 }
 N 30900 57000 30900 59000 4
 N 30900 59000 37000 59000 4
@@ -426,10 +430,12 @@ T 37300 59300 5 10 1 1 0 6 1
 refdes=F100
 T 37000 60000 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
-T 37500 59300 5 10 1 1 0 0 1
-value=sr-fuse-r200-1812
+T 37500 59300 5 10 0 1 0 0 1
+oldvalue=sr-fuse-r200-1812
 T 37000 58800 5 10 0 1 0 0 1
 footprint=1812
+T 37500 59300 5 10 1 1 0 0 1
+value=sr-nothing
 }
 N 37900 59000 39700 59000 4
 {
@@ -449,10 +455,12 @@ T 39600 50340 5 10 0 0 0 6 1
 device=SN65LVDS051
 T 37900 49625 5 10 1 1 0 0 1
 refdes=U100
-T 37900 49450 5 10 1 1 0 0 1
-value=sr-ic-sn65lvds051
+T 37900 49450 5 10 0 1 0 0 1
+oldvalue=sr-ic-sn65lvds051
 T 39900 47400 5 10 0 1 0 0 1
 footprint=TSSOP16
+T 37900 49400 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 39900 50000 1 0 1 SN65LVDS051-1.sym
 {
@@ -462,10 +470,12 @@ T 37900 52225 5 10 1 1 0 0 1
 refdes=U100
 T 39900 50000 5 10 0 1 0 0 1
 slot=2
-T 37900 52050 5 10 1 1 0 0 1
-value=sr-ic-sn65lvds051
+T 37900 52050 5 10 0 1 0 0 1
+oldvalue=sr-ic-sn65lvds051
 T 39900 50000 5 10 0 1 0 0 1
 footprint=TSSOP16
+T 37900 52000 5 10 1 1 0 0 1
+value=sr-nothing
 }
 N 37600 51300 37300 51300 4
 N 37300 51300 37300 50300 4
@@ -519,10 +529,12 @@ T 37100 58200 5 10 1 1 0 0 1
 refdes=U100
 T 37300 57800 5 10 1 1 0 0 1
 device=SN65LVDS051
-T 37300 57600 5 10 1 1 0 0 1
-value=sr-ic-sn65lvds051
+T 37300 57600 5 10 0 1 0 0 1
+oldvalue=sr-ic-sn65lvds051
 T 36800 57300 5 10 0 1 0 0 1
 footprint=TSSOP16
+T 37300 57600 5 10 1 1 0 0 1
+value=sr-nothing
 }
 N 37000 58400 37000 58500 4
 N 32500 41400 33500 41400 4
@@ -561,10 +573,12 @@ T 39000 44000 5 10 1 1 0 6 1
 refdes=F101
 T 38800 44700 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
-T 39200 44000 5 10 1 1 0 0 1
-value=sr-fuse-r50-1206
+T 39200 44000 5 10 0 1 0 0 1
+oldvalue=sr-fuse-r50-1206
 T 38800 43500 5 10 0 1 0 0 1
 footprint=1206
+T 39200 44000 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 38800 42600 1 0 0 polyfuse-1.sym
 {
@@ -572,10 +586,12 @@ T 39000 43100 5 10 1 1 0 6 1
 refdes=F102
 T 38800 43800 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
-T 39200 43100 5 10 1 1 0 0 1
-value=sr-fuse-r50-1206
+T 39200 43100 5 10 0 1 0 0 1
+oldvalue=sr-fuse-r50-1206
 T 38800 42600 5 10 0 1 0 0 1
 footprint=1206
+T 39200 43100 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 38800 40500 1 0 0 polyfuse-1.sym
 {
@@ -583,10 +599,12 @@ T 39000 41000 5 10 1 1 0 6 1
 refdes=F103
 T 38800 41700 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
-T 39200 41000 5 10 1 1 0 0 1
-value=sr-fuse-r50-1206
+T 39200 41000 5 10 0 1 0 0 1
+oldvalue=sr-fuse-r50-1206
 T 38800 40500 5 10 0 1 0 0 1
 footprint=1206
+T 39200 41000 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 38800 39600 1 0 0 polyfuse-1.sym
 {
@@ -594,10 +612,12 @@ T 39000 40100 5 10 1 1 0 6 1
 refdes=F104
 T 38800 40800 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
-T 39200 40100 5 10 1 1 0 0 1
-value=sr-fuse-r50-1206
+T 39200 40100 5 10 0 1 0 0 1
+oldvalue=sr-fuse-r50-1206
 T 38800 39600 5 10 0 1 0 0 1
 footprint=1206
+T 39200 40100 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 40600 41600 1 0 0 TVS-dual-ca.sym
 {
@@ -605,10 +625,12 @@ T 40700 43000 5 10 0 0 0 0 1
 device=TVS
 T 42000 42300 5 10 1 1 0 0 1
 refdes=D102
-T 42000 42100 5 10 1 1 0 0 1
-value=sr-d-mmbz5v6al
+T 42000 42100 5 10 0 1 0 0 1
+oldvalue=sr-d-mmbz5v6al
 T 40600 41600 5 10 0 1 0 0 1
 footprint=SOT23
+T 42000 42100 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 43700 41600 1 0 0 TVS-dual-ca.sym
 {
@@ -616,10 +638,12 @@ T 43800 43000 5 10 0 0 0 0 1
 device=TVS
 T 45100 42300 5 10 1 1 0 0 1
 refdes=D103
-T 45100 42100 5 10 1 1 0 0 1
-value=sr-d-mmbz5v6al
+T 45100 42100 5 10 0 1 0 0 1
+oldvalue=sr-d-mmbz5v6al
 T 43700 41600 5 10 0 1 0 0 1
 footprint=SOT23
+T 45100 42100 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 43600 38600 1 0 0 TVS-dual-ca.sym
 {
@@ -627,10 +651,12 @@ T 43700 40000 5 10 0 0 0 0 1
 device=TVS
 T 45000 39300 5 10 1 1 0 0 1
 refdes=D105
-T 45000 39100 5 10 1 1 0 0 1
-value=sr-d-mmbz5v6al
+T 45000 39100 5 10 0 1 0 0 1
+oldvalue=sr-d-mmbz5v6al
 T 43600 38600 5 10 0 1 0 0 1
 footprint=SOT23
+T 45000 39100 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 40600 38600 1 0 0 TVS-dual-ca.sym
 {
@@ -638,10 +664,12 @@ T 40700 40000 5 10 0 0 0 0 1
 device=TVS
 T 42000 39300 5 10 1 1 0 0 1
 refdes=D104
-T 42000 39100 5 10 1 1 0 0 1
-value=sr-d-mmbz5v6al
+T 42000 39100 5 10 0 1 0 0 1
+oldvalue=sr-d-mmbz5v6al
 T 40600 38600 5 10 0 1 0 0 1
 footprint=SOT23
+T 42000 39100 5 10 1 1 0 0 1
+value=sr-nothing
 }
 N 39700 42800 44000 42800 4
 {
@@ -702,10 +730,12 @@ T 39200 46950 5 10 0 0 0 0 1
 device=RESISTOR
 T 39100 46900 5 10 1 1 0 6 1
 refdes=R100
-T 39300 46900 5 10 1 1 0 0 1
-value=sr-r-330
+T 39300 46900 5 10 0 1 0 0 1
+oldvalue=sr-r-330
 T 38800 46600 5 10 0 1 0 0 1
 footprint=sr_0603
+T 39300 46900 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 38800 45700 1 0 0 resistor-2.sym
 {
@@ -713,10 +743,12 @@ T 39200 46050 5 10 0 0 0 0 1
 device=RESISTOR
 T 39100 46000 5 10 1 1 0 6 1
 refdes=R108
-T 39300 46000 5 10 1 1 0 0 1
-value=sr-r-330
+T 39300 46000 5 10 0 1 0 0 1
+oldvalue=sr-r-330
 T 38800 45700 5 10 0 1 0 0 1
 footprint=sr_0603
+T 39300 46000 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 40700 44600 1 0 0 TVS-dual-ca.sym
 {
@@ -724,10 +756,12 @@ T 40800 46000 5 10 0 0 0 0 1
 device=TVS
 T 42100 45300 5 10 1 1 0 0 1
 refdes=D100
-T 42100 45100 5 10 1 1 0 0 1
-value=sr-d-mmbz5v6al
+T 42100 45100 5 10 0 1 0 0 1
+oldvalue=sr-d-mmbz5v6al
 T 40700 44600 5 10 0 1 0 0 1
 footprint=SOT23
+T 42100 45100 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 43700 44600 1 0 0 TVS-dual-ca.sym
 {
@@ -735,10 +769,12 @@ T 43800 46000 5 10 0 0 0 0 1
 device=TVS
 T 45100 45300 5 10 1 1 0 0 1
 refdes=D101
-T 45100 45100 5 10 1 1 0 0 1
-value=sr-d-mmbz5v6al
+T 45100 45100 5 10 0 1 0 0 1
+oldvalue=sr-d-mmbz5v6al
 T 43700 44600 5 10 0 1 0 0 1
 footprint=SOT23
+T 45100 45100 5 10 1 1 0 0 1
+value=sr-nothing
 }
 N 39700 45800 44800 45800 4
 {
@@ -772,10 +808,12 @@ T 34950 46300 5 10 0 0 270 0 1
 device=RESISTOR
 T 34900 46300 5 10 1 1 0 0 1
 refdes=R104
-T 34900 46100 5 10 1 1 0 0 1
-value=sr-r-100-1206
+T 34900 46100 5 10 0 1 0 0 1
+oldvalue=sr-r-100-1206
 T 34600 46700 5 10 0 1 0 0 1
 footprint=1206
+T 34900 46100 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 36500 43700 1 270 0 resistor-2.sym
 {
@@ -783,10 +821,12 @@ T 36850 43300 5 10 0 0 270 0 1
 device=RESISTOR
 T 36800 43300 5 10 1 1 0 0 1
 refdes=R109
-T 36800 43100 5 10 1 1 0 0 1
-value=sr-r-100
+T 36800 43100 5 10 0 1 0 0 1
+oldvalue=sr-r-100
 T 36500 43700 5 10 0 1 0 0 1
 footprint=sr_0603
+T 36800 43100 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 36300 46700 1 270 0 resistor-2.sym
 {
@@ -794,10 +834,12 @@ T 36650 46300 5 10 0 0 270 0 1
 device=RESISTOR
 T 36600 46300 5 10 1 1 0 0 1
 refdes=R110
-T 36600 46100 5 10 1 1 0 0 1
-value=sr-r-100-1206
+T 36600 46100 5 10 0 1 0 0 1
+oldvalue=sr-r-100-1206
 T 36300 46700 5 10 0 1 0 0 1
 footprint=1206
+T 36600 46100 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 34600 45800 1 270 0 resistor-2.sym
 {
@@ -805,10 +847,12 @@ T 34950 45400 5 10 0 0 270 0 1
 device=RESISTOR
 T 34900 45400 5 10 1 1 0 0 1
 refdes=R111
-T 34900 45200 5 10 1 1 0 0 1
-value=sr-r-100-1206
+T 34900 45200 5 10 0 1 0 0 1
+oldvalue=sr-r-100-1206
 T 34600 45800 5 10 0 1 0 0 1
 footprint=1206
+T 34900 45200 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 36300 45800 1 270 0 resistor-2.sym
 {
@@ -816,10 +860,12 @@ T 36650 45400 5 10 0 0 270 0 1
 device=RESISTOR
 T 36600 45400 5 10 1 1 0 0 1
 refdes=R112
-T 36600 45200 5 10 1 1 0 0 1
-value=sr-r-100-1206
+T 36600 45200 5 10 0 1 0 0 1
+oldvalue=sr-r-100-1206
 T 36300 45800 5 10 0 1 0 0 1
 footprint=1206
+T 36600 45200 5 10 1 1 0 0 1
+value=sr-nothing
 }
 N 34700 44900 38000 44900 4
 N 38000 44900 38000 45800 4
@@ -831,10 +877,12 @@ T 40000 58600 5 10 1 1 0 0 1
 refdes=C103
 T 40400 58800 5 10 0 0 270 0 1
 symversion=0.1
-T 40000 58400 5 10 1 1 0 0 1
-value=sr-c-2u2-0805
+T 40000 58400 5 10 0 1 0 0 1
+oldvalue=sr-c-2u2-0805
 T 39500 59000 5 10 0 0 0 0 1
 footprint=0805
+T 40000 58400 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 39600 57800 1 0 0 gnd-1.sym
 N 41000 51200 41000 51500 4
