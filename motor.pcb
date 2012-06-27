@@ -6,7 +6,7 @@ FileVersion[20100606]
 PCB["" 2362.20mil 2637.80mil]
 
 Grid[196.850394 0.0000 0.0000 1]
-Cursor[19.3000mm 5.7000mm 0.000000]
+Cursor[51.1000mm 8.7500mm 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[7.87mil 7.87mil 7.87mil 7.87mil 19.69mil 7.87mil]
@@ -3387,7 +3387,6 @@ Layer(1 "component")
 	Line[295.28mil 53.3997mm 383.86mil 51.1498mm 25.00mil 20.00mil ""]
 	Line[1669.30mil 1431.10mil 42.9001mm 35.8501mm 20.00mil 20.00mil "clearline"]
 	Line[30.0576mm 31.7896mm 32.0500mm 1330.00mil 7.87mil 17.40mil "clearline"]
-	Line[37.1000mm 655.50mil 35.0230mm 573.73mil 25.00mil 20.00mil ""]
 	Line[36.7000mm 1863.10mil 36.0500mm 47.9727mm 10.00mil 20.00mil "clearline"]
 	Line[32.0500mm 1330.00mil 32.0500mm 38.7998mm 7.87mil 21.40mil "clearline"]
 	Line[39.2999mm 29.0497mm 39.1000mm 29.2496mm 10.00mil 20.00mil "clearline"]
@@ -3458,7 +3457,6 @@ Layer(1 "component")
 	Line[54.9001mm 31.9496mm 56.1000mm 30.7497mm 10.00mil 20.00mil "clearline"]
 	Line[44.0500mm 1017.70mil 44.4929mm 25.4597mm 25.00mil 20.00mil "clearline"]
 	Line[1431.10mil 324.80mil 1531.50mil 324.80mil 25.00mil 20.00mil ""]
-	Line[35.0230mm 573.73mil 35.0230mm 411.41mil 25.00mil 20.00mil ""]
 	Line[47.2001mm 25.1000mm 47.2001mm 950.77mil 25.00mil 20.00mil "clearline"]
 	Line[35.0230mm 411.42mil 35.0230mm 377.04mil 25.00mil 20.00mil "clearline"]
 	Line[51.1500mm 866.13mil 51.1500mm 816.92mil 10.00mil 20.00mil "clearline"]
@@ -3954,7 +3952,6 @@ Layer(1 "component")
 	Line[35.3997mm 38.0497mm 36.6499mm 39.2999mm 7.87mil 19.68mil "clearline"]
 	Line[32.0500mm 38.7998mm 1281.50mil 39.2999mm 7.87mil 19.68mil "clearline"]
 	Line[37.4000mm 31.8501mm 37.1000mm 31.5496mm 25.00mil 20.00mil ""]
-	Line[37.1000mm 31.5496mm 37.1000mm 655.50mil 25.00mil 20.00mil ""]
 	Line[36.0500mm 28.5001mm 36.0500mm 1255.90mil 10.00mil 20.00mil "clearline"]
 	Line[47.1500mm 29.5001mm 47.1500mm 30.5999mm 20.00mil 20.00mil "clearline"]
 	Line[47.1500mm 30.5999mm 46.1500mm 31.5999mm 20.00mil 20.00mil "clearline"]
@@ -3989,6 +3986,8 @@ Layer(1 "component")
 	Text[627.94mil 5.3500mm 0 188 "SR11.F" ""]
 	Text[314.96mil 108.27mil 0 177 "Motor Controller" ""]
 	Text[19.3500mm 61.7002mm 0 155 "studentrobotics.org" ""]
+	Text[1744.40mil 323.40mil 1 179 "Power" "clearline"]
+	Text[31.4137mm 533.12mil 0 204 "Motor" "clearline"]
 	Polygon("clearpoly")
 	(
 		[19.3500mm 32.4996mm] [21.0000mm 32.4996mm] [21.0000mm 26.7495mm] [19.3500mm 26.7495mm] 
@@ -5336,8 +5335,14 @@ Layer(7 "silk")
 	Line[14.7000mm 41.7495mm 13.7000mm 42.7495mm 7.87mil 20.00mil "clearline"]
 	Line[1781.50mil 1399.60mil 45.0499mm 35.3499mm 7.87mil 12.00mil "clearline"]
 	Line[53.1500mm 702.74mil 51.4500mm 702.74mil 10.00mil 20.00mil "clearline"]
+	Line[39.5285mm 593.88mil 41.2212mm 593.88mil 10.00mil 20.00mil "clearline"]
+	Line[41.2212mm 593.88mil 42.1670mm 631.12mil 10.00mil 20.00mil "clearline"]
+	Line[42.1670mm 631.12mil 42.1670mm 595.84mil 10.00mil 20.00mil "clearline"]
+	Line[42.1670mm 631.12mil 41.2709mm 631.12mil 10.00mil 20.00mil "clearline"]
 	Text[586.62mil 616.13mil 1 154 "OUT" ""]
 	Text[588.59mil 30.9994mm 1 154 "IN" ""]
+	Text[1744.40mil 323.40mil 1 179 "Power" "clearline"]
+	Text[31.4137mm 533.12mil 0 204 "Motor" "clearline"]
 )
 NetList()
 (
