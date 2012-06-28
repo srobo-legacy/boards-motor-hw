@@ -1,4 +1,4 @@
-v 20100214 2
+v 20111231 2
 C 58300 47100 1 0 0 nmos-5.sym
 {
 T 58900 47600 5 10 0 0 0 0 1
@@ -127,10 +127,12 @@ T 46900 56300 5 10 1 1 0 0 1
 refdes=C4
 T 47300 56500 5 10 0 0 270 0 1
 symversion=0.1
-T 46900 56100 5 10 1 1 0 0 1
-value=sr-c-100n
+T 46900 56100 5 10 0 1 0 0 1
+oldvalue=sr-c-100n
 T 46400 56700 5 10 0 0 0 0 1
 footprint=sr_0603
+T 46900 56100 5 10 1 1 0 0 1
+value=sr-nothing
 }
 N 40000 56700 56200 56700 4
 {
@@ -617,10 +619,12 @@ T 51100 56300 5 10 1 1 0 0 1
 refdes=C7
 T 51500 56500 5 10 0 0 270 0 1
 symversion=0.1
-T 51100 56100 5 10 1 1 0 0 1
-value=sr-c-100n
+T 51100 56100 5 10 0 1 0 0 1
+oldvalue=sr-c-100n
 T 50600 56700 5 10 0 0 0 0 1
 footprint=sr_0603
+T 51100 56100 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 52000 56700 1 270 0 capacitor-1.sym
 {
@@ -630,10 +634,12 @@ T 52500 56300 5 10 1 1 0 0 1
 refdes=C8
 T 52900 56500 5 10 0 0 270 0 1
 symversion=0.1
-T 52500 56100 5 10 1 1 0 0 1
-value=sr-c-100n
+T 52500 56100 5 10 0 1 0 0 1
+oldvalue=sr-c-100n
 T 52000 56700 5 10 0 0 0 0 1
 footprint=sr_0603
+T 52500 56100 5 10 1 1 0 0 1
+value=sr-nothing
 }
 N 47800 47800 47300 47800 4
 N 47300 41800 47800 41800 4
@@ -647,14 +653,16 @@ T 61750 40700 5 10 0 0 270 0 1
 device=RESISTOR
 T 61700 40700 5 10 1 1 0 0 1
 refdes=R30
-T 61700 40500 5 10 1 1 0 0 1
-value=sr-r-3m5-2512
+T 61700 40500 5 10 0 1 0 0 1
+oldvalue=sr-r-3m5-2512
 T 61400 41100 5 10 0 1 0 0 1
 footprint=2512
+T 61700 40500 5 10 1 1 0 0 1
+value=sr-nothing
 }
 N 61500 39300 61500 40200 4
 N 61500 41100 61500 41700 4
-N 61500 39700 58500 39700 4
+N 61500 39700 58200 39700 4
 {
 T 60500 39700 5 10 1 1 0 0 1
 netname=MGND
@@ -782,10 +790,12 @@ T 59950 41200 5 10 0 0 270 0 1
 device=RESISTOR
 T 59500 41200 5 10 1 1 0 6 1
 refdes=R29
-T 59500 41000 5 10 1 1 0 6 1
-value=sr-r-10k
+T 59500 41000 5 10 0 1 0 6 1
+oldvalue=sr-r-10k
 T 59600 41600 5 10 0 0 0 0 1
 footprint=sr_0603
+T 59500 41000 5 10 1 1 0 6 1
+value=sr-nothing
 }
 C 59600 40600 1 270 0 resistor-2.sym
 {
@@ -793,26 +803,30 @@ T 59950 40200 5 10 0 0 270 0 1
 device=RESISTOR
 T 59500 40200 5 10 1 1 0 6 1
 refdes=R32
-T 59500 40000 5 10 1 1 0 6 1
-value=sr-r-100k
+T 59500 40000 5 10 0 1 0 6 1
+oldvalue=sr-r-100k
 T 59600 40600 5 10 0 0 0 0 1
 footprint=sr_0603
+T 59500 40000 5 10 1 1 0 6 1
+value=sr-nothing
 }
 N 59700 40600 59700 40700 4
-C 58300 40600 1 270 0 capacitor-1.sym
+C 58000 40600 1 270 0 capacitor-1.sym
 {
-T 59000 40400 5 10 0 0 270 0 1
+T 58700 40400 5 10 0 0 270 0 1
 device=CAPACITOR
-T 58200 40200 5 10 1 1 0 6 1
+T 57900 40200 5 10 1 1 0 6 1
 refdes=C13
-T 59200 40400 5 10 0 0 270 0 1
+T 58900 40400 5 10 0 0 270 0 1
 symversion=0.1
-T 58200 40000 5 10 1 1 0 6 1
-value=sr-c-2u2-0805
-T 58300 40600 5 10 0 0 0 0 1
+T 57900 40000 5 10 0 1 0 6 1
+oldvalue=sr-c-2u2-0805
+T 58000 40600 5 10 0 0 0 0 1
 footprint=0805
+T 57900 40000 5 10 1 1 0 6 1
+value=sr-nothing
 }
-N 58500 40600 59700 40600 4
+N 58200 40600 59700 40600 4
 {
 T 58700 40600 5 10 1 1 0 0 1
 netname=Isense
@@ -828,10 +842,12 @@ T 49100 55325 5 8 0 0 0 0 1
 symversion=1.0
 T 49100 54600 5 8 0 0 0 0 1
 slot=3
-T 48800 54400 5 10 1 1 0 0 1
-value=sr-ic-lm339
+T 48800 54400 5 10 0 1 0 0 1
+oldvalue=sr-ic-lm339
 T 48200 53500 5 10 0 1 0 0 1
 footprint=TSSOP14
+T 48900 54400 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 48200 50400 1 0 0 lm339-1.sym
 {
@@ -843,10 +859,12 @@ T 49100 52225 5 8 0 0 0 0 1
 symversion=1.0
 T 49100 51500 5 8 0 0 0 0 1
 slot=2
-T 48700 51300 5 10 1 1 0 0 1
-value=sr-ic-lm339
+T 48700 51300 5 10 0 1 0 0 1
+oldvalue=sr-ic-lm339
 T 48200 50400 5 10 0 1 0 0 1
 footprint=TSSOP14
+T 48800 51300 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 53000 51400 1 0 0 lm339-1.sym
 {
@@ -858,10 +876,12 @@ T 53900 53225 5 8 0 0 0 0 1
 symversion=1.0
 T 53900 52500 5 8 0 0 0 0 1
 slot=1
-T 53100 51100 5 10 1 1 0 0 1
-value=sr-ic-lm339
+T 53100 51100 5 10 0 1 0 0 1
+oldvalue=sr-ic-lm339
 T 53000 51400 5 10 0 1 0 0 1
 footprint=TSSOP14
+T 53200 51100 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 58700 51600 1 0 0 lm339-1.sym
 {
@@ -873,10 +893,12 @@ T 59600 53425 5 8 0 0 0 0 1
 symversion=1.0
 T 59600 52700 5 8 0 0 0 0 1
 slot=4
-T 59300 51300 5 10 1 1 0 0 1
-value=sr-ic-lm339
+T 59300 51300 5 10 0 1 0 0 1
+oldvalue=sr-ic-lm339
 T 58700 51600 5 10 0 1 0 0 1
 footprint=TSSOP14
+T 59400 51400 5 10 1 1 0 0 1
+value=sr-nothing
 }
 N 59200 52400 59200 53600 4
 N 51600 53600 61000 53600 4
@@ -896,10 +918,12 @@ T 47650 51600 5 10 0 0 270 0 1
 device=RESISTOR
 T 47600 51600 5 10 1 1 0 0 1
 refdes=R14
-T 47600 51400 5 10 1 1 0 0 1
-value=sr-r-10k
+T 47600 51400 5 10 0 1 0 0 1
+oldvalue=sr-r-10k
 T 47300 52000 5 10 0 1 0 0 1
 footprint=sr_0603
+T 47600 51400 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 51500 51600 1 270 0 resistor-2.sym
 {
@@ -907,10 +931,12 @@ T 51850 51200 5 10 0 0 270 0 1
 device=RESISTOR
 T 51800 51200 5 10 1 1 0 0 1
 refdes=R15
-T 51800 51000 5 10 1 1 0 0 1
-value=sr-r-10k
+T 51800 51000 5 10 0 1 0 0 1
+oldvalue=sr-r-10k
 T 51500 51600 5 10 0 1 0 0 1
 footprint=sr_0603
+T 51800 51000 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 46000 52000 1 270 0 resistor-2.sym
 {
@@ -918,10 +944,12 @@ T 46350 51600 5 10 0 0 270 0 1
 device=RESISTOR
 T 46300 51600 5 10 1 1 0 0 1
 refdes=R13
-T 46300 51400 5 10 1 1 0 0 1
-value=sr-r-100k
+T 46300 51400 5 10 0 1 0 0 1
+oldvalue=sr-r-100k
 T 46000 52000 5 10 0 1 0 0 1
 footprint=sr_0603
+T 46300 51400 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 57000 53400 1 270 0 resistor-2.sym
 {
@@ -929,10 +957,12 @@ T 57350 53000 5 10 0 0 270 0 1
 device=RESISTOR
 T 57300 53000 5 10 1 1 0 0 1
 refdes=R7
-T 57300 52800 5 10 1 1 0 0 1
-value=sr-r-100k
+T 57300 52800 5 10 0 1 0 0 1
+oldvalue=sr-r-100k
 T 57000 53400 5 10 0 1 0 0 1
 footprint=sr_0603
+T 57300 52800 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 47300 50400 1 270 0 resistor-2.sym
 {
@@ -940,10 +970,12 @@ T 47650 50000 5 10 0 0 270 0 1
 device=RESISTOR
 T 47600 50000 5 10 1 1 0 0 1
 refdes=R18
-T 47600 49800 5 10 1 1 0 0 1
-value=sr-r-100k
+T 47600 49800 5 10 0 1 0 0 1
+oldvalue=sr-r-100k
 T 47300 50400 5 10 0 1 0 0 1
 footprint=sr_0603
+T 47600 49800 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 51500 53400 1 270 0 resistor-2.sym
 {
@@ -951,10 +983,12 @@ T 51850 53000 5 10 0 0 270 0 1
 device=RESISTOR
 T 51800 53000 5 10 1 1 0 0 1
 refdes=R6
-T 51800 52800 5 10 1 1 0 0 1
-value=sr-r-2k4
+T 51800 52800 5 10 0 1 0 0 1
+oldvalue=sr-r-2k4
 T 51500 53400 5 10 0 1 0 0 1
 footprint=sr_0603
+T 51800 52800 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 54400 53300 1 270 0 resistor-2.sym
 {
@@ -962,10 +996,12 @@ T 54750 52900 5 10 0 0 270 0 1
 device=RESISTOR
 T 54700 52900 5 10 1 1 0 0 1
 refdes=R10
-T 54700 52700 5 10 1 1 0 0 1
-value=sr-r-1k
+T 54700 52700 5 10 0 1 0 0 1
+oldvalue=sr-r-1k
 T 54400 53300 5 10 0 1 0 0 1
 footprint=sr_0603
+T 54700 52700 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 59400 52800 1 0 0 resistor-2.sym
 {
@@ -973,10 +1009,12 @@ T 59800 53150 5 10 0 0 0 0 1
 device=RESISTOR
 T 59600 53100 5 10 1 1 0 6 1
 refdes=R5
-T 59700 53100 5 10 1 1 0 0 1
-value=sr-r-100k
+T 59700 53100 5 10 0 1 0 0 1
+oldvalue=sr-r-100k
 T 59400 52800 5 10 0 1 0 0 1
 footprint=sr_0603
+T 59700 53100 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 52600 53600 1 270 0 resistor-2.sym
 {
@@ -984,10 +1022,12 @@ T 52950 53200 5 10 0 0 270 0 1
 device=RESISTOR
 T 52900 53300 5 10 1 1 0 0 1
 refdes=R4
-T 52900 53100 5 10 1 1 0 0 1
-value=sr-r-100k
+T 52900 53100 5 10 0 1 0 0 1
+oldvalue=sr-r-100k
 T 52600 53600 5 10 0 1 0 0 1
 footprint=sr_0603
+T 52900 53100 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 53200 52600 1 0 0 resistor-2.sym
 {
@@ -995,10 +1035,12 @@ T 53600 52950 5 10 0 0 0 0 1
 device=RESISTOR
 T 53400 52900 5 10 1 1 0 6 1
 refdes=R9
-T 53500 52900 5 10 1 1 0 0 1
-value=sr-r-100k
+T 53500 52900 5 10 0 1 0 0 1
+oldvalue=sr-r-100k
 T 53200 52600 5 10 0 1 0 0 1
 footprint=sr_0603
+T 53500 52900 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 57000 51600 1 270 0 resistor-2.sym
 {
@@ -1006,10 +1048,12 @@ T 57350 51200 5 10 0 0 270 0 1
 device=RESISTOR
 T 57300 51200 5 10 1 1 0 0 1
 refdes=R16
-T 57300 51000 5 10 1 1 0 0 1
-value=sr-r-100k
+T 57300 51000 5 10 0 1 0 0 1
+oldvalue=sr-r-100k
 T 57000 51600 5 10 0 1 0 0 1
 footprint=sr_0603
+T 57300 51000 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 60900 53300 1 270 0 resistor-2.sym
 {
@@ -1017,10 +1061,12 @@ T 61250 52900 5 10 0 0 270 0 1
 device=RESISTOR
 T 61200 52900 5 10 1 1 0 0 1
 refdes=R11
-T 61200 52700 5 10 1 1 0 0 1
-value=sr-r-1k
+T 61200 52700 5 10 0 1 0 0 1
+oldvalue=sr-r-1k
 T 60900 53300 5 10 0 1 0 0 1
 footprint=sr_0603
+T 61200 52700 5 10 1 1 0 0 1
+value=sr-nothing
 }
 N 61000 49800 61000 52400 4
 N 59700 52000 61000 52000 4
@@ -1066,10 +1112,12 @@ T 46400 50100 5 10 1 1 0 0 1
 refdes=C10
 T 46800 50300 5 10 0 0 270 0 1
 symversion=0.1
-T 46400 49900 5 10 1 1 0 0 1
-value=sr-c-470n
+T 46400 49900 5 10 0 1 0 0 1
+oldvalue=sr-c-470n
 T 45900 50500 5 10 0 1 0 0 1
 footprint=sr_0603
+T 46400 49900 5 10 1 1 0 0 1
+value=sr-nothing
 }
 N 46100 49500 46100 49600 4
 N 46100 50500 46100 51100 4
@@ -1088,10 +1136,12 @@ T 42200 54900 5 10 0 0 0 0 1
 device=VOLTAGE_REF
 T 43300 53400 5 10 1 1 0 0 1
 refdes=D2
-T 43300 53200 5 10 1 1 0 0 1
-value=sr-ic-ts2431
+T 43300 53200 5 10 0 1 0 0 1
+oldvalue=sr-ic-ts2431
 T 42100 52700 5 10 0 1 0 0 1
 footprint=SOT23
+T 43300 53200 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 42700 55300 1 270 0 resistor-2.sym
 {
@@ -1099,10 +1149,12 @@ T 43050 54900 5 10 0 0 270 0 1
 device=RESISTOR
 T 43000 54900 5 10 1 1 0 0 1
 refdes=R2
-T 43000 54700 5 10 1 1 0 0 1
-value=sr-r-1k
+T 43000 54700 5 10 0 1 0 0 1
+oldvalue=sr-r-1k
 T 42700 55300 5 10 0 1 0 0 1
 footprint=sr_0603
+T 43000 54700 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 44100 54000 1 270 0 capacitor-1.sym
 {
@@ -1112,10 +1164,12 @@ T 44600 53600 5 10 1 1 0 0 1
 refdes=C9
 T 45000 53800 5 10 0 0 270 0 1
 symversion=0.1
-T 44600 53400 5 10 1 1 0 0 1
-value=sr-c-470n
+T 44600 53400 5 10 0 1 0 0 1
+oldvalue=sr-c-470n
 T 44100 54000 5 10 0 1 0 0 1
 footprint=sr_0603
+T 44600 53400 5 10 1 1 0 0 1
+value=sr-nothing
 }
 N 42800 54000 42800 54400 4
 N 42000 54200 42800 54200 4
@@ -1135,10 +1189,12 @@ T 45850 54300 5 10 0 0 270 0 1
 device=RESISTOR
 T 45800 54300 5 10 1 1 0 0 1
 refdes=R3
-T 45800 54100 5 10 1 1 0 0 1
-value=sr-r-47k
+T 45800 54100 5 10 0 1 0 0 1
+oldvalue=sr-r-47k
 T 45500 54700 5 10 0 1 0 0 1
 footprint=sr_0603
+T 45800 54100 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 45500 53600 1 270 0 resistor-2.sym
 {
@@ -1146,10 +1202,12 @@ T 45850 53200 5 10 0 0 270 0 1
 device=RESISTOR
 T 45800 53200 5 10 1 1 0 0 1
 refdes=R8
-T 45800 53000 5 10 1 1 0 0 1
-value=sr-r-330
+T 45800 53000 5 10 0 1 0 0 1
+oldvalue=sr-r-330
 T 45500 53600 5 10 0 1 0 0 1
 footprint=sr_0603
+T 45800 53000 5 10 1 1 0 0 1
+value=sr-nothing
 }
 N 44300 54700 45600 54700 4
 N 45600 53800 45600 53600 4
@@ -1168,10 +1226,12 @@ T 42900 50250 5 10 0 0 0 0 1
 device=RESISTOR
 T 42700 50200 5 10 1 1 0 6 1
 refdes=R17
-T 42900 50200 5 10 1 1 0 0 1
-value=sr-r-10k
+T 42900 50200 5 10 0 1 0 0 1
+oldvalue=sr-r-10k
 T 42500 49900 5 10 0 1 0 0 1
 footprint=sr_0603
+T 42900 50200 5 10 1 1 0 0 1
+value=sr-nothing
 }
 N 42300 50000 42300 49200 4
 N 42300 49200 54300 49200 4
@@ -1183,10 +1243,12 @@ T 43925 51150 5 10 0 0 0 0 1
 device=NMOS_TRANSISTOR
 T 44300 50300 5 10 1 1 0 0 1
 refdes=Q1
-T 44300 50100 5 10 1 1 0 0 1
-value=sr-fet-n-bss123
+T 44300 50100 5 10 0 1 0 0 1
+oldvalue=sr-fet-n-bss123
 T 43700 49800 5 10 0 1 0 0 1
 footprint=SOT23
+T 44300 50100 5 10 1 1 0 0 1
+value=sr-nothing
 }
 N 44200 49800 44200 49500 4
 N 44200 50600 44200 50800 4
@@ -1197,15 +1259,17 @@ T 57800 52450 5 10 0 0 0 0 1
 device=RESISTOR
 T 57700 52400 5 10 1 1 0 6 1
 refdes=R12
-T 57800 52400 5 10 1 1 0 0 1
-value=sr-r-10k
+T 57800 52400 5 10 0 1 0 0 1
+oldvalue=sr-r-10k
 T 57400 52100 5 10 0 1 0 0 1
 footprint=sr_0603
+T 57800 52400 5 10 1 1 0 0 1
+value=sr-nothing
 }
 N 58300 52200 58700 52200 4
 N 57400 52200 55000 52200 4
 N 55000 52200 55000 51800 4
-N 61500 41700 59700 41700 4
+N 59700 41700 61500 41700 4
 N 59700 41700 59700 41600 4
 C 60600 41700 1 0 0 nmos-5.sym
 {
@@ -1213,10 +1277,12 @@ T 61200 42200 5 10 0 0 0 0 1
 device=NMOS_TRANSISTOR
 T 61300 42300 5 10 1 1 0 0 1
 refdes=Q6
-T 61300 42100 5 10 1 1 0 0 1
-value=sr-fet-n-irf8721
+T 61300 42100 5 10 0 1 0 0 1
+oldvalue=sr-fet-n-irf8721
 T 60600 41700 5 10 0 1 0 0 1
 footprint=SO8
+T 61300 42100 5 10 1 1 0 0 1
+value=sr-nothing
 }
 N 60600 42100 56300 42100 4
 N 56300 42100 56300 49800 4
@@ -1227,10 +1293,12 @@ T 63850 42500 5 10 0 0 270 0 1
 device=RESISTOR
 T 63800 42500 5 10 1 1 0 0 1
 refdes=R34
-T 63800 42300 5 10 1 1 0 0 1
-value=sr-r-1k
+T 63800 42300 5 10 0 1 0 0 1
+oldvalue=sr-r-1k
 T 63500 42900 5 10 0 1 0 0 1
 footprint=sr_0603
+T 63800 42300 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 63400 42000 1 270 0 led-1.sym
 {
@@ -1242,10 +1310,12 @@ T 64200 41200 5 10 0 0 270 0 1
 symversion=0.1
 T 63400 42000 5 10 0 1 0 0 1
 footprint=sr_0603_led
-T 64100 41500 5 10 1 1 0 0 1
-value=sr-led-red-0603
+T 64100 41500 5 10 0 1 0 0 1
+oldvalue=sr-led-red-0603
 T 64100 41200 5 10 1 1 0 0 1
 comment=Overcurrent
+T 64100 41500 5 10 1 1 0 0 1
+value=sr-nothing
 }
 N 63600 41100 61500 41100 4
 C 60700 46400 1 0 0 resistor-2.sym
@@ -1271,10 +1341,12 @@ T 47100 53200 5 10 1 1 0 0 1
 refdes=C14
 T 47500 53400 5 10 0 0 270 0 1
 symversion=0.1
-T 47100 53000 5 10 1 1 0 0 1
-value=sr-c-470n
+T 47100 53000 5 10 0 1 0 0 1
+oldvalue=sr-c-470n
 T 46600 53600 5 10 0 1 0 0 1
 footprint=sr_0603
+T 47100 53000 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 60700 47000 1 0 0 capacitor-1.sym
 {
@@ -1308,3 +1380,8 @@ Low-pass filter averages out the current rather than
 limiting on the PWM pulses.
 
 Has a cut-off frequency of 7.2Hz.
+T 64000 39700 9 10 1 0 0 0 2
+Q6 and R30 are shorted to remove
+the current limit functionality
+N 62800 42900 62800 39500 4
+N 62800 39500 61500 39500 4
