@@ -6,7 +6,7 @@ device=NMOS_TRANSISTOR
 T 59000 47700 5 10 1 1 0 0 1
 refdes=Q2
 T 59000 47500 5 10 1 1 0 0 1
-value=sr-fet-n-irf8721
+value=sr-fet-n-irf8734
 T 58300 47100 5 10 0 1 0 0 1
 footprint=SO8
 }
@@ -17,7 +17,7 @@ device=NMOS_TRANSISTOR
 T 63400 47700 5 10 1 1 0 6 1
 refdes=Q3
 T 63400 47500 5 10 1 1 0 6 1
-value=sr-fet-n-irf8721
+value=sr-fet-n-irf8734
 T 64100 47100 5 10 0 1 0 0 1
 footprint=SO8
 }
@@ -28,7 +28,7 @@ device=NMOS_TRANSISTOR
 T 59000 44700 5 10 1 1 0 0 1
 refdes=Q4
 T 59000 44500 5 10 1 1 0 0 1
-value=sr-fet-n-irf8721
+value=sr-fet-n-irf8734
 T 58300 44100 5 10 0 1 0 0 1
 footprint=SO8
 }
@@ -39,7 +39,7 @@ device=NMOS_TRANSISTOR
 T 63400 44700 5 10 1 1 0 6 1
 refdes=Q5
 T 63400 44500 5 10 1 1 0 6 1
-value=sr-fet-n-irf8721
+value=sr-fet-n-irf8734
 T 64100 44100 5 10 0 1 0 0 1
 footprint=SO8
 }
@@ -81,7 +81,7 @@ device=NMOS_TRANSISTOR
 T 61300 38500 5 10 1 1 0 6 1
 refdes=Q7
 T 61300 38300 5 10 1 1 0 6 1
-value=sr-fet-n-irf8721
+value=sr-fet-n-irf8734
 T 62000 39100 5 10 0 1 0 0 1
 footprint=SO8
 }
