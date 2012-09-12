@@ -15,8 +15,8 @@ Solder Resist:        GREEN on 2 sides
 Silk Screen:          WHITE on 2 sides
 --------------------------------------------------------------------------------
 Layer Order:
-front
-back
+top
+bottom
 --------------------------------------------------------------------------------
 Gerber Files:
 motor.top.gbr       - Top Copper Layer
