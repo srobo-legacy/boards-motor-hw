@@ -1,3 +1,19 @@
+Student Robotics Motor Controller Board V3
+==========================================
+
+This is the hardware design repo for the 'v3'[1] motor controller board as
+used in SR2011, SR2012 and SR2013. The majority of boards in existance were
+manufacutred for SR2011, a smaller batch was produced for SR2013 and these
+lack the current limiting and feedback components.
+
+[1] https://www.studentrobotics.org/trac/wiki/Motor%20Controller%203
+
+See https://www.studentrobotics.org/cgit/boards/motor-hw-v4.git/ for the
+latest SR motor board design.
+
+Misc
+====
+
 Run 'make pcb' to update PCB layout.
 
 motor-power.sch - Single high current motor control channel
